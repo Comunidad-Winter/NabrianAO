@@ -1,0 +1,13 @@
+[Constantes]
+TileHeight=32
+TileWidth=32
+[Version]
+V=2
+[Rutas]
+Graficos=E:\Archivos\NabrianAO v1.4 (ARREGLADO VE)\NabrianAO vs1.4\Graficos
+SaveGraficos=E:\Archivos\NabrianAO v1.4 (ARREGLADO VE)\NabrianAO vs1.4\Graficos
+Inits=E:\Archivos\NabrianAO v1.4 (ARREGLADO VE)\NabrianAO vs1.4\Init
+Dats=E:\Archivos\NabrianAO v1.4 (ARREGLADO VE)\ServerVB61.4\Dat
+SaveInit=E:\Archivos\NabrianAO v1.4 (ARREGLADO VE)\NabrianAO vs1.4\Init
+SaveDat=E:\Archivos\NabrianAO v1.4 (ARREGLADO VE)\ServerVB61.4\Dat
+WavPath=E:\Archivos\NabrianAO v1.4 (ARREGLADO VE)\NabrianAO vs1.4\Wav

@@ -1,0 +1,1357 @@
+Attribute VB_Name = "EventoDePortales"
+Sub quitarPortales()
+
+    Dim Xnn As Integer
+    Dim Ynn As Integer
+    Dim MapaActual As Integer
+    
+For Ynn = YMinMapSize To YMaxMapSize
+For Xnn = XMinMapSize To XMaxMapSize
+
+        MapData(5, Xnn, Ynn).TileExit.Map = 0
+        MapData(5, Xnn, Ynn).TileExit.X = 0
+        MapData(5, Xnn, Ynn).TileExit.Y = 0
+
+    If MapData(5, Xnn, Ynn).OBJInfo.OBJIndex > 0 And MapData(5, Xnn, Ynn).Blocked = 0 Then
+If Not ItemEsDeMapa(val(5), val(Xnn), val(Ynn)) Then
+Call EraseObj(ToMap, Userindex, 5, 10000, val(5), val(Xnn), val(Ynn))
+ If ObjData(MapData(5, Xnn, Ynn).OBJInfo.OBJIndex).ObjType = 826 Then
+
+    End If
+End If
+    End If
+Next
+Next
+
+portaltiempo = 91
+
+End Sub
+
+
+Sub ponerPortales()
+Dim xe As Integer
+ Dim xy As Integer
+
+xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    Dim ET As Obj
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 12, ET, 12, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+ xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+
+ 
+ xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  
+ xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  
+ xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  
+ xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  
+ xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  
+ xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  
+ xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  
+ xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  
+ xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  
+ xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  
+ xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  
+ xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  
+ xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  
+ xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  
+ xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 48
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+ 
+  xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 48
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(20, 38)
+xy = RandomNumber(16, 26)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 48
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 36
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 36
+ 
+  xe = RandomNumber(48, 66)
+xy = RandomNumber(15, 27)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 36
+
+ xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 48
+ MapData(5, xe, xy).TileExit.Y = 36
+ 
+  xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 48
+ MapData(5, xe, xy).TileExit.Y = 36
+ 
+  xe = RandomNumber(20, 39)
+xy = RandomNumber(37, 47)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 48
+ MapData(5, xe, xy).TileExit.Y = 36
+
+ xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+  xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+
+ xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 55
+ 
+  xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 55
+ 
+  xe = RandomNumber(47, 66)
+xy = RandomNumber(37, 45)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 55
+
+  xe = RandomNumber(20, 38)
+xy = RandomNumber(57, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+   xe = RandomNumber(20, 38)
+xy = RandomNumber(57, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+   xe = RandomNumber(20, 38)
+xy = RandomNumber(57, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+   xe = RandomNumber(20, 38)
+xy = RandomNumber(57, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+   xe = RandomNumber(20, 38)
+xy = RandomNumber(57, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+   xe = RandomNumber(20, 38)
+xy = RandomNumber(57, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+   xe = RandomNumber(20, 38)
+xy = RandomNumber(57, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+   xe = RandomNumber(20, 38)
+xy = RandomNumber(57, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+   xe = RandomNumber(20, 38)
+xy = RandomNumber(57, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+   xe = RandomNumber(20, 38)
+xy = RandomNumber(57, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+   xe = RandomNumber(20, 38)
+xy = RandomNumber(57, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+   xe = RandomNumber(20, 38)
+xy = RandomNumber(57, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+   xe = RandomNumber(20, 38)
+xy = RandomNumber(57, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+   xe = RandomNumber(20, 38)
+xy = RandomNumber(57, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+   xe = RandomNumber(20, 38)
+xy = RandomNumber(57, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+   xe = RandomNumber(20, 38)
+xy = RandomNumber(57, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 48
+ MapData(5, xe, xy).TileExit.Y = 55
+ 
+   xe = RandomNumber(20, 38)
+xy = RandomNumber(57, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 48
+ MapData(5, xe, xy).TileExit.Y = 55
+ 
+   xe = RandomNumber(20, 38)
+xy = RandomNumber(57, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 48
+ MapData(5, xe, xy).TileExit.Y = 55
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 20
+ MapData(5, xe, xy).TileExit.Y = 14
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 43
+ MapData(5, xe, xy).TileExit.Y = 79
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 43
+ MapData(5, xe, xy).TileExit.Y = 79
+ 
+    xe = RandomNumber(48, 65)
+xy = RandomNumber(56, 66)
+    
+    ET.Amount = 1
+    ET.OBJIndex = 826
+
+ Call MakeObj(ToMap, 0, 5, ET, 5, xe, xy)
+ MapData(5, xe, xy).TileExit.Map = 5
+ MapData(5, xe, xy).TileExit.X = 43
+ MapData(5, xe, xy).TileExit.Y = 79
+End Sub
+
+Sub comienzaeventoportalEs()
+MapData(5, 42, 78).trigger = 8
+MapData(5, 43, 78).trigger = 8
+MapData(5, 44, 78).trigger = 8
+MapData(5, 45, 78).trigger = 8
+MapData(5, 42, 79).trigger = 8
+MapData(5, 43, 79).trigger = 8
+MapData(5, 44, 79).trigger = 8
+MapData(5, 45, 79).trigger = 8
+Dim LoopC As Integer
+    For LoopC = 1 To LastUser
+        If UserList(LoopC).POS.Map = 5 Or UserList(LoopC).POS.Map = 14 Then
+            Call WarpUserChar(LoopC, 5, 20, 14, True)
+            End If
+    Next
+       MinutosE = 0
+         frmMain.Secancelaautomatica.Enabled = True
+End Sub
+
+Sub TerminaEventoPortalEs()
+MapData(5, 42, 78).trigger = 0
+MapData(5, 43, 78).trigger = 0
+MapData(5, 44, 78).trigger = 0
+MapData(5, 45, 78).trigger = 0
+MapData(5, 42, 79).trigger = 0
+MapData(5, 43, 79).trigger = 0
+MapData(5, 44, 79).trigger = 0
+MapData(5, 45, 79).trigger = 0
+Dim LoopC As Integer
+      For LoopC = 1 To LastUser
+       If UserList(LoopC).POS.Map = 5 Or UserList(LoopC).POS.Map = 14 Then
+            Call WarpUserChar(LoopC, 1, 35, 50, True)
+            End If
+    Next
+End Sub
+
+Sub CancelaEventoPortales()
+Dim LoopC As Integer
+      For LoopC = 1 To LastUser
+        If UserList(LoopC).POS.Map = 5 Or UserList(LoopC).POS.Map = 14 Then
+            Call WarpUserChar(LoopC, 1, 35, 50, True)
+            End If
+    Next
+    Call SendData(ToAll, 0, 0, "||Evento de portales Cancelado por Game Master" & FONTTYPE_FENIZ)
+End Sub
+Sub cancelaReventoPortaleS()
+MapData(5, 42, 78).trigger = 0
+MapData(5, 43, 78).trigger = 0
+MapData(5, 44, 78).trigger = 0
+MapData(5, 45, 78).trigger = 0
+MapData(5, 42, 79).trigger = 0
+MapData(5, 43, 79).trigger = 0
+MapData(5, 44, 79).trigger = 0
+MapData(5, 45, 79).trigger = 0
+Call quitarPortales
+   Call CancelaEventoPortales
+   portaltiempo = 91
+    frmMain.PortalesTimer.Enabled = True
+    frmMain.TimerPortalesComienza.Enabled = False
+    frmMain.Secancelaautomatica.Enabled = False
+End Sub
+

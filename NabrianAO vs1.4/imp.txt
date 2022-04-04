@@ -1,0 +1,12 @@
+﻿1.4.3
+* Fix errores
+
+1.4.2
+* Configuración de FPS.
+
+1.4.1
+* Mejoras de rendimiento. (FPS)
+
+1.4.0
+* Inicio version BETA.
+* ¡Apertura! Viernes 26/01, 18:00 Horas.

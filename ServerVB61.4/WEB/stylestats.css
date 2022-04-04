@@ -1,0 +1,27 @@
+@font-face{font-family:Morp;src:url('morpheus-webfont.eot');src:url('morpheus-webfont.eot?#iefix') format('embedded-opentype'),url('morpheus-webfont.woff2') format('woff2'),url('morpheus-webfont.woff') format('woff'),url('morpheus-webfont.ttf') format('truetype'),url('morpheus-webfont.svg#morpheusregular') format('svg');font-weight:normal;font-style:normal;}
+
+/*table,td, th { border: 1px solid black; }
+table { border-collapse: collapse; margin: auto; }
+td, th { width: 100px; height: 35px; }*/
+
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: black; 
+}
+tr:nth-of-type(even) { 
+  background: #333; 
+}
+
+
+
+#estadosv{font-family:Morp;font-size:15px;color:#FFAA00;text-shadow:0 0 15px rgba(1,1,1,1);}
+#estadosv1{font-family:Morp;font-size:15px;color:#FFF;text-shadow:0 0 15px rgba(1,1,1,1);}
+
+#estadosvx{font-family:Morp;font-size:20px;color:#FFAA00;text-shadow:0 0 15px rgba(1,1,1,1);}
+#estadosv1x{font-family:Morp;font-size:20px;color:#FFF;text-shadow:0 0 15px rgba(1,1,1,1);}
+
+

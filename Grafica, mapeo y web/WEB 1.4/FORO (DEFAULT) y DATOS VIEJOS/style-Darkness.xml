@@ -1,0 +1,4811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style title="Darkness" description="Gaming XenForo Skin" user_selectable="1">
+  <properties>
+    <property property_name="alertBalloonArrow" property_type="css"><![CDATA[{"border-bottom-color":"rgb(196, 196, 196)","border-bottom-style":"none","border-bottom-width":"1px","border-color":"transparent","border-style":"solid","border-top-color":"#e03030","border-width":"3px","extra":"position: absolute;\nbottom: -3px;\nright: 4px;\nline-height: 0px;\ntext-shadow: none;\n_display: none;\n\/* Hide from IE6 *\/","height":"0px","width":"0px"}]]></property>
+    <property property_name="avatar" property_type="css"><![CDATA[{"background-color":"#202020","border-color":"#000","border-radius":"4px","border-style":"solid","border-width":"1px","padding-all":"1px"}]]></property>
+    <property property_name="bbCodeBlock" property_type="css"><![CDATA[{"border-color":"rgb(86, 85, 69)","border-radius":"5px","border-style":"solid","border-width":"1px","margin-bottom":"10px","margin-left":"0","margin-right":"0","margin-top":"10px"}]]></property>
+    <property property_name="bbCodeBlockType" property_type="css"><![CDATA[{"background-color":"rgb(82, 81, 63)","background-image":"@imagePath\/xenforo\/gradients\/gradient1.png","background-position":"top","background-repeat":"repeat-x","border-bottom-color":"rgb(86, 85, 69)","border-bottom-style":"solid","border-bottom-width":"1px","border-top-left-radius":"4px","border-top-right-radius":"4px","color":"rgb(255, 255, 255)","font-family":"@body.font-family","font-size":"11px","padding-bottom":"5px","padding-left":"10px","padding-right":"10px","padding-top":"5px"}]]></property>
+    <property property_name="bbCodeCode" property_type="css"><![CDATA[{"background-color":"rgb(26, 26, 26)","background-position":"top","background-repeat":"repeat-x","border-radius":"5px","color":"rgb(255, 255, 255)","extra":"word-wrap: normal;\noverflow: auto;\nline-height: 1.24;\nmin-height: 30px;\nmax-height: 500px;\n_width: 600px;","font-family":"Consolas, 'Courier New', Courier, monospace","font-size":"10pt","padding-all":"10px"}]]></property>
+    <property property_name="bbCodeQuote" property_type="css"><![CDATA[{"background-color":"rgb(26, 26, 26)","border-color":"rgb(86, 85, 69)","color":"rgb(255, 255, 255)"}]]></property>
+    <property property_name="bbCodeQuoteAttribution" property_type="css"><![CDATA[{"background-color":"rgb(82, 81, 63)","background-image":"@imagePath\/xenforo\/gradients\/gradient1.png","background-position":"top","background-repeat":"repeat-x","border-bottom-color":"rgb(86, 85, 69)","border-bottom-style":"solid","border-bottom-width":"1px","color":"rgb(255, 255, 255)"}]]></property>
+    <property property_name="bbCodeQuoteMessage" property_type="css"><![CDATA[{"background-color":"rgb(26, 26, 26)","border-radius":"4px","font-size":"9pt","font-style":"italic","padding-all":"10px"}]]></property>
+    <property property_name="blockLinksListItemActive" property_type="css"><![CDATA[{"background-color":"rgb(26, 26, 26)","color":"rgb(255, 255, 255)"}]]></property>
+    <property property_name="blockLinksListItemHover" property_type="css"><![CDATA[{"background-color":"rgb(86, 85, 69)","text-decoration":{"none":"none"}}]]></property>
+    <property property_name="body" property_type="css"><![CDATA[{"background-color":"rgb(0, 0, 0)","background-image":"@imagePath\/xenforo\/gradients\/back3.gif","background-repeat":"repeat","color":"#cccccc","extra":"word-wrap: break-word;\nline-height: 1.27;","font-family":"Tahoma, Calibri, Verdana, Geneva, sans-serif","font-size":"13px"}]]></property>
+    <property property_name="breadcrumb" property_type="css"><![CDATA[{"background-color":"rgb(38, 38, 35)","background-position":"top","background-repeat":"repeat-x","border-color":"rgb(86, 85, 69)","border-radius":"5px","border-style":"solid","border-width":"1px","extra":"overflow: hidden;\nzoom: 1;","font-size":"11px"}]]></property>
+    <property property_name="breadcrumbItemArrowInner" property_type="css"><![CDATA[{"border-color":"transparent","border-left-color":"@breadcrumbItemCrumb.background-color","border-right-color":"rgb(86, 85, 69)","border-right-style":"none","border-right-width":"1px","border-style":"solid","border-width":"12px","extra":"display: block;\nposition: absolute;\nleft: -13px;\ntop: -12px;\nz-index: 51;\nwhite-space: nowrap;\noverflow: hidden;\ntext-indent: 9999px;","height":"0px","width":"0px"}]]></property>
+    <property property_name="breadcrumbItemArrowOuter" property_type="css"><![CDATA[{"border-color":"transparent","border-left-color":"rgb(86, 85, 69)","border-right-color":"rgb(86, 85, 69)","border-right-style":"none","border-right-width":"1px","border-style":"solid","border-width":"12px","extra":"display: block;\nposition: absolute;\nright: -12px;\ntop: 0px;\nz-index: 50;","height":"0px","width":"0px"}]]></property>
+    <property property_name="breadcrumbItemCrumb" property_type="css"><![CDATA[{"background-color":"rgb(26, 26, 26)","border-bottom-color":"rgb(86, 85, 69)","border-bottom-style":"solid","border-bottom-width":"1px","extra":"outline: 0 none;\n-moz-outline-style: 0 none;\ndisplay: block;\nline-height: 24px;\n_border-bottom: none;","margin-bottom":"-1px","padding-bottom":"0","padding-left":"18px","padding-right":"10px","padding-top":"0","text-decoration":{"none":"none"}}]]></property>
+    <property property_name="breadcrumbItemCrumbHover" property_type="css"><![CDATA[{"background-color":"rgb(86, 85, 69)"}]]></property>
+    <property property_name="button" property_type="css"><![CDATA[{"background-color":"rgb(26, 26, 26)","background-image":"@imagePath\/xenforo\/gradients\/gradient1.png","background-position":"top","background-repeat":"repeat-x","border-bottom-color":"rgb(32, 32, 32)","border-color":"rgb(0, 0, 0)","border-radius":"7px","border-style":"solid","border-top-color":"rgb(255, 255, 255)","border-width":"1px","color":"rgb(255, 255, 255)","extra":"text-align: center;\nbox-shadow: 0px 1px 4px 0px #000;\ntext-shadow: 0px 1px 1px #000;\noutline: none;\nline-height: 23px;\ndisplay: inline-block;\ncursor: pointer;\nbox-sizing: border-box;","font-family":"Tahoma, Calibri, Verdana, Geneva, sans-serif","font-size":"12px","height":"23px","padding-bottom":"0px","padding-left":"6px","padding-right":"6px","padding-top":"0px"}]]></property>
+    <property property_name="buttonActive" property_type="css"><![CDATA[{"background-color":"rgb(0, 0, 0)","border-bottom-color":"white","border-color":"rgb(0, 0, 0)","border-top-color":"#b3b3bd","color":"rgb(255, 255, 255)","extra":"box-shadow: 0px 0px 0px 0px transparent;\noutline: 0;"}]]></property>
+    <property property_name="buttonFocus" property_type="css"><![CDATA[{"background-color":"rgb(0, 0, 0)","border-color":"rgb(0, 0, 0)","color":"rgb(255, 255, 255)"}]]></property>
+    <property property_name="buttonHover" property_type="css"><![CDATA[{"background-color":"rgb(0, 0, 0)","background-image":"@imagePath\/xenforo\/gradients\/button2.png","background-position":"top","background-repeat":"repeat-x","border-bottom-color":"rgb(0, 0, 0)","border-color":"rgb(32, 32, 32)","border-top-color":"white","color":"rgb(255, 255, 255)","text-decoration":{"none":"none"}}]]></property>
+    <property property_name="callToAction" property_type="css"><![CDATA[{"background-color":"rgb(90, 87, 46)","background-image":"@imagePath\/xenforo\/gradients\/form-button-white-25px.png","background-position":"center top","background-repeat":"repeat-x","border-color":"rgb(86, 85, 69)","border-radius":"6px","border-style":"solid","border-width":"1px","extra":"display: inline-block;\nline-height: 20px;\nbox-shadow: 1px 1px 5px rgba(0,0,0, 0.15);\noutline: 0 none;","height":"20px","padding-all":"2px"}]]></property>
+    <property property_name="callToActionActive" property_type="css"><![CDATA[{"background-color":"rgb(26, 26, 26)"}]]></property>
+    <property property_name="callToActionHover" property_type="css"><![CDATA[{"background-color":"rgb(114, 111, 69)"}]]></property>
+    <property property_name="callToActionSpan" property_type="css"><![CDATA[{"background-color":"rgb(78, 77, 63)","background-image":"@imagePath\/xenforo\/gradients\/form-button-white-25px.png","background-position":"center -8px","background-repeat":"repeat-x","border-radius":"3px","color":"@textCtrlBackground","extra":"display: block;\n\/*text-shadow: 0px 0px 3px @primaryMedium;*\/","font-family":"@button.font-family","font-size":"11px","font-weight":"bold","padding-bottom":"0","padding-left":"15px","padding-right":"15px","padding-top":"0"}]]></property>
+    <property property_name="categoryStrip" property_type="css"><![CDATA[{"border-bottom-color":"rgb(0, 0, 0)","border-top-left-radius":"5px","border-top-right-radius":"5px","extra":"min-height: 6px;","margin-all":"0","padding-bottom":"5px","padding-left":"10px","padding-right":"10px","padding-top":"5px"}]]></property>
+    <property property_name="categoryStripDescription" property_type="css"><![CDATA[{"color":"#c0c0c0","font-size":"10px"}]]></property>
+    <property property_name="categoryStripTitle" property_type="css"><![CDATA[{"color":"#ffffff","font-size":"10pt"}]]></property>
+    <property property_name="content" property_type="css"><![CDATA[{"background-color":"rgb(26, 26, 26)","color":"#cccccc","padding-bottom":"10px","padding-left":"20px","padding-right":"20px","padding-top":"10px"}]]></property>
+    <property property_name="ctrlUnitCtrlExplain" property_type="css"><![CDATA[{"color":"rgb(204, 204, 204)","font-size":"11px","margin-right":"@ctrlUnitEdgeSpacer","margin-top":"2px"}]]></property>
+    <property property_name="ctrlUnitLabelHint" property_type="css"><![CDATA[{"color":"rgb(204, 204, 204)","extra":"display: block;","font-size":"10px","font-style":"italic","margin-left":"@ctrlUnitEdgeSpacer"}]]></property>
+    <property property_name="dimmedTextColor" property_type="scalar"><![CDATA[rgb(140, 140, 140)]]></property>
+    <property property_name="discussionListFirstRow" property_type="css"><![CDATA[{"color":"rgb(211, 212, 170)","font-size":"11pt"}]]></property>
+    <property property_name="discussionListItemPageNavLink" property_type="css"><![CDATA[{"background-color":"#202020","background-image":"@imagePath\/xenforo\/gradients\/category-23px-light.png","background-repeat":"repeat-x","border-color":"#000000","border-style":"solid","border-width":"1px","color":"#ffffff"}]]></property>
+    <property property_name="discussionListItemPageNavLinkHover" property_type="css"><![CDATA[{"background-color":"#000000","border-color":"#202020","color":"#ffffff","text-decoration":{"none":"none"}}]]></property>
+    <property property_name="discussionListOptions" property_type="css"><![CDATA[{"border-color":"rgb(86, 85, 69)","border-radius":"5px","border-style":"solid","border-width":"1px","extra":"line-height: 20px;\noverflow: hidden;\nzoom: 1;","margin-bottom":"10px","margin-left":"auto","margin-right":"auto","margin-top":"10px"}]]></property>
+    <property property_name="discussionListOptionsHandleLink" property_type="css"><![CDATA[{"background-color":"rgb(0, 0, 0)","border-bottom-left-radius":"10px","border-bottom-right-radius":"10px","border-color":"rgb(0, 0, 0)","border-style":"solid","border-top-color":"black","border-top-style":"none","border-top-width":"1px","border-width":"1px","color":"#ffffff","extra":"display: block;\noutline: 0;","font-size":"11px","margin-bottom":"0","margin-left":"auto","margin-right":"auto","margin-top":"0","width":"200px"}]]></property>
+    <property property_name="discussionListSecondRow" property_type="css"><![CDATA[{"font-size":"11px"}]]></property>
+    <property property_name="editorContent" property_type="css"><![CDATA[{"background-color":"rgb(0, 0, 0)","color":"rgb(255, 255, 255)"}]]></property>
+    <property property_name="fbColorScheme" property_type="scalar"><![CDATA[dark]]></property>
+    <property property_name="footer" property_type="css"><![CDATA[{"background-color":"rgb(0, 0, 0)","border-bottom-left-radius":"5px","border-bottom-right-radius":"5px","color":"rgb(255, 255, 255)","extra":"overflow: hidden;\nzoom: 1;","font-size":"11px"}]]></property>
+    <property property_name="footerLink" property_type="css"><![CDATA[{"color":"rgb(255, 255, 255)","extra":"display: block;","padding-all":"5px"}]]></property>
+    <property property_name="footerLinkHover" property_type="css"><![CDATA[{"color":"rgb(255, 255, 255)"}]]></property>
+    <property property_name="formOverlayButton" property_type="css"><![CDATA[{"background-color":"rgb(0, 0, 0)","color":"rgb(255, 255, 255)"}]]></property>
+    <property property_name="formOverlayHeading" property_type="css"><![CDATA[{"background-color":"rgb(32, 32, 32)","border-color":"rgb(0, 0, 0)","border-radius":"5px","border-style":"solid","border-width":"1px","color":"rgb(255, 255, 255)","font-size":"12pt","font-weight":"bold","margin-bottom":"10px","padding-bottom":"5px","padding-left":"10px","padding-right":"10px","padding-top":"5px"}]]></property>
+    <property property_name="formOverlaySubHeading" property_type="css"><![CDATA[{"background-color":"rgb(26, 26, 26)","border-color":"rgb(0, 0, 0)","border-radius":"3px","border-style":"solid","border-width":"1px","color":"rgb(255, 255, 255)","font-size":"11px","font-weight":"bold","margin-bottom":"10px","padding-bottom":"5px","padding-left":"10px","padding-right":"10px","padding-top":"5px"}]]></property>
+    <property property_name="formOverlayTab" property_type="css"><![CDATA[{"background-color":"transparent","border-color":"rgb(0, 0, 0)"}]]></property>
+    <property property_name="formOverlayTabHover" property_type="css"><![CDATA[{"background-color":"rgb(26, 26, 26)"}]]></property>
+    <property property_name="formOverlayTabPanel" property_type="css"><![CDATA[{"background-color":"transparent","background-image":"@imagePath\/xenforo\/color-picker\/panel.png","background-position":"top","background-repeat":"repeat-x","border-color":"rgb(0, 0, 0)","border-style":"solid","border-width":"1px"}]]></property>
+    <property property_name="formOverlayTabs" property_type="css"><![CDATA[{"border-color":"rgb(0, 0, 0)"}]]></property>
+    <property property_name="formOverlayTextCtrl" property_type="css"><![CDATA[{"background-color":"black","border-color":"rgb(32, 32, 32)","color":"rgb(255, 255, 255)"}]]></property>
+    <property property_name="formOverlayTextHeading" property_type="css"><![CDATA[{"color":"rgb(238, 238, 238)"}]]></property>
+    <property property_name="h1" property_type="css"><![CDATA[{"color":"rgb(238, 238, 238)","extra":"overflow: hidden;\nzoom: 1;","font-size":"14pt"}]]></property>
+    <property property_name="header" property_type="css"><![CDATA[{"background-color":"rgb(51, 51, 44)","background-image":"@imagePath\/xenforo\/gradients\/banner.jpg","background-position":"center top","background-repeat":"repeat-x","color":"rgb(255, 255, 255)"}]]></property>
+    <property property_name="headerLogoHeight" property_type="scalar"><![CDATA[124px]]></property>
+    <property property_name="headerLogoPath" property_type="scalar"><![CDATA[styles/Darkness/xenforo/logo.png]]></property>
+    <property property_name="headerTabHeight" property_type="scalar"><![CDATA[25px]]></property>
+    <property property_name="heading" property_type="css"><![CDATA[{"background-color":"#202020","border-bottom-color":"#000000","border-bottom-style":"solid","border-bottom-width":"1px","border-color":"#000000","border-style":"solid","border-top-left-radius":"5px","border-top-right-radius":"5px","border-width":"1px","color":"#ffffff","font-size":"11pt","font-weight":"bold","margin-bottom":"3px","padding-bottom":"5px","padding-left":"10px","padding-right":"10px","padding-top":"5px"}]]></property>
+    <property property_name="html" property_type="css"><![CDATA[{"background-color":"rgb(0, 0, 0)","background-image":"@imagePath\/xenforo\/gradients\/back3.gif","background-repeat":"repeat","extra":"color: #fff !important;","font-family":"Tahoma, Calibri, Verdana, Geneva, sans-serif"}]]></property>
+    <property property_name="imagePath" property_type="scalar"><![CDATA[styles/Darkness]]></property>
+    <property property_name="inlineModChecked" property_type="css"><![CDATA[{"background-color":"#202020","background-image":"@imagePath\/xenforo\/gradients\/category-23px-light.png","background-position":"top","background-repeat":"repeat-x"}]]></property>
+    <property property_name="link" property_type="css"><![CDATA[{"color":"rgb(211, 212, 170)","text-decoration":{"none":"none"}}]]></property>
+    <property property_name="loginBar" property_type="css"><![CDATA[{"background-color":"rgb(50, 49, 49)","border-bottom-color":"rgb(86, 85, 69)","border-bottom-style":"solid","border-bottom-width":"1px","color":"rgb(255, 255, 255)","extra":"position: relative;\nz-index: 1;"}]]></property>
+    <property property_name="loginBarHandle" property_type="css"><![CDATA[{"background-color":"rgb(0, 0, 0)","background-image":"@imagePath\/xenforo\/gradients\/gradient1.png","background-position":"top","background-repeat":"repeat-x","border-bottom-left-radius":"10px","border-bottom-right-radius":"10px","border-color":"rgb(86, 85, 69)","border-style":"solid","border-width":"1px","color":"rgb(255, 255, 255)","extra":"position: absolute;\nright: 0px;\nbottom: -20px;\ntext-align: center;\nz-index: 1;\nline-height: 20px;\nbox-shadow: 0px 2px 5px #000r;","font-size":"12px","margin-right":"20px","padding-bottom":"0","padding-left":"10px","padding-right":"10px","padding-top":"0"}]]></property>
+    <property property_name="loginBarLink" property_type="css"><![CDATA[{"color":"rgb(255, 255, 255)"}]]></property>
+    <property property_name="loginBarTextCtrl" property_type="css"><![CDATA[{"background-color":"rgb(0, 0, 0)","border-color":"rgb(67, 66, 66)","color":"rgb(255, 255, 255)","extra":"box-shadow: 0 1px 1px #1a1a1a inset;"}]]></property>
+    <property property_name="loginBarTextCtrlDisabled" property_type="css"><![CDATA[{"background-color":"rgb(0, 0, 0)","border-style":"dashed","color":"rgb(204, 204, 204)"}]]></property>
+    <property property_name="loginBarTextCtrlFocus" property_type="css"><![CDATA[{"background-color":"rgb(0, 0, 0)","background-image":"none","border-color":"rgb(86, 85, 69)","color":"rgb(255, 255, 255)"}]]></property>
+    <property property_name="memberListItemGuest" property_type="css"><![CDATA[{"font-style":"italic","font-weight":"bold"}]]></property>
+    <property property_name="memberListItemUsername" property_type="css"><![CDATA[{"color":"rgb(255, 255, 255)","font-size":"13pt","margin-bottom":"3px"}]]></property>
+    <property property_name="menu" property_type="css"><![CDATA[{"background-color":"rgb(0, 0, 0)","border-color":"#000000","border-style":"solid","border-top-color":"#000000","border-top-style":"solid","border-top-width":"2px","border-width":"1px","extra":"overflow: hidden;\nbox-shadow: 0px 5px 5px rgba(0,0,0, 0.5);","font-size":"11px"}]]></property>
+    <property property_name="message" property_type="css"><![CDATA[{"border-top-color":"rgb(86, 85, 69)","border-top-style":"solid","border-top-width":"1px","padding-bottom":"30px","padding-top":"10px"}]]></property>
+    <property property_name="messageAvatarHolder" property_type="css"><![CDATA[{"background-color":"rgb(86, 85, 69)","border-bottom-color":"rgb(0, 0, 0)","border-radius":"4px","padding-all":"10px"}]]></property>
+    <property property_name="messageExtraUserInfo" property_type="css"><![CDATA[{"background-color":"rgb(26, 26, 26)","border-radius":"4px","font-size":"11px","padding-bottom":"4px","padding-left":"6px","padding-right":"6px","padding-top":"4px"}]]></property>
+    <property property_name="messageInfo" property_type="css"><![CDATA[{"background-color":"rgb(38, 38, 35)","border-bottom-color":"black","border-bottom-style":"none","border-bottom-width":"1px","margin-left":"140px","padding-all":"0"}]]></property>
+    <property property_name="messageLikesSummary" property_type="css"><![CDATA[{"border-color":"rgb(0, 0, 0)","border-radius":"5px","border-style":"solid","border-width":"1px","margin-top":"10px","padding-all":"5px"}]]></property>
+    <property property_name="messageNewIndicator" property_type="css"><![CDATA[{"background-color":"#777","background-image":"@imagePath\/xenforo\/gradients\/category-23px-light.png","background-position":"top","background-repeat":"repeat-x","border-radius":"3px","border-top-right-radius":"0px","color":"#000","extra":"display: block;\nfloat: right;\nposition: relative;\nbox-shadow: 1px 1px 3px #000;","font-size":"10px","font-weight":"bold","margin-bottom":"5px","margin-left":"5px","margin-right":"-5px","margin-top":"-5px","padding-bottom":"1px","padding-left":"5px","padding-right":"5px","padding-top":"1px"}]]></property>
+    <property property_name="messageNewIndicatorInner" property_type="css"><![CDATA[{"background-color":"#777","border-top-right-radius":"3px","extra":"position: absolute;\ntop: -4px;\nright: -1px;","height":"4px","width":"5px"}]]></property>
+    <property property_name="messageNotice" property_type="css"><![CDATA[{"background-color":"rgb(119, 119, 119)","background-image":"@imagePath\/xenforo\/gradients\/category-23px-light.png","background-position":"top","background-repeat":"repeat-x","border-color":"rgb(0, 0, 0)","border-radius":"5px","border-style":"solid","border-width":"1px","color":"rgb(255, 255, 255)","font-size":"11px","margin-bottom":"10px","margin-left":"0","margin-right":"0","margin-top":"10px","padding-all":"5px"}]]></property>
+    <property property_name="messageShowGender" property_type="scalar"><![CDATA[0]]></property>
+    <property property_name="messageShowMessageCount" property_type="scalar"><![CDATA[1]]></property>
+    <property property_name="messageShowTotalLikes" property_type="scalar"><![CDATA[0]]></property>
+    <property property_name="messageShowTrophyPoints" property_type="scalar"><![CDATA[0]]></property>
+    <property property_name="messageSignature" property_type="css"><![CDATA[{"background-color":"rgb(38, 38, 35)","border-top-color":"rgb(86, 85, 69)","border-top-style":"dashed","border-top-width":"1px","font-size":"9pt","margin-top":"20px","padding-bottom":"8px","padding-left":"0","padding-right":"0","padding-top":"7px"}]]></property>
+    <property property_name="messageText" property_type="css"><![CDATA[{"extra":"line-height: 1.4;","font-family":"Tahoma, Calibri, Verdana, Geneva, sans-serif","font-size":"11pt"}]]></property>
+    <property property_name="messageUserBlock" property_type="css"><![CDATA[{"background-color":"rgb(26, 26, 26)","background-position":"bottom","background-repeat":"repeat-x","border-color":"rgb(86, 85, 69)","border-radius":"5px","border-style":"solid","border-width":"1px"}]]></property>
+    <property property_name="mutedTextColor" property_type="scalar"><![CDATA[rgb(196, 196, 196)]]></property>
+    <property property_name="navLink" property_type="css"><![CDATA[{"background-color":"rgb(35, 35, 35)","color":"rgb(255, 255, 255)","extra":"display: block;\nfloat: left;\nvertical-align: text-bottom;\ntext-align: center;\noutline: 0 none;"}]]></property>
+    <property property_name="navTabLink" property_type="css"><![CDATA[{"color":"rgb(238, 238, 238)","extra":"display: block;\ntext-shadow: 0 1px 1px #000;","font-size":"11px","padding-bottom":"1px","padding-left":"10px","padding-right":"10px","padding-top":"1px"}]]></property>
+    <property property_name="navTabLinkHover" property_type="css"><![CDATA[{"background-color":"rgb(32, 32, 32)","border-color":"rgb(0, 0, 0)","border-radius":"5px","border-style":"solid","border-width":"1px","color":"rgb(255, 255, 255)","extra":"text-shadow: 1px 1px 0px #000;\noutline: 0;","padding-bottom":"0","padding-left":"9px","padding-right":"9px","padding-top":"0","text-decoration":{"none":"none"}}]]></property>
+    <property property_name="navTabSelected" property_type="css"><![CDATA[{"background-color":"rgb(114, 112, 98)","background-position":"top","background-repeat":"repeat-x","border-bottom-color":"rgb(196, 196, 196)","border-bottom-style":"none","border-bottom-width":"1px","border-color":"rgb(0, 0, 0)","border-style":"solid","border-top-left-radius":"2px","border-top-right-radius":"2px","border-width":"1px","color":"rgb(255, 255, 255)","extra":"text-shadow: 0px 0px 3px #000;","font-weight":"bold","margin-top":"-2px","padding-top":"2px"}]]></property>
+    <property property_name="navTabs" property_type="css"><![CDATA[{"background-color":"rgb(35, 35, 35)","border-bottom-color":"rgb(0, 0, 0)","border-bottom-style":"solid","border-bottom-width":"1px","border-top-color":"rgb(196, 196, 196)","border-top-style":"solid","border-top-width":"1px","color":"rgb(255, 255, 255)","font-size":"11px","padding-bottom":"0","padding-left":"25px","padding-right":"25px","padding-top":"0"}]]></property>
+    <property property_name="nodeLastPost" property_type="css"><![CDATA[{"background-color":"rgb(26, 26, 26)","border-color":"rgb(86, 85, 69)","border-radius":"3px","border-style":"solid","border-width":"1px","extra":"position: absolute;\ntop: 0;\nright: 0;\nline-height: 14px;\nwhite-space: nowrap;\nword-wrap: normal;\noverflow: hidden;","font-size":"11px","height":"28px","margin-all":"10px","padding-bottom":"3px","padding-left":"10px","padding-right":"10px","padding-top":"3px","width":"210px"}]]></property>
+    <property property_name="overlaySection" property_type="css"><![CDATA[{"border-color":"rgb(0, 0, 0)","border-radius":"20px","border-style":"solid","border-width":"20px","extra":"box-shadow: 0px 25px 50px rgba(0,0,0, 0.5);","padding-all":"0px"}]]></property>
+    <property property_name="pageDescription" property_type="css"><![CDATA[{"color":"#ffffff","font-size":"11px","margin-top":"2px"}]]></property>
+    <property property_name="pageNavCurrentPage" property_type="css"><![CDATA[{"background-color":"rgb(86, 85, 69)","border-color":"#202020","color":"#fff","extra":"position: relative;"}]]></property>
+    <property property_name="pageNavPageHover" property_type="css"><![CDATA[{"background-color":"rgb(86, 85, 69)","border-color":"rgb(0, 0, 0)","color":"rgb(255, 255, 255)","text-decoration":{"none":"none"}}]]></property>
+    <property property_name="pageWidth" property_type="css"><![CDATA[{"extra":"_width: 976px;\n_margin: 0 auto;","margin-bottom":"0","margin-left":"0","margin-right":"0","margin-top":"0"}]]></property>
+    <property property_name="panelScroller" property_type="css"><![CDATA[{"background-color":"rgb(32, 32, 32)","border-color":"rgb(86, 84, 68)","border-radius":"5px","border-style":"solid","border-width":"1px","extra":"font-size: 13pt;","margin-bottom":"10px","padding-all":"3px"}]]></property>
+    <property property_name="panelScrollerPanel" property_type="css"><![CDATA[{"background-color":"rgb(26, 26, 26)","background-image":"@imagePath\/xenforo\/gradients\/category-23px-light.png","background-position":"top","background-repeat":"repeat-x","padding-all":"10px"}]]></property>
+    <property property_name="popupControl" property_type="css"><![CDATA[{"background-color":"rgb(238, 238, 238)","background-image":"@imagePath\/xenforo\/gradients\/tab-unselected-25px-light.png","background-position":"top","background-repeat":"repeat-x","border-bottom-left-radius":"0px","border-bottom-right-radius":"0px","border-top-left-radius":"3px","border-top-right-radius":"3px","color":"rgb(78, 78, 78)","extra":"text-shadow: 1px 1px 2px #eee;\nbox-shadow: 0px 5px 5px rgba(0,0,0, 0.5);"}]]></property>
+    <property property_name="popupControlClosedHover" property_type="css"><![CDATA[{"background-color":"rgb(0, 0, 0)","color":"@primaryMedium","text-decoration":{"none":"none"}}]]></property>
+    <property property_name="previewTooltip" property_type="css"><![CDATA[{"border-color":"rgb(211, 212, 170)","border-radius":"10px","border-style":"solid","border-width":"10px","extra":"position: relative;\nbox-shadow: 0px 12px 25px #000;","width":"400px"}]]></property>
+    <property property_name="previewTooltipArrowInner" property_type="css"><![CDATA[{"border-bottom-color":"rgb(97, 89, 46)","border-bottom-style":"none","border-bottom-width":"1px","border-left-color":"transparent","border-left-style":"solid","border-left-width":"15px","border-right-color":"transparent","border-right-style":"solid","border-right-width":"15px","border-top-color":"@primaryContent.background-color","border-top-style":"solid","border-top-width":"15px","extra":"position: absolute;\ntop: -17px;\nleft: -15px;"}]]></property>
+    <property property_name="previewTooltipArrowOuter" property_type="css"><![CDATA[{"border-bottom-color":"rgb(0, 0, 0)","border-bottom-style":"none","border-bottom-width":"1px","border-left-color":"transparent","border-left-style":"solid","border-left-width":"15px","border-right-color":"transparent","border-right-style":"solid","border-right-width":"15px","border-top-color":"rgba(0, 0, 0, 0.25)","border-top-style":"solid","border-top-width":"15px","extra":"position: absolute;\nbottom: -15px;\nleft: 22px;"}]]></property>
+    <property property_name="primaryContent" property_type="css"><![CDATA[{"background-color":"rgb(38, 38, 35)","background-image":"@imagePath\/xenforo\/gradients\/back2.png","background-position":"bottom","background-repeat":"repeat-x","border-bottom-color":"rgb(86, 85, 69)","border-bottom-style":"solid","border-bottom-width":"1px","border-left-color":"rgb(86, 85, 69)","border-left-style":"solid","border-left-width":"1px","border-right-color":"rgb(86, 85, 69)","border-right-style":"solid","border-right-width":"1px","padding-all":"10px"}]]></property>
+    <property property_name="primaryContentLink" property_type="css"><![CDATA[{"color":"rgb(211, 212, 170)"}]]></property>
+    <property property_name="primaryDark" property_type="scalar"><![CDATA[rgb(26, 26, 26)]]></property>
+    <property property_name="primaryDarker" property_type="scalar"><![CDATA[rgb(0, 0, 0)]]></property>
+    <property property_name="primaryLight" property_type="scalar"><![CDATA[rgb(32, 32, 32)]]></property>
+    <property property_name="primaryLighter" property_type="scalar"><![CDATA[rgb(238, 238, 238)]]></property>
+    <property property_name="primaryLighterStill" property_type="scalar"><![CDATA[rgb(204, 204, 204)]]></property>
+    <property property_name="primaryLightest" property_type="scalar"><![CDATA[rgb(255, 255, 255)]]></property>
+    <property property_name="primaryLightish" property_type="scalar"><![CDATA[rgb(26, 26, 26)]]></property>
+    <property property_name="primaryMedium" property_type="scalar"><![CDATA[rgb(255, 255, 255)]]></property>
+    <property property_name="profilePage" property_type="css"><![CDATA[[]]]></property>
+    <property property_name="profilePageLastActivityText" property_type="css"><![CDATA[{"border-top-color":"rgb(86, 85, 69)","border-top-style":"solid","border-top-width":"1px","font-size":"11px","margin-top":"5px","padding-top":"5px"}]]></property>
+    <property property_name="profilePageSidebarInfoBlock" property_type="css"><![CDATA[{"border-color":"rgb(86, 85, 69)","border-radius":"4px","border-style":"solid","border-width":"1px","margin-bottom":"20px","padding-all":"2px"}]]></property>
+    <property property_name="profilePageTab" property_type="css"><![CDATA[{"background-color":"rgb(32, 32, 32)","background-position":"top","background-repeat":"repeat-x","font-size":"11px","font-weight":"bold"}]]></property>
+    <property property_name="profilePageTabHover" property_type="css"><![CDATA[{"background-color":"rgb(32, 32, 32)","background-image":"@imagePath\/xenforo\/gradients\/back1.png"}]]></property>
+    <property property_name="profilePageTabSelected" property_type="css"><![CDATA[{"background-color":"@contentBackground","background-image":"@imagePath\/xenforo\/gradients\/back1.png"}]]></property>
+    <property property_name="profilePageUsername" property_type="css"><![CDATA[{"color":"rgb(255, 255, 255)","font-size":"18pt"}]]></property>
+    <property property_name="rteContainer" property_type="css"><![CDATA[{"border-color":"rgb(86, 85, 69)","border-style":"solid","border-width":"1px","extra":"line-height: 0;\nposition: relative;\noverflow: hidden;","font-size":"0"}]]></property>
+    <property property_name="rteToolbar" property_type="css"><![CDATA[{"background-color":"rgb(82, 81, 63)","background-image":"@imagePath\/xenforo\/gradients\/form-button-white-25px.png","background-position":"top","background-repeat":"repeat-x","border-bottom-color":"rgb(86, 85, 69)","border-bottom-style":"solid","border-bottom-width":"1px","extra":"position: relative;\nleft: 0;\ntop: 0;\nline-height: 0;\nlist-style: none;\noverflow: hidden;","font-size":"0","margin-all":"0","padding-bottom":"0","padding-left":"2px","padding-right":"0","padding-top":"0"}]]></property>
+    <property property_name="rteToolbarButtonActive" property_type="css"><![CDATA[{"background-color":"@primaryLighterStill","border-color":"rgb(0, 0, 0)","border-radius":"3px","border-style":"solid","border-width":"1px","extra":"outline: none;"}]]></property>
+    <property property_name="rteToolbarButtonHover" property_type="css"><![CDATA[{"background-color":"rgb(103, 102, 102)","border-color":"rgb(0, 0, 0)","border-radius":"3px","extra":"outline: none;"}]]></property>
+    <property property_name="secondaryContent" property_type="css"><![CDATA[{"background-color":"#1a1a1a","border-bottom-color":"#000000","border-bottom-style":"solid","border-bottom-width":"1px","border-color":"#000000","border-right-color":"rgb(0, 0, 0)","border-right-style":"solid","border-right-width":"1px","padding-all":"10px"}]]></property>
+    <property property_name="secondaryContentLink" property_type="css"><![CDATA[{"color":"rgb(211, 212, 170)"}]]></property>
+    <property property_name="secondaryDark" property_type="scalar"><![CDATA[rgb(26, 26, 26)]]></property>
+    <property property_name="secondaryDarker" property_type="scalar"><![CDATA[rgb(0, 0, 0)]]></property>
+    <property property_name="secondaryLight" property_type="scalar"><![CDATA[rgb(196, 196, 196)]]></property>
+    <property property_name="secondaryLighter" property_type="scalar"><![CDATA[rgb(147, 146, 144)]]></property>
+    <property property_name="secondaryLightest" property_type="scalar"><![CDATA[rgb(255, 255, 255)]]></property>
+    <property property_name="secondaryMedium" property_type="scalar"><![CDATA[rgb(255, 255, 255)]]></property>
+    <property property_name="sectionFooter" property_type="css"><![CDATA[{"background-color":"#1a1a1a","background-image":"@imagePath\/xenforo\/gradients\/back2.png","background-position":"bottom","background-repeat":"repeat-x","border-bottom-color":"rgb(86, 85, 69)","border-bottom-style":"solid","border-bottom-width":"1px","border-left-color":"rgb(86, 85, 69)","border-left-style":"solid","border-left-width":"1px","border-right-color":"rgb(86, 85, 69)","border-right-style":"solid","border-right-width":"1px","color":"#cccccc","extra":"line-height: 16px;","font-size":"11px","padding-bottom":"4px","padding-left":"10px","padding-right":"10px","padding-top":"4px"}]]></property>
+    <property property_name="sectionMain" property_type="css"><![CDATA[{"background-color":"rgb(19, 19, 19)","border-color":"#000000","border-radius":"10px","border-style":"solid","border-width":"1px","margin-bottom":"10px","margin-left":"auto","margin-right":"auto","margin-top":"10px","padding-all":"10px"}]]></property>
+    <property property_name="sidebarAvatarListUserTitle" property_type="css"><![CDATA[{"color":"#cccccc"}]]></property>
+    <property property_name="sidebarBlockFootnote" property_type="css"><![CDATA[{"color":"#cccccc","margin-top":"5px"}]]></property>
+    <property property_name="sidebarBlockHeading" property_type="css"><![CDATA[{"background-color":"rgb(82, 81, 63)","background-image":"@imagePath\/xenforo\/gradients\/gradient1.png","background-position":"top","background-repeat":"repeat-x","border-bottom-color":"rgb(0, 0, 0)","border-bottom-style":"solid","border-bottom-width":"1px","color":"rgb(255, 255, 255)","extra":"margin-top: -10px;\nmargin-right: -10px;\nmargin-left: -10px;\npadding: 5px 7px;","font-size":"10pt","margin-bottom":"5px","padding-bottom":"2px"}]]></property>
+    <property property_name="sidebarUserListUsernameInvisible" property_type="css"><![CDATA[{"color":"rgb(98, 98, 98)"}]]></property>
+    <property property_name="signupButton" property_type="css"><![CDATA[{"background-color":"rgb(80, 75, 48)","border-color":"rgb(86, 85, 69)","border-radius":"8px","border-style":"solid","border-width":"1px","color":"rgb(255, 255, 255)","extra":"text-align: center;\nline-height: 30px;\nbox-shadow: 0px 2px 5px rgba(0,0,0, 0.2);\ndisplay: block;\ncursor: pointer;","height":"30px","margin-bottom":"10px","margin-left":"30px","margin-right":"30px","margin-top":"10px","padding-all":"3px"}]]></property>
+    <property property_name="signupButtonActive" property_type="css"><![CDATA[{"color":"rgb(255, 255, 255)","extra":"box-shadow: 0 0 3px rgba(0,0,0, 0.2);\nposition: relative;\ntop: 2px;"}]]></property>
+    <property property_name="signupButtonHover" property_type="css"><![CDATA[{"background-color":"rgb(114, 111, 69)","color":"rgb(255, 255, 255)","text-decoration":{"none":"none"}}]]></property>
+    <property property_name="signupButtonInner" property_type="css"><![CDATA[{"background-color":"rgb(86, 85, 69)","background-image":"@imagePath\/xenforo\/gradients\/form-button-white-25px.png","background-position":"center -7px","background-repeat":"repeat-x","border-radius":"4px","color":"rgb(255, 255, 255)","extra":"display: block;\ntext-shadow: 0px 0px 3px rgba(0,0,0, 0.5);","font-family":"@button.font-family","font-size":"12pt","font-weight":"bold"}]]></property>
+    <property property_name="subHeading" property_type="css"><![CDATA[{"background-color":"rgb(82, 81, 63)","background-image":"@imagePath\/xenforo\/gradients\/gradient1.png","background-position":"top","background-repeat":"repeat-x","border-color":"rgb(86, 85, 69)","border-style":"solid","border-width":"1px","color":"rgb(255, 255, 255)","font-size":"11px","margin-bottom":"0","margin-left":"auto","margin-right":"auto","margin-top":"3px","padding-bottom":"5px","padding-left":"10px","padding-right":"10px","padding-top":"5px"}]]></property>
+    <property property_name="subHeadingHover" property_type="css"><![CDATA[{"background-color":"rgb(82, 81, 63)","text-decoration":{"none":"none"}}]]></property>
+    <property property_name="tab" property_type="css"><![CDATA[{"background-color":"rgb(26, 26, 26)","border-color":"rgb(0, 0, 0)","border-style":"solid","border-top-left-radius":"5px","border-top-right-radius":"5px","border-width":"1px","color":"rgb(255, 255, 255)","extra":"display: inline-block;\nline-height: 18px;\ncursor: pointer;\noutline: 0 none;","height":"18px","margin-bottom":"-1px","margin-right":"-1px","padding-bottom":"0","padding-left":"5px","padding-right":"5px","padding-top":"0","text-decoration":{"none":"none"}}]]></property>
+    <property property_name="tabHover" property_type="css"><![CDATA[{"background-color":"#202020","text-decoration":{"none":"none"}}]]></property>
+    <property property_name="tabsContainer" property_type="css"><![CDATA[{"border-bottom-color":"#000000","border-bottom-style":"solid","border-bottom-width":"1px","extra":"white-space: nowrap;\nword-wrap: normal;","font-size":"11px","height":"19px"}]]></property>
+    <property property_name="textCtrl" property_type="css"><![CDATA[{"background-color":"rgb(0, 0, 0)","border-color":"rgb(32, 32, 32)","border-radius":"4px","border-style":"solid","border-width":"1px","color":"rgb(255, 255, 255)","extra":"outline: 0;","font-family":"Tahoma, Calibri, Verdana, Geneva, sans-serif","font-size":"13px","margin-bottom":"2px","padding-all":"3px"}]]></property>
+    <property property_name="textCtrlCode" property_type="css"><![CDATA[{"extra":"white-space: pre;\nword-wrap: normal;\ndirection: ltr;","font-family":"Consolas, \"Courier New\", Courier, monospace"}]]></property>
+    <property property_name="textCtrlDisabled" property_type="css"><![CDATA[{"background-color":"rgb(26, 26, 26)","border-color":"rgb(32, 32, 32)","color":"rgb(196, 196, 196)","font-style":"italic"}]]></property>
+    <property property_name="textCtrlFocus" property_type="css"><![CDATA[{"background-color":"rgb(0, 0, 0)","background-repeat":"repeat-x","border-color":"rgb(86, 85, 69)","color":"rgb(255, 255, 255)"}]]></property>
+    <property property_name="textCtrlTextareaFocus" property_type="css"><![CDATA[{"background-color":"rgb(0, 0, 0)"}]]></property>
+    <property property_name="textHeading" property_type="css"><![CDATA[{"border-bottom-color":"#000000","border-bottom-style":"solid","border-bottom-width":"1px","color":"#fff","extra":"\/*font-size: 11px;*\/","font-weight":"bold","margin-bottom":"0","margin-left":"auto","margin-right":"auto","margin-top":"10px","padding-bottom":"2px","padding-left":"5px","padding-right":"5px","padding-top":"0px"}]]></property>
+    <property property_name="tooltip" property_type="css"><![CDATA[{"background-color":"rgb(211, 212, 170)","border-radius":"5px","color":"rgb(0, 0, 0)","extra":"display: none;\nz-index: 15000;\ncursor: default;","font-size":"11px","padding-bottom":"5px","padding-left":"10px","padding-right":"10px","padding-top":"5px"}]]></property>
+    <property property_name="tooltipArrow" property_type="css"><![CDATA[{"border-bottom-color":"rgb(211, 212, 170)","border-bottom-style":"none","border-bottom-width":"1px","border-left-color":"transparent","border-left-style":"solid","border-left-width":"6px","border-right-color":"transparent","border-right-style":"solid","border-right-width":"6px","border-top-color":"rgb(211, 212, 170)","border-top-style":"solid","border-top-width":"6px","extra":"position: absolute;\nbottom: -6px;\nleft: 9px;\nline-height: 0px;","height":"0px","width":"0px"}]]></property>
+    <property property_name="ugcLinkHover" property_type="css"><![CDATA[{"background-color":"rgb(119, 119, 119)","background-image":"@imagePath\/xenforo\/gradients\/category-23px-light.png","background-position":"top","background-repeat":"repeat-x","color":"rgb(0, 0, 0)"}]]></property>
+  </properties>
+  <templates>
+    <template title="account_avatar_overlay.css" addon_id="XenForo" version_id="1020070" version_string="1.2.0" disable_modifications="0"><![CDATA[/* AVATAR EDITOR */
+
+.xenOverlay.avatarEditor
+{
+	max-width: 720px;
+}
+
+.AvatarEditor
+{
+	overflow: hidden; zoom: 1;
+	margin: 0 auto;
+}
+
+/* current avatar large display */
+
+.AvatarEditor .currentAvatar
+{
+	float: left;
+	display: block;
+	width: 192px;
+	text-align: center;
+}
+
+	.AvatarEditor .currentAvatar img
+	{
+		max-width: 192px;
+	}
+	
+/* controls column */
+	
+.AvatarEditor .modifyControls
+{
+	margin-left: 210px;
+}
+
+	.AvatarEditor .avatarUpload
+	{
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+
+	.AvatarEditor .avatarOption
+	{
+		overflow: hidden; zoom: 1;
+		padding: 10px;
+		border: 1px solid #000;
+		border-radius: 5px;
+		margin-bottom: 10px;
+		
+		background: #202020;
+	}
+	
+	.AvatarEditor label
+	{
+		display: block;
+	}
+	
+	.AvatarEditor .avatarLabel
+	{
+		display: block;
+		float: left;
+	}
+		
+		.AvatarEditor .avatarCropper img
+		{
+			cursor: move;
+		}
+		
+	.AvatarEditor .radioOption
+	{
+		float: left;
+		margin-left: 10px;
+		margin-top: 2px;
+	}
+	
+	.AvatarEditor .labelText
+	{
+		margin-left: 130px;
+	}
+	
+		.AvatarEditor .explain
+		{
+			display: block;
+			font-size: 11px;
+			margin-bottom: 10px;
+		}
+	
+			.AvatarEditor .saveHint
+			{
+				font-style: italic;
+			}
+		
+		.AvatarEditor #GravatarEmail
+		{
+			width: 175px;
+		}
+			
+		.AvatarEditor #GravatarTest
+		{
+			width: 50px;
+		}
+		
+		.AvatarEditor #GravatarError
+		{
+			color: red;
+			display: block;
+		}
+			
+/* bottom controls row */
+		
+.AvatarEditor .submitUnit
+{
+	overflow: hidden; zoom: 1;
+}
+
+	.AvatarEditor .submitUnit label.deleteCtrl
+	{
+		float: left;
+	}
+	
+	.AvatarEditor .submitUnit .buttons
+	{
+		float: right;
+	}
+
+		.AvatarEditor .submitUnit .buttons .button
+		{
+			min-width: 70px;
+		}
+
+<xen:if is="{xen:property enableResponsive}">
+@media (max-width:700px)
+{
+	.Responsive .AvatarEditor .currentAvatar
+	{
+		display: none;
+	}
+
+	.Responsive .AvatarEditor .modifyControls
+	{
+		margin-left: 0;
+	}
+}
+
+@media (max-width:{xen:property maxResponsiveNarrowWidth})
+{
+	.Responsive .AvatarEditor .avatarLabel
+	{
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.Responsive .AvatarEditor .labelText
+	{
+		margin-left: 0;
+	}
+
+	.Responsive .AvatarEditor .radioOption
+	{
+		margin: 0;
+	}
+}
+</xen:if>]]></template>
+    <template title="chooser_overlay.css" addon_id="XenForo" version_id="1020070" version_string="1.2.0" disable_modifications="0"><![CDATA[.xenOverlay.chooserOverlay
+{
+	max-width: 700px;
+}
+
+	.chooserColumns
+	{
+		overflow: hidden; zoom: 1;
+		padding: 0;
+	}
+	
+		.chooserColumns li
+		{
+			float: left;
+			width: 33%;
+		}
+		
+			.chooserColumns.twoColumns li
+			{
+				width: 49.5%;
+			}
+		
+			.chooserColumns.oneColumns li
+			{
+				width: 100%;
+			}
+			
+			.chooserColumns.threeColumns li
+			{
+				width: 33%;
+			}
+			
+			.chooserColumns.fourColumns li
+			{
+				width: 24.5%;
+			}
+		
+			.chooserColumns li a
+			{
+				margin: 3px;
+				display: block;
+				padding: 5px 10px;
+				border-radius: 5px;
+				overflow: hidden; zoom: 1;
+			}
+			
+			.chooserColumns li a:hover
+			{
+				background-color: #202020;
+				text-decoration: none;
+			}
+			
+			.chooserColumns .icon
+			{
+				float: left;
+				display: block;
+				width: 64px;
+				height: 64px;
+				background: #000;
+				border: 1px solid #202020;
+				border-radius: 5px;
+				box-shadow: 2px 2px 6px rgba(0,0,0, 0.25);
+			}
+			
+				.styleChooser .icon
+				{
+					background-image: url('{xen:property imagePath}/xenforo/widgets/style-preview.png');
+				}
+			
+			.chooserColumns .title,
+			.chooserColumns .description
+			{
+				margin-left: 76px;
+				display: block;
+			}
+			
+			.chooserColumns .title
+			{
+				font-size: 11pt;
+			}
+			
+				.chooserColumns .unselectable .title:after
+				{
+					content: " *";
+				}
+			
+			.chooserColumns .description
+			{
+				color: {xen:property mutedTextColor};
+				font-size: 11px;
+			}
+		
+	.chooserScroller
+	{
+		overflow: auto;
+		max-height: 200px;
+	}
+	
+		.chooserScroller li a
+		{
+			display: block;
+		}
+		
+		.chooserScroller li a:hover
+		{
+			background-color: {xen:property secondaryLightest};
+			text-decoration: none;
+		}
+		
+			.chooserScroller li a .info
+			{
+				font-size: 11px;
+				color: {xen:property contentText};	
+			}
+			
+.chooserConfirm
+{
+	text-align: center;
+}
+	
+	.chooserConfirm strong
+	{
+		display: block;
+		margin-top: 10px;
+		font-size: 18px;
+	}
+
+<xen:if is="{xen:property enableResponsive}">
+@media (max-width:{xen:property maxResponsiveNarrowWidth})
+{
+	.Responsive .chooserOverlay .chooserColumns li
+	{
+		width: auto;
+		float: none;
+	}
+}
+</xen:if>]]></template>
+    <template title="discussion_list.css" addon_id="XenForo" version_id="1040570" version_string="1.4.5" disable_modifications="0"><![CDATA[.discussionList
+{
+	position: relative;
+	zoom: 1;
+}
+
+/** column style and width **/
+
+.discussionList .sectionHeaders,
+.discussionListItem
+{
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	word-wrap: normal;
+}
+
+	.discussionList .sectionHeaders dt,
+	.discussionList .sectionHeaders dd,
+	.discussionListItem .listBlock
+	{
+		display: table-cell;
+		vertical-align: middle;
+	}
+	
+		.discussionList .posterAvatar
+		{
+			width: {xen:property discussionListAvatarWidth};
+		}
+		
+		.discussionList .main
+		{
+			width: auto;
+		}
+
+			.discussionList .sectionHeaders .main .postDate
+			{
+				text-align: right;
+			}
+		
+		.discussionList .stats
+		{
+			width: {xen:property discussionListStatsWidth};
+		}
+			
+			.discussionList .sectionHeaders .stats .minor
+			{
+				text-align: right;
+			}
+		
+		.discussionList .lastPost
+		{
+			width: {xen:property discussionListLastPostWidth};
+			text-align: right;
+			overflow: hidden;
+		}
+		
+		.discussionList .statsLastPost /* combined last two columns */
+		{
+			width: {xen:calc '{xen:property discussionListStatsWidth} + {xen:property discussionListLastPostWidth}'}px;
+		}
+	
+
+/* column headers */
+
+.discussionList .sectionHeaders
+{	
+	{xen:property subHeading}
+	
+	padding: 0;
+}
+
+	.discussionList .sectionHeaders dt span
+	{
+		display: none !important;
+	}
+		
+	.discussionList .sectionHeaders a
+	{
+		display: block;
+		color: {xen:property subHeading.color};
+		outline: none;
+	}
+	
+	.discussionList .sectionHeaders a:hover
+	{
+		text-decoration: none;
+	}
+			
+	.discussionList .sectionHeaders dd a[href]:hover
+	{
+		{xen:property subHeadingHover}
+	}
+		
+	.discussionList .sectionHeaders .main a,
+	.discussionList .sectionHeaders .stats a
+	{
+		float: left;
+		width: 50%;
+		white-space: nowrap;
+	}
+	
+		.discussionList .sectionHeaders a span
+		{
+			{xen:property subHeading.padding}
+			display: block;
+		}
+		
+/** IE <8 **/
+.discussionList .sectionHeaders,
+.discussionListItem                { *display: block; _vertical-align: bottom; }
+.discussionList .sectionHeaders dt,
+.discussionList .sectionHeaders dd,
+.discussionListItem .listBlock     { *display: block; *float: left; }
+.discussionListItem .listBlock     { _height: 52px; *min-height: 52px; } /* todo: should be calculation */
+.discussionList .posterAvatar      { *width: 6.98%; }
+.discussionListItem .posterAvatar  { *font-size: 0; }	
+.discussionList .main              { *width: 56.98%; }
+.discussionList .stats             { *width: 15.97%; }	
+.discussionList .lastPost          { *width: 19.97%; }
+.discussionList .statsLastPost     { *width: 35.97%; }
+.discussionList .sectionHeaders dt,
+.discussionList .sectionHeaders dd { *padding: 5px 0; }
+.discussionList .sectionHeaders a,
+.discussionList .sectionHeaders a span { *display: inline !important; *float: none !important; }
+
+/* items in thread list */
+
+.discussionListItems
+{
+}
+
+
+
+	
+/* individual thread list item */
+	
+/** main **/
+
+.discussionListItem
+{
+	{xen:property primaryContent.background}
+	
+	{xen:property primaryContent.border}
+}
+
+
+
+
+
+	/* sections, section widths */
+	
+		.discussionListItem .posterAvatar,		
+		.discussionListItem .stats
+		{
+			{xen:property secondaryContent.background}
+		}
+		
+		.discussionListItem .main,
+		.discussionListItem .lastPost
+		{
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	/* avatar section */
+	
+	.discussionListItem .posterAvatar .avatarContainer
+	{
+		display: block;
+		position: relative;
+	}
+	
+	.discussionListItem .posterAvatar .avatar
+	{
+		{xen:property discussionListAvatar}
+		
+		width: auto;
+		height: auto;
+	}
+	
+		.discussionListItem .posterAvatar .avatar img
+		{
+			width: {xen:property discussionListAvatar.width};
+			height: {xen:property discussionListAvatar.height};
+			display: block;
+		}
+		
+		.discussionListItem .posterAvatar .miniMe
+		{
+			{xen:property discussionListMiniMe}
+		}
+		
+			.discussionListItem .posterAvatar .miniMe img
+			{
+				{xen:property discussionListMiniMeImg}				
+			}		
+		
+		
+	/* title, poster section */
+	
+	.discussionListItem .titleText
+	{
+		padding: 5px;
+		overflow: hidden; zoom: 1;
+		position: relative;
+	}
+	
+		/* unread indicator */
+		
+		.LoggedIn .discussionListItem .titleText
+		{			
+			padding-left: 20px;
+		}
+		
+		.LoggedIn .discussionListItem .unreadLink,
+		.LoggedIn .discussionListItem .ReadToggle
+		{
+			display: block;
+			width: 10px;
+			height: 10px;
+			
+			position: absolute;
+			left: 5px;
+			top: 10px;
+			
+			background: url('{xen:property imagePath}/xenforo/xenforo-ui-sprite.png') no-repeat 10000px 0;
+			
+			white-space: nowrap;
+			overflow: hidden;
+			text-indent: 9999px;
+		}
+		
+			.LoggedIn .discussionListItem .unreadLink,
+			.LoggedIn .discussionListItem.unread .ReadToggle
+			{
+				background-position: -5px -42px;
+			}
+		
+			.LoggedIn .discussionListItem .ReadToggle:hover
+			{
+				background-position: -25px -42px;
+			}
+	
+		/* first row */
+	
+		.discussionListItem .title
+		{
+			{xen:property discussionListFirstRow}
+			max-width: 100%;
+			word-wrap: break-word;
+		}
+		
+			.discussionListItems .unread .title a
+			{
+				{xen:property discussionListTitleUnread}
+			}
+			
+		
+		.discussionListItem .iconKey span
+		{
+			{xen:property dicussionListIcon}
+		}
+			
+			.discussionListItem .iconKey .sticky    { background-position:   0px -16px; }
+			.discussionListItem .iconKey .starred   { background-position: -90px -32px; width: 18px; height: 18px; }
+			.discussionListItem .iconKey .watched   { background-position: -144px -16px; width: 16px; height: 16px; }
+			.discussionListItem .iconKey .locked    { background-position: -16px -16px; }
+			.discussionListItem .iconKey .moderated { background-position: -32px -16px; }
+			.discussionListItem .iconKey .redirect  { background-position: -48px -16px; }
+			.discussionListItem .iconKey .new       { background-position: -64px -16px; }
+		
+		/* second row */
+		
+		.discussionListItem .secondRow
+		{
+			{xen:property discussionListSecondRow}
+			clear: both;
+		}
+		
+			.discussionListItem .secondRow .controls
+			{
+				float: right;
+				padding-left: 20px;
+			}
+				
+				.discussionListItem.AjaxProgress .controls
+				{
+					background: transparent url('{xen:property imagePath}/xenforo/widgets/ajaxload.info_B4B4DC_facebook.gif') no-repeat left center;
+				}
+			
+			.discussionListItem .posterDate
+			{
+				float: left;
+			}
+			
+			
+			
+	/* stats section */
+	
+	.discussionListItem .stats dl
+	{
+		padding: 0 10px;
+		border-left: 1px solid #000;
+		border-right: 1px solid #000;
+	}
+		.discussionListItem .stats .major
+		{
+			{xen:property discussionListFirstRow}
+			
+			margin-top: 5px;
+		}
+			
+		.discussionListItem .stats .minor
+		{
+			{xen:property discussionListSecondRow}
+			
+			margin-bottom: 5px;
+		}
+			
+	/* last post section */
+	
+	.discussionListItem .lastPostInfo
+	{
+		padding: 5px;
+	}
+	
+		.discussionListItem .lastPostInfo .username
+		{
+			{xen:property discussionListFirstRow}
+		}
+		
+	
+			.discussionListItems .unread .lastPostInfo .username
+			{
+				{xen:property discussionListTitleUnread}
+			}
+		
+		.discussionListItem .lastPostInfo .dateTime
+		{
+			{xen:property discussionListSecondRow}
+		}
+
+
+/* extra note row */
+
+.discussionListItem .noteRow
+{
+	{xen:property primaryContent.background}
+	padding: 5px;
+	text-align: center;
+	font-size: 11px;
+	color: {xen:property primaryMedium};
+}
+
+	.discussionListItem .noteRow.secondary
+	{
+		{xen:property secondaryContent.background}
+	}
+
+
+
+
+/* deleted item */
+
+.discussionList .discussionListItem.deleted
+{
+}
+
+	.discussionList .discussionListItem.deleted .avatar img
+	{
+		opacity: 0.5;
+		filter: alpha(opacity='50');
+	}
+		
+	.discussionList .discussionListItem.deleted .deletionNote
+	{
+		float: left;
+		color: rgb(150,0,0);
+	}
+		
+/* moderated item */
+
+.discussionList .discussionListItem.moderated .listBlock
+{
+	{xen:property primaryContent.background}
+}
+
+		
+		
+		
+		
+		
+			
+/* inline mod selected/checked classes */
+
+.discussionListItem.InlineModChecked,
+.discussionListItem.InlineModChecked .posterAvatar,
+.discussionListItem.InlineModChecked .main,
+.discussionListItem.InlineModChecked .stats,
+.discussionListItem.InlineModChecked .lastPost,
+.discussionListItem.deleted.InlineModChecked,
+.discussionListItem.moderated.InlineModChecked
+{
+	{xen:property inlineModChecked}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+/** bottom summary **/
+
+.discussionList .sectionFooter
+{
+	overflow: hidden; zoom: 1;
+}
+
+	.discussionList .sectionFooter .contentSummary
+	{
+		float: left;
+		display: block;
+	}
+
+		
+/** thread list options **/
+
+.DiscussionListOptions
+{
+	{xen:property discussionListOptions}
+}
+
+.hasJs .DiscussionListOptions
+{
+	display: none;
+}
+
+	.DiscussionListOptions dl,
+	.DiscussionListOptions .controlGroup
+	{
+		float: left;
+		margin-right: 10px;
+		
+		overflow: hidden; zoom: 1;
+	}
+	
+		.DiscussionListOptions dt
+		{
+			float: left;
+		}
+		
+		.DiscussionListOptions dd
+		{
+			margin-left: 120px;
+		}
+		
+	.DiscussionListOptions .buttonGroup
+	{
+		float: right;
+	}
+	
+		.DiscussionListOptions .buttonGroup input
+		{
+			min-width: 75px;
+		}
+	
+#DiscussionListOptionsHandle
+{
+	{xen:property discussionListOptionsHandle}
+}
+	
+	#DiscussionListOptionsHandle a
+	{
+		{xen:property discussionListOptionsHandleLink}
+	}
+	
+.afterDiscussionListHandle
+{
+	margin-top: 20px;
+}
+	
+/** item page nav **/
+
+.discussionListItem .itemPageNav
+{
+	{xen:if '{xen:property discussionListPageNavHidden}', 'visibility: hidden;'}
+}
+
+.discussionListItem:hover .itemPageNav,
+.Touch .discussionListItem .itemPageNav
+{
+	visibility: visible;
+}
+
+	.itemPageNav a,
+	.itemPageNav span
+	{
+		{xen:property discussionListItemPageNavItem}
+	}
+	
+	body .itemPageNav a
+	{
+		{xen:property discussionListItemPageNavLink}
+	}
+	
+	body .itemPageNav a:hover
+	{
+		{xen:property discussionListItemPageNavLinkHover}
+	}
+
+/** filters **/
+		
+.discussionListFilters
+{
+	font-size: 11px;
+	overflow: hidden; zoom: 1;
+}
+
+	.discussionListFilters .filtersHeading
+	{
+		float: left;
+		margin-right: 5px;
+		color: {xen:property primaryLight};
+		font-weight: bold;
+	}
+	
+	.discussionListFilters .removeFilter,
+	.discussionListFilters .removeAllFilters
+	{
+		color: {xen:property primaryMedium};
+		background: {xen:property primaryLighterStill} url('{xen:property imagePath}/xenforo/gradients/form-button-white-25px.png') repeat-x top;
+		border: 1px solid {xen:property primaryLighterStill};
+		border-radius: 5px;
+		padding: 2px 10px;
+	}
+	
+		.discussionListFilters .gadget
+		{
+			color: {xen:property primaryLight};
+			font-weight: bold;
+			margin-left: 3px;
+		}
+
+	
+		.discussionListFilters .removeFilter:hover,
+		.discussionListFilters .removeAllFilters:hover
+		{
+			background-color: {xen:property primaryLightest};
+			text-decoration: none;
+			color: {xen:property mutedTextColor};
+			box-shadow: 1px 1px 5px rgba(0,0,0, 0.15);
+		}
+		
+	.discussionListFilters .pairsInline dt
+	{
+		display: none;
+	}
+	
+	.discussionListFilters .filterPairs
+	{
+		float: left;
+	}
+	
+	.discussionListFilters .removeAll
+	{
+		float: right;
+	}
+	
+		.discussionListFilters .removeAllFilters
+		{
+			padding: 2px 6px;
+		}
+
+<xen:if is="{xen:property enableResponsive}">
+@media (max-width:{xen:property maxResponsiveMediumWidth})
+{
+	.Responsive .discussionList .sectionHeaders .stats
+	{
+		display: none;
+	}
+	
+	.Responsive .discussionList .sectionHeaders .main .title
+	{
+		float: none;
+		width: auto;
+	}
+	
+	.Responsive .discussionList .sectionHeaders .main .postDate
+	{
+		display: none;
+	}
+	
+	.Responsive .discussionList .statsLastPost
+	{
+		display: none;
+	}
+
+	.Responsive .discussionListItem .listBlock.main,
+	.Responsive .discussionListItem .listBlock.stats,
+	.Responsive .discussionListItem .listBlock.lastPost
+	{
+		display: block;
+	}
+	
+	.Responsive .discussionListItem .listBlock.stats
+	{
+		float: left;
+		width: auto;
+		margin-top: -5px;
+		border: none;
+		background: none;
+		padding-left: 5px;
+	}
+	
+		.Responsive.LoggedIn .discussionListItem .listBlock.stats
+		{			
+			padding-left: 20px;
+		}
+	
+		.Responsive .discussionListItem .listBlock.stats dl
+		{
+			border: none;
+			padding: 0;
+		}
+		
+		.Responsive .discussionListItem .listBlock.stats dd,
+		.Responsive .discussionListItem .listBlock.stats dt
+		{
+			float: none;
+			display: inline;
+		}
+	
+		.Responsive .discussionListItem .listBlock.stats .minor
+		{
+			display: none;
+		}
+		
+		.Responsive .discussionListItem .listBlock.stats .major
+		{
+			font-size: 11px;
+			margin-top: 0;
+		}
+	
+	.Responsive .discussionListItem .listBlock.lastPost
+	{
+		float: right;
+		width: auto;
+		margin-top: -5px;
+	}
+		.Responsive .discussionListItem .listBlock.lastPost .lastPostInfo
+		{
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	
+		.Responsive .discussionListItem .listBlock.lastPost dt
+		{
+			display: none;
+		}
+}
+
+@media (max-width:{xen:property maxResponsiveWideWidth})
+{
+	.Responsive .discussionList .sectionHeaders .lastPost,
+	.Responsive .discussionList .lastPost
+	{
+		width: 125px;
+	}
+}
+
+@media (max-width:{xen:property maxResponsiveNarrowWidth})
+{
+	.Responsive .discussionListItem .secondRow .startDate,
+	.Responsive .discussionListItem .secondRow .EditControl
+	{
+		display: none;
+	}
+}
+</xen:if>]]></template>
+    <template title="EWRporta_Block_Twitter" addon_id="" version_id="0" version_string="" disable_modifications="0"><![CDATA[<div class="section">
+	<div class="secondaryContent" id="twitter" style="padding-bottom: 10px;">
+		<h3>Twitter Feed</h3>
+		<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+		<script>
+		new TWTR.Widget({
+			version: 2,
+			type: 'search',
+			search: '{xen:raw $option.search}',
+			interval: 6000,
+			width: 'auto',
+			height: {$option.height},
+			theme: {
+				shell: {
+					background: '#000',
+					color: '#ccc'
+				},
+				tweets: {
+					background: '#202020',
+					color: '#ccc',
+					links: '#fff'
+				}
+			},
+			features: {
+				scrollbar: {$option.scroll},
+				hashtags: {$option.hashtags},
+				timestamp: {$option.timestamps},
+				avatars: {$option.avatars},
+				toptweets: {$option.toptweets},
+				live: true,
+				loop: false,
+				behavior: 'all'
+			}
+		}).render().start();
+		</script>
+		<div>
+			<span style="float: right;">
+				<a href="http://twitter.com/#search?q={$option.search}" target="_blank">Join the conversation</a>
+			</span>
+			<a href="http://twitter.com" target="_blank"><img src="http://widgets.twimg.com/i/widget-logo.png" alt="" /></a>
+		</div>
+	</div>
+</div>]]></template>
+    <template title="EXTRA.css" addon_id="XenForo" version_id="1040170" version_string="1.4.1" disable_modifications="0"><![CDATA[#darkbord {
+border: 11px;
+-webkit-border-image: url("styles/Darkness/xenforo/gradients/border.png") 11 11 11 11 repeat repeat;
+-moz-border-image: url("styles/Darkness/xenforo/gradients/border.png") 11 11 11 11 repeat repeat;
+border-image: url("styles/Darkness/xenforo/gradients/border.png") 11 11 11 11 repeat repeat;
+margin: 10px 20px 0px 20px;
+}
+
+.profilePostListItem {
+border-top: 1px solid #565545 !important;
+}
+
+.sidebar .userList .username.invisible {
+color: #fff;
+}
+
+.formPopup {
+background: transparent !important;
+}
+
+#AccountMenu .menuColumns {
+background: #1a1a1a !important;
+}
+
+.message .messageInfo {
+border-right: 0px;
+border-left: 0px;
+}
+
+#header .pageWidth .pageContent, #headerMover #header {
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+border-radius: 7px;
+}
+
+#loginBar #loginBarHandle {
+-moz-box-shadow: 0 2px 2px #000 !important;
+-webkit-box-shadow: 0 2px 2px #000 !important;
+box-shadow: 0 2px 2px #000 !important;
+}
+
+.attachedFiles {
+border: 1px solid #565545 !important;
+}
+
+.messageUserBlock h3.userText {
+text-align: center;
+}
+
+.messageUserBlock .extraUserInfo dl {
+background-color: #323232;
+border: 1px solid #000000;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+-moz-box-shadow: 0 0 2px #202020 !important;
+-webkit-box-shadow: 0 0 2px #202020!important;
+box-shadow: 0 0 2px #202020 !important;
+margin-top: 2px;
+padding: 2px 5px;
+}
+
+.messageUserBlock .extraUserInfo dt {
+color: #c4c4c4;
+display: inline !important;
+}
+
+#headerMover #headerProxy {
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+
+.bbCodeQuote .attribution {
+color: #fff !important;
+}
+
+.navTabs .navTab.PopupClosed .navLink {
+color: #ccc;
+}
+
+.secondaryContent {
+border: 1px solid #565545;
+-moz-box-shadow: 0 0 2px #202020 !important;
+-webkit-box-shadow: 0 0 2px #202020!important;
+box-shadow: 0 0 2px #202020 !important;
+background: url("styles/Darkness/xenforo/gradients/back1.png") repeat-x bottom left #262623;
+}
+
+
+#loginBar form.eAuth .ctrlWrapper {
+border-right: 1px dotted #565545 !important;
+}
+
+.profilePage .primaryUserBlock {
+border-top: 1px solid #565545 !important;
+}
+
+.messageSimple {
+padding: 5px !important;
+border: 1px solid #565545;
+}
+
+.discussionListItem .stats dl {
+border-left: 1px solid #565545 !important;
+border-right: 1px solid #565545 !important;
+}
+
+#QuickSearch {
+background-color: #696858 !important;
+padding-top: 0 !important;
+padding-bottom: 3px !important;
+}
+
+.sectionMain {
+-moz-box-shadow: 0 0 2px #202020 !important;
+-webkit-box-shadow: 0 0 2px #202020 !important;
+box-shadow: 0 0 2px #202020 !important;
+background-color: #191917 !important;
+}
+
+.messageList .message {
+background-color: #262623 !important;
+margin-bottom: 10px;
+border: 1px solid #565545;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+padding: 10px !important;
+-moz-box-shadow: 0 0 2px #202020 !important;
+-webkit-box-shadow: 0 0 2px #202020!important;
+box-shadow: 0 0 2px #202020 !important;
+}
+
+.profilePage .primaryUserBlock .primaryContent, .profilePage .primaryUserBlock .secondaryContent {
+border-right: 1px solid #565545  !important;
+}
+
+.button.primary {
+background-color: #585555 !important;
+}
+
+.button.primary:hover {
+background-color: #000 !important;
+}
+
+.xenForm fieldset, .xenForm fieldset + .ctrlUnit, .xenForm .submitUnit {
+border-top: 1px solid #565545  !important;
+}
+
+.statusEditorCounter {
+color: #fff !important;
+}
+
+.navTabs .navLink, .navTabs .SplitCtrl {
+color: #fff !important;
+}
+
+.Menu .menuHeader  {
+color: #fff !important;
+}
+
+.news_feed_page_global .eventList {
+border-top: 1px solid #565545 !important;
+}
+
+input.button.disabled, a.button.disabled, input.button.primary.disabled, a.button.primary.disabled {
+color: #777 !important;
+background-color: #1a1a1a !important;
+background-image: none !important;
+border-color: #000 !important;
+}
+
+.titleBar h1 {
+color: #fff !important;
+}
+
+.larger.textHeading, .xenForm .sectionHeader {
+color: #fff !important;
+}
+
+.accountSideBar a:hover {
+bacground-image: none;
+background-color: #565545 !important;
+color: #fff !important;
+}
+
+.accountSideBar .heading {
+background: url("styles/Darkness/xenforo/gradients/back1.png") repeat-x top left #1A1A1A !important;
+}
+
+#loginBar .textCtrl {
+font-weight: normal !important;
+font-size: 13px !important;
+}
+
+.xenOverlay.memberCard .userInfo h3 {
+color: #fff !important;
+}
+
+.xenOverlay.memberCard .userInfo h4 {
+color: #ccc !important;
+}
+
+.xenOverlay.memberCard .userLinks a {
+color: #fff !important;
+}
+
+#newfoot {
+margin-right: 25px;
+margin-left: 25px;
+}
+
+.message .messageContent {
+padding: 10px !important;
+}
+
+.Popup .PopupControl.BottomControl.PopupOpen, .Popup.PopupContainerControl.BottomControl.PopupOpen {
+color: #fff !important;
+}
+
+.Popup .PopupControl.BottomControl.PopupOpen, .Popup.PopupContainerControl.BottomControl.PopupOpen:hover {
+color: #fff !important;
+}
+
+#loginBar #loginBarHandle a.concealed {
+text-decoration: none !important;
+}
+
+.navPopup .PopupItemLinkActive:hover {
+background-color: #000 !important;
+}
+
+.conversation_view .messageList {
+border-color: #000 !important;
+}
+
+.navTabs {
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-top: 1px solid #565545 !important;
+
+}
+
+.tabs li.active a, .tabs.noLinks li.active {
+background-color: #000 !important;
+}
+
+#loginBar #loginBarHandle {
+right: 35px !important;
+}
+
+.navTabs .navTab.selected .tabLinks {
+background: url("styles/Darkness/xenforo/gradients/gradient1.png") repeat-x top left #52513f;
+border-bottom: 1px solid #000;
+}
+
+.navTabs .navTab.PopupClosed .navLink:hover {
+color: #fff;
+background-color: #3d3d3d;
+}
+
+#jumpMenu .blockLinksList ul, #jumpMenu .nodeList li.d0 {
+border-top: 1px solid #565545  !important;
+}
+
+.xenOverlay #jumpMenu .nodeList {
+border-left: 1px solid #565545  !important;
+}
+
+.pairsInline dl, .pairsInline dt, .pairsInline dd a {
+font-size: 10px !important;
+}
+
+.message .messageMeta {
+background-color: #262623 !important;
+}
+
+.discussionListItem.visible.sticky, .discussionListItem.visible.sticky .posterAvatar, .discussionListItem.visible.sticky .stats{
+background: url("styles/Darkness/xenforo/gradients/back4.png") repeat-x bottom left #202020;
+}
+
+.messageContent {
+background-color: #262623;
+}
+
+#loginBar #loginBarHandle:hover {
+background-color: #565545;
+-moz-box-shadow: 0 2px 2px #000 !important;
+-webkit-box-shadow: 0 2px 2px #000 !important;
+box-shadow: 0 2px 2px #000 !important;
+}
+
+.chooserColumns li a {
+background-color: #1a1a1a;
+}
+
+.chooserColumns li a:hover {
+background-color: #3e3e3e !important;
+}
+
+.AttachmentEditor .AttachedFile .Thumbnail {
+border: 1px solid #000 !important;
+}
+
+.AttachmentEditor .AttachedFile .ProgressMeter {
+border: 1px solid #565545 !important;
+}
+
+.attachment .boxModelFixer {
+background: url("styles/Darkness/xenforo/gradients/back1.png") repeat-x top left #1A1A1A;
+border: 1px solid #565545 !important;
+}
+
+.attachment .boxModelFixer {
+background-color: #202020 !important;
+}
+
+.attachment .thumbnail {
+border-right: 1px solid #000 !important;
+}
+
+#QuickSearch.active {
+background-color: #262623 !important;
+-moz-box-shadow: 0px 5px 5px #000 !important;
+-webkit-box-shadow: 0px 5px 5px #000 !important;
+box-shadow:0px 5px 5px #000 !important;
+border: 1px solid #565545 !important;
+padding-top: 3px !important;
+}
+
+.Popup .PopupControl.PopupOpen, .Popup.PopupContainerControl.PopupOpen {
+color: #fff !important;
+}
+
+.twtr-widget .twtr-tweet {
+border-bottom: 1px dotted #000 !important;
+}
+
+#AccountMenu .menuHeader {
+border-top: 1px solid #565545;
+}
+
+.Menu .menuHeader {
+background: url("styles/Darkness/xenforo/gradients/gradient1.png") repeat-x top left #52513f;
+border-top: 1px solid #565545;
+}
+
+.message .messageInfo {
+background-color: #262623 !important;
+}
+
+.messageList .primaryContent {
+background-image: none !important;
+}
+
+.member_list .memberList, .online_list .memberList {
+border-top: 1px solid #565545 !important;
+}
+
+.helpSideBar .heading {
+border: 1px solid #565545 !important;
+background-color: #565545 !important;
+}
+
+.profilePage .main {
+border-left: 1px solid #565545 !important;
+}
+
+.profilePage .mast .followBlocks .primaryContent.avatarHeap {
+border: 1px solid #565545 !important;
+}
+
+.tabs {
+border-bottom: 1px solid #565545 !important;
+}
+
+.profilePage .primaryUserBlock .primaryContent, .profilePage .primaryUserBlock .secondaryContent {
+border-left: 1px solid #565545 !important;
+}
+
+.profilePage .tabs.mainTabs li a {
+border: 1px solid #565545;
+}
+
+.profilePage .tabs.mainTabs li.active a {
+background-image: none !important;
+background-color: #565545 !important;
+}
+
+.textWithCount.subHeading .text {
+color: #fff !important;
+}
+
+.formPopup .controlsWrapper {
+background-color: #1a1a1a !important;
+border: 1px solid #000 !important;
+}
+
+.footer .pageContent {
+background-color: #1a1a1a !important;
+-moz-border-bottom-left-radius: 0px;
+-webkit-border-bottom-left-radius: 0px;
+border-bottom-left-radius: 0px;
+-moz-border-bottom-right-radius: 0px;
+-webkit-border-bottom-right-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+
+#header .pageWidth .pageContent, #headerMover #header {
+-moz-border-radius: 0px 0px 0px 0px;
+-webkit-border-radius: 0px 0px 0px 0px;
+border-radius: 0px 0px 0px 0px;
+}
+
+#logoBlock #logo {
+float:none;
+text-align:center;
+}
+
+footer {
+background-color: #1a1a1a;
+}
+
+.searchResult .snippet a {
+color:#fff !important;
+}
+
+.messageList .placeholder .placeholderContent {
+color: #eee !important;
+}
+
+.discussionListItem {
+-moz-box-sizing: border-box;!important;
+-webkit-box-sizing: border-box;!important;
+-ms-box-sizing: border-box;!important;
+box-sizing: border-box;!important;
+}
+
+.subForumsPopup.Popup .PopupControl.PopupOpen {
+  background-color: #1a1a1a !important;
+  text-shadow: none !important;
+}
+
+.nodeList .categoryForumNodeInfo {
+border-top: 1px solid #565545 !important;
+}]]></template>
+    <template title="footer" addon_id="XenForo" version_id="1030070" version_string="1.3.0" disable_modifications="0"><![CDATA[<xen:edithint template="footer.css" />
+
+<xen:hook name="footer">
+<div class="footer">
+	<div class="pageWidth">
+		<div class="pageContent">
+			<xen:if is="{$canChangeStyle} OR {$canChangeLanguage}">
+			<dl class="choosers">
+				<xen:if is="{$canChangeStyle}">
+					<dt>{xen:phrase style}</dt>
+					<dd><a href="{xen:link 'misc/style', '', 'redirect={$requestPaths.requestUri}'}" class="OverlayTrigger Tooltip" title="{xen:phrase style_chooser}" rel="nofollow">{$visitorStyle.title}</a></dd>
+				</xen:if>
+				<xen:if is="{$canChangeLanguage}">
+					<dt>{xen:phrase language}</dt>
+					<dd><a href="{xen:link 'misc/language', '', 'redirect={$requestPaths.requestUri}'}" class="OverlayTrigger Tooltip" title="{xen:phrase language_chooser}" rel="nofollow">{$visitorLanguage.title}</a></dd>
+				</xen:if>
+			</dl>
+			</xen:if>
+			
+			<ul class="footerLinks">
+			<xen:hook name="footer_links">
+				<xen:if is="{$xenOptions.contactUrl.type} === 'default'">
+					<li><a href="{xen:link 'misc/contact'}" class="OverlayTrigger" data-overlayOptions="{&quot;fixed&quot;:false}">{xen:phrase contact_us}</a></li>
+				<xen:elseif is="{$xenOptions.contactUrl.type} === 'custom'" />
+					<li><a href="{$xenOptions.contactUrl.custom}" {xen:if {$xenOptions.contactUrl.overlay}, 'class="OverlayTrigger" data-overlayOptions="{&quot;fixed&quot;:false}"'}>{xen:phrase contact_us}</a></li>
+				</xen:if>
+				<li><a href="{xen:link help}">{xen:phrase help}</a></li>
+				<xen:if is="{$homeLink}"><li><a href="{$homeLink}" class="homeLink">{xen:phrase home}</a></li></xen:if>
+				<li><a href="{$requestPaths.requestUri}#navigation" class="topLink">{xen:phrase go_to_top}</a></li>
+				<li><a href="{xen:link forums/-/index.rss}" rel="alternate" class="globalFeed" target="_blank"
+					title="{xen:phrase rss_feed_for_x, 'title={$xenOptions.boardTitle}'}">{xen:phrase rss}</a></li>
+			</xen:hook>
+			</ul>
+			
+			<span class="helper"></span>
+		</div>
+	</div>
+</div>
+<div id="newfoot">
+<div class="footerLegal">
+	<div class="pageWidth">
+		<div class="pageContent">
+			<ul id="legal">
+			<xen:hook name="footer_links_legal">
+				<xen:if is="{$tosUrl}"><li><a href="{$tosUrl}">{xen:phrase terms_and_rules}</a></li></xen:if>
+				<xen:if is="{$xenOptions.privacyPolicyUrl}"><li><a href="{$xenOptions.privacyPolicyUrl}">{xen:phrase privacy_policy}</a></li></xen:if>
+			</xen:hook>
+			</ul>
+			
+			<div id="copyright">{xen:helper copyright} {xen:phrase extra_copyright} | <a href="http://www.bluepearl-skins.com" class="concealed">XenForo Skins by Bluepearl Skins</a></div>
+			<xen:hook name="footer_after_copyright" />
+		
+			<xen:if is="{$debugMode}">
+				<xen:if hascontent="true">
+					<dl class="pairsInline debugInfo" title="{$controllerName}-&gt;{$controllerAction}{xen:if $viewName, ' ({$viewName})'}">
+					<xen:contentcheck>
+						<xen:if is="{$page_time}"><dt>{xen:phrase timing}:</dt> <dd><a href="{$debug_url}" rel="nofollow">{xen:phrase x_seconds, 'time={xen:number $page_time, 4}'}</a></dd></xen:if>
+						<xen:if is="{$memory_usage}"><dt>{xen:phrase memory}:</dt> <dd>{xen:phrase x_mb, 'size={xen:number {xen:calc "{$memory_usage} / 1024 / 1024"}, 3}'}</dd></xen:if>
+						<xen:if is="{$db_queries}"><dt>{xen:phrase db_queries}:</dt> <dd>{xen:number {$db_queries}}</dd></xen:if>
+					</xen:contentcheck>
+					</dl>
+				</xen:if>
+			</xen:if>
+			
+			<span class="helper"></span>
+		</div>
+	</div>	
+</div>
+</div>
+</xen:hook>]]></template>
+    <template title="form_date_picker.css" addon_id="XenForo" version_id="1020070" version_string="1.2.0" disable_modifications="0"><![CDATA[#calroot
+{
+	margin-top: -1px;
+	width: 198px;
+	padding: 2px;
+	background-color: #1a1a1a;
+	font-size: 11px;
+	border: 1px solid #202020;
+	border-radius: 5px;
+	box-shadow: 0 0 15px #000;
+	z-index: 7500;
+}
+
+#calhead
+{	
+	padding: 2px 0;
+	height: 22px;
+} 
+
+	#caltitle {
+		font-size: 11pt;
+		color: #fff;
+		float: left;
+		text-align: center;
+		width: 155px;
+		line-height: 20px;
+	}
+	
+	#calnext, #calprev {
+		display: block;
+		width: 20px;
+		height: 20px;
+		font-size: 11pt;
+		line-height: 20px;
+		text-align: center;
+		float: left;
+		cursor: pointer;
+	}
+
+	#calnext {
+		float: right;
+	}
+
+	#calprev.caldisabled, #calnext.caldisabled {
+		visibility: hidden;	
+	}
+
+#caldays {
+	height: 14px;
+	border-bottom: 1px solid {xen:property primaryLightish};
+}
+
+	#caldays span {
+		display: block;
+		float: left;
+		width: 28px;
+		text-align: center;
+		color: {xen:property primaryLightish};
+	}
+
+#calweeks {
+	margin-top: 4px;
+}
+
+.calweek {
+	clear: left;
+	height: 22px;
+}
+
+	.calweek a {
+		display: block;
+		float: left;
+		width: 27px;
+		height: 20px;
+		text-decoration: none;
+		font-size: 11px;
+		margin-left: 1px;
+		text-align: center;
+		line-height: 20px;
+		border-radius: 3px;
+	} 
+	
+		.calweek a:hover, .calfocus {
+			background-color: #000;
+		}
+
+a.caloff {
+	color: {xen:property mutedTextColor};		
+}
+
+a.caloff:hover {
+	background-color: #202020;		
+}
+
+a.caldisabled {
+	background-color: #efefef !important;
+	color: #ccc	!important;
+	cursor: default;
+}
+
+#caltoday {
+	font-weight: bold;
+}
+
+#calcurrent {
+	background-color: #202020;
+	color: #fff;
+}]]></template>
+    <template title="help_bb_codes.css" addon_id="XenForo" version_id="1020070" version_string="1.2.0" disable_modifications="0"><![CDATA[.bbCode
+{
+	overflow: hidden; zoom: 1;
+}
+	
+	.bbCode .title
+	{
+		font-size: 12pt;
+		font-weight: bold;
+	}
+	
+	.bbCode .title .option
+	{
+		color: {xen:property primaryLightish};
+	}
+
+	.bbCode .description
+	{
+		padding-top: 5px;
+		font-size: 10pt;
+	}
+	
+	.bbCode .description .option
+	{
+		color: {xen:property primaryLightish};
+	}
+	
+	.bbCode > dl
+	{
+		width: 48.99%;
+		_width: 48%;
+		margin-left: 1%;
+		float: left;
+		margin-top: 10px;
+	}
+	
+	.bbCode > dl > dt
+	{
+		font-size: 10pt;
+		color: {xen:property primaryLightish};
+	}
+
+	.bbCode > dl > dd
+	{
+		border: 1px solid #000;
+		border-radius: 5px;
+		background: #202020;
+		padding: 5px;
+		zoom: 1;
+	}
+
+<xen:if is="{xen:property enableResponsive}">
+@media (max-width:{xen:property maxResponsiveMediumWidth})
+{
+	.Responsive .bbCode > dl
+	{
+		width: auto;
+		float: none;
+	}
+}
+</xen:if>]]></template>
+    <template title="help_smilies.css" addon_id="XenForo" version_id="1000053" version_string="1.0.0 Release Candidate 3" disable_modifications="0"><![CDATA[.smilieList .smilieTextContainer
+{
+	display: inline-block;
+}
+
+	.smilieList .smilieText
+	{
+		display: inline-block;
+		height: 18px;
+		line-height: 18px;
+		min-width: 16px;
+		padding: 0 1px;
+		text-align: center;
+		
+		background-color: #202020;
+		border: 1px solid #000000;
+		color: #fff;
+		border-radius: 5px;
+		
+		font-size: 11px;
+		
+		cursor: default;
+	}
+	
+		.smilieList .smilieText:hover
+		{
+			background-color: #000;
+			border-color: #202020;
+			color: #fff;
+		}
+	
+		.smilieList .smilieTextRotator90:hover .smilieText
+		{
+			transform: rotate(90deg);
+		}
+		
+		.smilieList .smilieTextRotator270:hover .smilieText
+		{
+			transform: rotate(270deg);
+		}]]></template>
+    <template title="inline_mod.css" addon_id="XenForo" version_id="1020070" version_string="1.2.0" disable_modifications="0"><![CDATA[/* Inline Moderation Floater */
+
+.sectionFooter #InlineModControls
+{
+	float: right;
+}
+
+.hasJs #InlineModControls,
+.hasJs .InlineMod.Hide
+{
+	display:none;
+}
+	
+	.sectionFooter #InlineModControls .selectionControl
+	{
+		display: none;
+	}
+	
+	.sectionFooter #InlineModControls .InlineModCheckedTotal
+	{
+		font-weight: bold;
+	}
+	
+	.sectionFooter .SelectionCount
+	{
+		float: right;
+	}
+
+/* inline mod overlay */
+
+#InlineModOverlay
+{
+	display: none;
+	z-index: 10000;
+	border: 1px solid #000;
+	box-shadow: 0px 25px 50px #000;
+	max-width: 460px;
+	width: 99%;
+}
+
+.Touch #InlineModOverlay
+{
+	box-shadow: none;
+}
+
+#InlineModOverlay .selectionControl
+{
+	display: block;
+	overflow: hidden; zoom: 1;
+	font-size: 11px;
+	padding: 5px 10px;
+	line-height: 23px;
+}
+
+	#InlineModOverlay .selectionControl .button
+	{
+		font-size: 9px;
+	}
+	
+		#InlineModOverlay .SelectionCount
+		{
+			margin-left: 10px;
+		}
+	
+		#InlineModOverlay .SelectionCount:hover
+		{
+			text-decoration: none;
+		}
+	
+			#InlineModOverlay .SelectionCount .InlineModCheckedTotal
+			{
+				font-weight: bold;
+			}
+	
+	#InlineModOverlay label
+	{
+		float: right;
+	}
+
+#InlineModOverlay .actionControl
+{
+	overflow: hidden; zoom: 1;
+	display: block;
+	padding: 2px 10px;
+}
+
+	#InlineModOverlay .actionControl .commonActions
+	{
+		float: left;
+	}
+	
+	#InlineModOverlay .actionControl .otherActions
+	{
+		float: right;
+	}
+
+		#InlineModOverlay #ModerationSelect
+		{
+			width: 180px;
+		}
+		
+/* inline moderation checkbox */
+
+.inlineModCheckTip .arrow
+{
+	/*position: absolute;
+	top: auto;
+	left: 8px;
+	bottom: -6px;
+	
+	border-top: 6px solid {xen:property tooltipBackground};	
+	border-right: 6px solid transparent;
+	border-bottom: none;
+	border-left: 6px solid transparent;*/
+}
+
+/* inline control group */
+
+.inlineCtrlGroup
+{
+	background: rgb(150,150,150) url('{xen:property imagePath}/xenforo/gradients/thread-modctrls-30px-dark.png') repeat-x top;
+	color: white;
+	font-size: 11px;
+}
+
+	.inlineCtrlGroup .textCtrl
+	{
+		padding: 3px;
+		background-color: #555;
+		color: #eee;
+		border: 1px solid #000;
+		border-radius: 5px;
+		font-size: 11px;
+	}
+	
+		.inlineCtrlGroup .textCtrl:focus,
+		.inlineCtrlGroup .textCtrl.Focus
+		{
+			background: #333;
+			color: white;
+		}
+	
+/* selection count thingies */
+
+.SelectionCount .InlineModCheckedTotal
+{
+	font-weight: bold;
+}
+
+.SelectionCount.cloned.itemsChecked
+{
+	color: red;
+}
+
+/* InlineMod Generic Selected Items */
+
+.InlineModChecked .section,
+.InlineModChecked .sectionMain,
+.InlineModChecked .primaryContent,
+.InlineModChecked .secondaryContent,
+.InlineModChecked .sectionFooter
+{
+	{xen:property inlineModChecked}
+}
+
+<xen:if is="{xen:property enableResponsive}">
+@media (max-width:{xen:property maxResponsiveNarrowWidth})
+{
+	.Responsive #InlineModOverlay .commonActions,
+	.Responsive #InlineModOverlay .otherActions
+	{
+		float: none;
+		display: block;
+	}
+}
+</xen:if>]]></template>
+    <template title="member_list.css" addon_id="XenForo" version_id="1020070" version_string="1.2.0" disable_modifications="0"><![CDATA[.member_list .memberList,
+.search_results_users_only .memberList
+{
+	border-top: 1px solid #000;
+}
+	
+.findMember .textCtrl
+{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	*width: 95%;
+}]]></template>
+    <template title="member_view.css" addon_id="XenForo" version_id="1040170" version_string="1.4.1" disable_modifications="0"><![CDATA[.profilePage
+{
+	{xen:property profilePage}
+}
+
+{xen:helper clearfix, '.profilePage'}
+
+.profilePage .mast
+{
+	float: left;
+	width: {xen:property profilePageSidebarWidth};
+	padding-right: 10px;
+	border-right: 1px solid #000;
+}
+
+.profilePage .mainProfileColumn
+{
+	margin-left: {xen:calc '{xen:property profilePageSidebarWidth} + 10'}px;
+	border-left: 1px solid #000;
+	zoom: 1;
+}
+
+/** ************************ **/
+
+.profilePage .mast .section
+{
+}
+	
+	.profilePage .mast .sectionFooter
+	{
+		border-left: 1px solid #000;
+		border-right: 1px solid #000;
+		text-align: right;
+	}
+
+/** ************************ **/
+
+.profilePage .mast .followBlocks .section
+{
+	margin-bottom: 20px;
+}
+
+.profilePage .mast .followBlocks .primaryContent.avatarHeap
+{
+	border: 1px solid #000;
+	border-top: none;
+}
+
+/** ************************ **/
+
+.profilePage .mast .section.infoBlock
+{
+	{xen:property profilePageSidebarInfoBlock}
+}
+
+	.profilePage .mast .section.infoBlock .primaryContent,
+	.profilePage .mast .section.infoBlock .secondaryContent
+	{
+		overflow: hidden;
+	}
+
+	.profilePage .mast .section.infoBlock .primaryContent:last-child,
+	.profilePage .mast .section.infoBlock .secondaryContent:last-child
+	{
+		border: none;
+	}
+
+	.profilePage .infoBlock dt
+	{
+		{xen:property profilePageSidebarInfoBlockDt}
+	}
+
+	.profilePage .infoBlock dd
+	{
+		{xen:property profilePageSidebarInfoBlockDd}
+	}
+
+	.profilePage .infoBlock .dob,
+	.profilePage .infoBlock .age
+	{
+		white-space: nowrap;
+	}
+	
+	.profilePage .mast .shareControl
+	{
+		margin-top: 10px;
+	}
+	
+	.profilePage .mast .sharePage iframe
+	{
+		width: 160px;
+		height: 20px;
+	}
+
+/* ***************************** */
+/** [ Items...........(count) ] **/
+
+.textWithCount
+{
+	overflow: hidden; zoom: 1;
+}
+
+	.textWithCount .text
+	{
+		float: left;
+	}
+
+	.textWithCount .count
+	{
+		float: right;
+	}
+	
+		.textWithCount.subHeading .text
+		{		
+			color: {xen:property secondaryDarker};
+		}
+		
+		.textWithCount.subHeading .count
+		{
+			margin: -3px 0;
+			padding: 2px 6px;
+			border-radius: 5px;
+			border: 1px solid #000;
+			background-color: {xen:property secondaryLightest};
+			color: {xen:property secondaryDarker};
+		}
+
+/** ************************ **/
+
+.profilePage .primaryUserBlock
+{
+	border-top: 1px solid #000;
+}
+
+.profilePage .primaryUserBlock .mainText
+{
+	padding-bottom: {xen:calc '{xen:property profilePageTabHeight} + 14'}px;
+}
+
+	.profilePage .primaryUserBlock .followBlock
+	{
+		float: right;
+		font-size: 11px;
+		text-align: right;
+	}
+	
+		.profilePage .primaryUserBlock .followBlock li
+		{
+			float: right;
+			margin-left: 10px;
+		}
+	
+		.profilePage .primaryUserBlock .followBlock .muted
+		{
+			font-size: 10px;
+			clear: both;
+		}
+
+	.profilePage .primaryUserBlock h1
+	{
+		{xen:property profilePageUsername}
+	}
+
+	.profilePage .primaryUserBlock .userBlurb
+	{
+		margin-bottom: 5px;
+	}
+	
+	.profilePage .primaryUserBlock .userBanners .userBanner
+	{
+		display: inline-block;
+		margin-bottom: 5px;
+	}
+	
+	.profilePage .primaryUserBlock .userStatus
+	{
+		{xen:property messageText}
+		
+		{xen:property profilePageUserStatus}
+	}
+	
+	.profilePage .primaryUserBlock .lastActivity
+	{
+		{xen:property profilePageLastActivityText}
+	}
+	
+		.profilePage .primaryUserBlock .userStatus .DateTime
+		{
+			color: {xen:property mutedTextColor};
+			font-size: 10px;
+		}
+	
+	.profilePage .primaryUserBlock .primaryContent,
+	.profilePage .primaryUserBlock .secondaryContent
+	{
+		padding-left: {xen:property profilePageTabInset};
+		border: none;
+	}
+	
+.profilePage .moderatorToolsPopup.Popup .PopupControl.PopupOpen
+{
+	background-image: none;
+}
+
+.profilePage .tabs.mainTabs
+{
+	padding: 0 {xen:property profilePageTabInset};	
+	margin-top: -{xen:calc '{xen:property profilePageTabHeight} + 1'}px;
+	min-height: {xen:calc '{xen:property profilePageTabHeight} + 1'}px;
+	height: auto;
+	position: relative; /* ensure separate stacking context from .mainText */
+	background: {xen:property secondaryContent.background-color};
+}
+
+	.profilePage .tabs.mainTabs li a
+	{
+		padding-left: {xen:property profilePageTabHeight};
+		padding-right: {xen:property profilePageTabHeight};		
+		line-height: {xen:property profilePageTabHeight};
+		height: {xen:property profilePageTabHeight};
+		
+		{xen:property profilePageTab}	
+	}
+	
+		.profilePage .tabs.mainTabs li a:hover
+		{
+			{xen:property profilePageTabHover}
+		}
+	
+	.profilePage .tabs.mainTabs li.active a
+	{
+		{xen:property profilePageTabSelected}
+	}
+
+.profilePage .profileContent
+{
+	margin-left: {xen:property profilePageTabInset};
+}
+
+	.profilePage .profilePoster
+	{
+		padding-bottom: 10px;
+		position: relative;
+	}
+	
+		.profilePage .profilePoster textarea
+		{
+			height: 54px;
+			width: 100%;
+			box-sizing: border-box;
+			*width: 98%;
+			resize: vertical;
+		}
+		
+		.profilePage .profilePoster .submitUnit
+		{
+			margin-top: 5px;
+			text-align: right;
+		}
+
+.profilePage .profileContent .InlineMod
+{
+	overflow: hidden; zoom: 1;
+	
+}
+
+.contactInfo,
+.aboutPairs
+{
+	max-width: 500px;
+}
+
+	.contactInfo dl,
+	.aboutPairs dl
+	{
+		margin-bottom: 5px;
+	}
+	
+	.contactInfo dt,
+	.aboutPairs dt
+	{
+		width: 30%;
+	}
+	
+	.contactInfo dd,
+	.aboutPairs dd
+	{
+		width: 68%;
+	}
+
+.aboutPairs
+{
+	margin-bottom: 1em;
+}
+
+.signature
+{
+	{xen:property messageText}
+	
+	/*border: 1px solid #000;
+	padding: 10px;*/
+}
+
+.profilePage .eventList li
+{
+	padding-left: 0;
+}
+
+.profilePage .eventList:first-of-type li:first-child
+{
+	padding-top: 0;
+}
+
+.profilePage .searchResult:first-child
+{
+	margin-top: -5px;
+}
+
+<xen:if is="{xen:property enableResponsive}">
+@media (max-width:{xen:property maxResponsiveMediumWidth})
+{
+	.Responsive .profilePage
+	{
+		display: table;
+		table-layout: fixed;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.Responsive .profilePage .mast
+	{
+		display: table-footer-group;
+		
+		float: none;
+		padding-right: 0;
+		border-right: none;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+
+	.Responsive .profilePage .avatarScaler
+	{
+		text-align: center;
+	}
+
+	.Responsive .profilePage .mast .sharePage
+	{
+		display: none;
+	}
+
+	.Responsive .profilePage .profileContent
+	{
+		margin-left: 0;
+	}
+
+	.Responsive .profilePage .mainProfileColumn
+	{
+		display: table-header-group;
+
+		margin-left: 0;
+		border-left: none;
+		border-bottom: 1px solid {xen:property primaryLighter};
+		padding-bottom: 10px;
+	}
+
+	.Responsive .profilePage .mast > *
+	{
+		max-width: 192px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media (max-width:{xen:property maxResponsiveNarrowWidth})
+{
+	.Responsive .warningList .warningExpiry
+	{
+		display: none;
+	}
+}
+
+@media (max-width:340px)
+{
+	.Responsive .profilePage .mast > *
+	{
+		max-width: none;
+	}
+}
+</xen:if>]]></template>
+    <template title="moderator_bar.css" addon_id="XenForo" version_id="1020070" version_string="1.2.0" disable_modifications="0"><![CDATA[#moderatorBar
+{
+	background-color: #000;
+	border-bottom: 1px solid #202020;	
+	font-size: 11px;
+}
+
+/*#moderatorBar
+{
+	box-shadow: 0 0 5px #000;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 100;
+}
+
+body
+{
+	padding-top: 25px;
+}*/
+
+{xen:helper clearfix, '#moderatorBar'}
+
+#moderatorBar .pageContent
+{
+	padding: 2px 0;
+	overflow: auto;
+}
+
+#moderatorBar a
+{
+	display: inline-block;
+	padding: 2px 10px;
+	border-radius: 3px;
+}
+
+#moderatorBar a,
+#moderatorBar .itemCount
+{
+	color: #fff;
+}
+
+	#moderatorBar a:hover
+	{
+		text-decoration: none;
+		background-color: #202020;
+		color: #fff;
+	}
+
+/* TODO: maybe sort out the vertical alignment of the counters so they they are properly centered */
+
+#moderatorBar .itemLabel,
+#moderatorBar .itemCount
+{
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+}
+
+#moderatorBar .itemCount
+{	
+	background: #202020;
+	padding-left: 6px;
+	padding-right: 6px;
+	
+	text-align: center;
+	
+	font-weight: bold;
+	
+	border-radius: 2px;
+	text-shadow: none;
+}
+
+	#moderatorBar .itemCount.alert
+	{
+		background: #e03030;
+		color: white;
+		box-shadow: 2px 2px 5px rgba(0,0,0, 0.25);
+	}
+	
+#moderatorBar .adminLink
+{
+	float: right;
+}
+
+#moderatorBar .permissionTest,
+#moderatorBar .permissionTest:hover
+{
+	background: #e03030;
+	color: white;
+	box-shadow: 2px 2px 5px rgba(0,0,0, 0.25);
+	font-weight: bold;
+}]]></template>
+    <template title="navigation.css" addon_id="XenForo" version_id="1040570" version_string="1.4.5" disable_modifications="0"><![CDATA[#navigation .pageContent
+{
+	height: {xen:calc '{xen:property headerTabHeight} * 2 + 2'}px;
+	position: relative;
+}
+
+#navigation .menuIcon
+{
+	position: relative;
+	font-size:18px;
+	width: .9em;
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+#navigation .PopupOpen .menuIcon:before,
+#navigation .navLink .menuIcon:before
+{
+	zoom: 1;
+}
+
+#navigation .menuIcon:before
+{
+	content: "";
+	font-size: 18px;
+	position: absolute;
+	/*top: 0.4em;*/
+	top: {xen:calc 'round(-0.31 + 0.029 * {xen:property headerTabHeight}, 1)'}em;
+	left: 0;
+	width: .9em;
+	height: 0.125em;
+	border-top: 0.375em double currentColor;
+	border-bottom: 0.125em solid currentColor;
+}
+
+	.navTabs
+	{
+		{xen:property navTabs}
+		
+		height: {xen:property headerTabHeight};
+	}
+	
+		.navTabs .publicTabs
+		{
+			float: left;
+		}
+		
+		.navTabs .visitorTabs
+		{
+			float: right;
+		}
+	
+			.navTabs .navTab
+			{
+				float: left;
+				white-space: nowrap;
+				word-wrap: normal;
+				
+				<xen:if is="{$pageIsRtl}">*display: inline; *float: none; *zoom: 1;</xen:if>
+			}
+
+
+/* ---------------------------------------- */
+/* Links Inside Tabs */
+
+.navTabs .navLink,
+.navTabs .SplitCtrl
+{
+	{xen:property navLink}
+	
+	<xen:if is="{$pageIsRtl}">*float: none; *display: inline; *zoom: 1;</xen:if>
+	
+	height: {xen:property headerTabHeight};
+	line-height: {xen:property headerTabHeight};
+}
+
+	.navTabs .publicTabs .navLink
+	{
+		padding: 0 15px;
+	}
+	
+	.navTabs .visitorTabs .navLink
+	{
+		padding: 0 10px;
+	}
+	
+	.navTabs .navLink:hover
+	{
+		text-decoration: none;
+	}
+	
+	/* ---------------------------------------- */
+	/* unselected tab, popup closed */
+
+	.navTabs .navTab.PopupClosed
+	{
+		position: relative;
+	}
+	
+	.navTabs .navTab.PopupClosed .navLink
+	{
+		color: {xen:property primaryLighter};
+	}
+	
+		.navTabs .navTab.PopupClosed:hover
+		{
+			background-color: {xen:property primaryMedium};
+		}
+		
+			.navTabs .navTab.PopupClosed .navLink:hover
+			{
+				color: {xen:property textCtrlBackground};
+			}
+		
+	.navTabs .navTab.PopupClosed .arrowWidget
+	{
+		/* circle-arrow-down-light */
+		background-position: -64px 0;
+	}
+	
+	.navTabs .navTab.PopupClosed .SplitCtrl
+	{
+		margin-left: -14px;
+		width: 14px;
+	}
+		
+		.navTabs .navTab.PopupClosed:hover .SplitCtrl
+		{
+			/* nav_menu_gadget, height: 17px */
+			background: transparent url('{xen:property imagePath}/xenforo/xenforo-ui-sprite.png') no-repeat -128px {xen:calc '({xen:property headerTabHeight} - 17) / 2 + 1'}px;
+		}
+	
+	/* ---------------------------------------- */
+	/* selected tab */
+
+	.navTabs .navTab.selected .navLink
+	{
+		position: relative;
+		{xen:property navTabSelected}
+	}
+	
+	.navTabs .navTab.selected .SplitCtrl
+	{
+		display: none;
+	}
+	
+	.navTabs .navTab.selected .arrowWidget
+	{
+		/* circle-arrow-down */
+		background-position: -32px 0;
+	}
+	
+		.navTabs .navTab.selected.PopupOpen .arrowWidget
+		{
+			/* circle-arrow-up */
+			background-position: -16px 0;
+		}
+	
+	/* ---------------------------------------- */
+	/* unselected tab, popup open */
+	
+	.navTabs .navTab.PopupOpen .navLink
+	{
+	}
+	
+	
+	/* ---------------------------------------- */
+	/* selected tab, popup open (account) */
+	
+	.navTabs .navTab.selected.PopupOpen .navLink
+	{
+		{xen:property popupControl}
+	}
+	
+/* ---------------------------------------- */
+/* Second Row */
+
+.navTabs .navTab.selected .tabLinks
+{
+	{xen:property navTabSelected.background}
+	
+	width: 100%;	
+	padding: 0;
+	border: none;
+	overflow: hidden; zoom: 1;	
+	position: absolute;
+	left: 0px;	
+	top: {xen:calc '{xen:property headerTabHeight} + 2'}px;
+	height: {xen:property headerTabHeight};
+	background-position: 0px -{xen:property headerTabHeight};
+	*clear:expression(style.width = document.getElementById('navigation').offsetWidth + 'px', style.clear = "none", 0);
+}
+
+	.navTabs .navTab.selected .blockLinksList
+	{
+		background: none;
+		padding: 0;
+		border: none;
+		margin-left: 8px;
+	}
+
+	.withSearch .navTabs .navTab.selected .blockLinksList
+	{
+		margin-right: 275px;
+	}
+
+	.navTabs .navTab.selected .tabLinks .menuHeader
+	{
+		display: none;
+	}
+	
+	.navTabs .navTab.selected .tabLinks li
+	{
+		float: left;
+		padding: 2px 0;
+	}
+	
+		.navTabs .navTab.selected .tabLinks a
+		{
+			{xen:property navTabLink}
+			
+			line-height: {xen:calc '{xen:property headerTabHeight} - 6'}px;
+		}
+		
+		.navTabs .navTab.selected .tabLinks .PopupOpen a
+		{
+			color: inherit;
+			text-shadow: none;
+		}
+		
+			.navTabs .navTab.selected .tabLinks a:hover,
+			.navTabs .navTab.selected .tabLinks a:focus
+			{
+				{xen:property navTabLinkHover}
+			}
+			
+			.navTabs .navTab.selected .tabLinks .Popup a:hover,
+			.navTabs .navTab.selected .tabLinks .Popup a:focus
+			{
+				color: inherit;
+				background: none;
+				border-color: transparent;
+				border-radius: 0;
+				text-shadow: none;
+			}
+	
+/* ---------------------------------------- */
+/* Alert Balloons */
+	
+.navTabs .navLink .itemCount
+{
+	{xen:property alertBalloon}
+}
+
+	.navTabs .navLink .itemCount .arrow
+	{
+		{xen:property alertBalloonArrow}
+	}
+	
+.navTabs .navLink .itemCount.Zero
+{
+	display: none;
+}
+
+.navTabs .navLink .itemCount.ResponsiveOnly
+{
+	display: none !important;
+}
+
+.NoResponsive #VisitorExtraMenu_Counter,
+.NoResponsive #VisitorExtraMenu_ConversationsCounter,
+.NoResponsive #VisitorExtraMenu_AlertsCounter
+{
+	display: none !important;
+}
+	
+/* ---------------------------------------- */
+/* Account Popup Menu */
+
+.navTabs .navTab.account .navLink
+{
+	font-weight: bold;
+}
+
+	.navTabs .navTab.account .navLink .accountUsername
+	{
+		display: block;
+		max-width: 100px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+#AccountMenu
+{
+	width: 276px;
+}
+
+#AccountMenu .menuHeader
+{
+	position: relative;
+}
+
+	#AccountMenu .menuHeader .avatar
+	{
+		float: left;
+		margin-right: 10px;
+	}
+
+	#AccountMenu .menuHeader .visibilityForm
+	{
+		margin-top: 10px;
+		color: {xen:property primaryMedium};
+	}
+	
+	#AccountMenu .menuHeader .links .fl
+	{
+		position: absolute;
+		bottom: 10px;
+		left: {xen:calc '10 + 10 + 96'}px;
+	}
+
+	#AccountMenu .menuHeader .links .fr
+	{
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+	}
+	
+#AccountMenu .menuColumns
+{
+	overflow: hidden; zoom: 1;
+	padding: 2px;
+}
+
+	#AccountMenu .menuColumns ul
+	{
+		float: left;
+		padding: 0;
+		max-height: none;
+		overflow: hidden;
+	}
+
+		#AccountMenu .menuColumns a,
+		#AccountMenu .menuColumns label
+		{
+			width: 115px;
+		}
+
+#AccountMenu .statusPoster textarea
+{
+	width: 245px;
+	margin: 0;
+	resize: vertical;
+	overflow: hidden;
+}
+
+#AccountMenu .statusPoster .submitUnit
+{
+	margin-top: 5px;
+	text-align: right;
+}
+
+	#AccountMenu .statusPoster .submitUnit .statusEditorCounter
+	{
+		float: left;
+		line-height: 23px;
+		height: 23px;
+	}
+	
+/* ---------------------------------------- */
+/* Inbox, Alerts Popups */
+
+.navPopup
+{
+	width: 260px;
+}
+
+.navPopup a:hover,
+.navPopup .listItemText a:hover
+{
+	background: none;
+	text-decoration: underline;
+}
+
+	.navPopup .menuHeader .InProgress
+	{
+		float: right;
+		display: block;
+		width: 20px;
+		height: 20px;
+	}
+
+.navPopup .listPlaceholder
+{
+	max-height: 350px;
+	overflow: auto;
+}
+
+	.navPopup .listPlaceholder ol.secondaryContent
+	{
+		padding: 0 10px;
+	}
+
+		.navPopup .listPlaceholder ol.secondaryContent.Unread
+		{
+			background-color: {xen:property inlineModChecked.background-color};
+		}
+
+.navPopup .listItem
+{
+	overflow: hidden; zoom: 1;
+	padding: 5px 0;
+	border-bottom: 1px solid {xen:property primaryLighterStill};
+}
+
+.navPopup .listItem:last-child
+{
+	border-bottom: none;
+}
+
+.navPopup .PopupItemLinkActive:hover
+{
+	margin: 0 -8px;
+	padding: 5px 8px;
+	border-radius: 5px;
+	background-color: {xen:property primaryLighterStill};
+	cursor: pointer;
+}
+
+.navPopup .avatar
+{
+	float: left;
+}
+
+	.navPopup .avatar img
+	{
+		width: 32px;
+		height: 32px;
+	}
+
+.navPopup .listItemText
+{
+	margin-left: 37px;
+}
+
+	.navPopup .listItemText .muted
+	{
+		font-size: 9px;
+	}
+
+	.navPopup .unread .listItemText .title,
+	.navPopup .listItemText .subject
+	{
+		font-weight: bold;
+	}
+
+.navPopup .sectionFooter .floatLink
+{
+	float: right;
+}
+
+<xen:if is="{xen:property enableResponsive}">
+@media (max-width:{xen:property maxResponsiveMediumWidth})
+{
+	.Responsive .navTabs
+	{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.Responsive .withSearch .navTabs .navTab.selected .blockLinksList
+	{
+		margin-right: 50px;
+	}
+}
+
+@media (max-width:{xen:property maxResponsiveNarrowWidth})
+{
+	.Responsive.hasJs .navTabs:not(.showAll) .publicTabs .navTab:not(.selected):not(.navigationHiddenTabs)
+	{
+		display: none;
+	}
+}
+</xen:if>]]></template>
+    <template title="PAGE_CONTAINER" addon_id="XenForo" version_id="1040570" version_string="1.4.5" disable_modifications="0"><![CDATA[<!DOCTYPE html><xen:set var="$isResponsive" value="{xen:if '{xen:property enableResponsive} AND !{$noResponsive}', 1, 0}" />
+<html id="XenForo" lang="{$visitorLanguage.language_code}" dir="{$visitorLanguage.text_direction}" class="Public NoJs {xen:if {$visitor.user_id}, 'LoggedIn', 'LoggedOut'} {xen:if {$sidebar}, 'Sidebar', 'NoSidebar'} {xen:if $hasAutoDeferred, RunDeferred} {xen:if $isResponsive, Responsive, NoResponsive}" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<xen:hook name="page_container_head">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	<xen:if is="{$isResponsive}">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</xen:if>
+	<xen:if is="{$requestPaths.fullBasePath}">
+		<base href="{$requestPaths.fullBasePath}" />
+		<script><xen:comment>/* Chrome bug and for Google cache */</xen:comment>
+			var _b = document.getElementsByTagName('base')[0], _bH = "{xen:jsescape $requestPaths.fullBasePath}";
+			if (_b && _b.href != _bH) _b.href = _bH;
+		</script>
+	</xen:if>
+
+	<title><xen:if is="{$title}">{xen:raw $title} | {$xenOptions.boardTitle}<xen:else />{$xenOptions.boardTitle}</xen:if></title>
+	
+	<noscript><style>.JsOnly, .jsOnly { display: none !important; }</style></noscript>
+	<link rel="stylesheet" href="css.php?css=xenforo,form,public&amp;style={xen:urlencode $_styleId}&amp;dir={$visitorLanguage.text_direction}&amp;d={$visitorStyle.last_modified_date}" />
+	<!--XenForo_Require:CSS-->	
+	{xen:helper ignoredCss, {$visitor.ignoredUsers}}
+
+	<xen:include template="google_analytics" />
+	<xen:include template="page_container_js_head" />
+	
+	<link rel="apple-touch-icon" href="{xen:helper fullurl, {xen:property ogLogoPath}, 1}" />
+	<link rel="alternate" type="application/rss+xml" title="{xen:phrase rss_feed_for_x, 'title={$xenOptions.boardTitle}'}" href="{xen:link forums/-/index.rss}" />
+	<xen:if is="{$pageDescription.content} AND !{$pageDescription.skipmeta} AND !{$head.description}"><meta name="description" content="{xen:string wordTrim, {xen:helper stripHtml, {xen:raw $pageDescription.content}}, 200}" /></xen:if>
+	<xen:if is="{$head}"><xen:foreach loop="$head" value="$headElement">{xen:raw $headElement}</xen:foreach></xen:if>
+</xen:hook>
+</head>
+
+<body{xen:if {$bodyClasses}, ' class="{$bodyClasses}"'}>
+<xen:hook name="body">
+
+<xen:if is="{$visitor.is_moderator} || {$visitor.is_admin}">
+	<xen:include template="moderator_bar" />
+<xen:elseif is="!{$visitor.user_id} && !{$hideLoginBar}" />
+	<xen:include template="login_bar" />
+</xen:if>
+<div id="darkbord">
+<div id="headerMover">
+	<div id="headerProxy"></div>
+
+<div id="content" class="{$contentTemplate}">
+	<div class="pageWidth">
+		<div class="pageContent">
+			<!-- main content area -->
+			
+			<xen:hook name="page_container_content_top" />
+			
+			<xen:if is="{$sidebar}">
+				<div class="mainContainer">
+					<div class="mainContent"></xen:if>
+						
+						<xen:include template="ad_above_top_breadcrumb" />
+						
+						<xen:hook name="page_container_breadcrumb_top">
+						<div class="breadBoxTop {xen:if $topctrl, withTopCtrl}">
+							<xen:if is="{$topctrl}"><div class="topCtrl">{xen:raw $topctrl}</div></xen:if>
+							<xen:include template="breadcrumb"><xen:set var="$microdata">1</xen:set></xen:include>
+						</div>
+						</xen:hook>
+						
+						<xen:include template="ad_below_top_breadcrumb" />
+					
+						<!--[if lt IE 8]>
+							<p class="importantMessage">{xen:phrase you_are_using_out_of_date_browser_upgrade}</p>
+						<![endif]-->
+
+						<xen:hook name="page_container_notices">
+						<xen:include template="notices" />						
+						</xen:hook>
+						
+						<xen:hook name="page_container_content_title_bar">
+						<xen:if is="!{$noH1}">						
+							<!-- h1 title, description -->
+							<div class="titleBar">
+								{xen:raw $beforeH1}
+								<h1><xen:if
+									is="{$h1}">{xen:raw $h1}<xen:elseif
+									is="{$title}" />{xen:raw $title}<xen:else
+									/>{$xenOptions.boardTitle}</xen:if></h1>
+								
+								<xen:if is="{$pageDescription.content}"><p id="pageDescription" class="muted {$pageDescription.class}">{xen:raw $pageDescription.content}</p></xen:if>
+							</div>
+						</xen:if>
+						</xen:hook>
+						
+						<xen:include template="ad_above_content" />
+						
+						<!-- main template -->
+						{xen:raw $contents}
+						
+						<xen:include template="ad_below_content" />
+						
+						<xen:if is="!{$visitor.user_id} && !{$hideLoginBar}">
+							<!-- login form, to be moved to the upper drop-down -->
+							<xen:include template="login_bar_form" />
+						</xen:if>
+						
+					<xen:if is="{$sidebar}"></div>
+				</div>
+				
+				<!-- sidebar -->
+				<aside>
+					<div class="sidebar">
+						<xen:hook name="page_container_sidebar">
+						<xen:include template="ad_sidebar_top" />
+						<xen:if is="!{$noVisitorPanel}"><xen:include template="sidebar_visitor_panel" /></xen:if>
+						{xen:raw $sidebar}
+						<xen:include template="ad_sidebar_bottom" />
+						</xen:hook>
+					</div>
+				</aside>
+			</xen:if>
+			
+			<xen:hook name="page_container_breadcrumb_bottom">			
+			<div class="breadBoxBottom"><xen:include template="breadcrumb" /></div>
+			</xen:hook>
+						
+			<xen:include template="ad_below_bottom_breadcrumb" />
+						
+		</div>
+	</div>
+</div>
+
+<header>
+	<xen:include template="header" />
+	<xen:edithint template="navigation" />
+	<xen:edithint template="search_bar" />
+</header>
+
+</div>
+
+<footer>
+	<xen:include template="footer" />
+</footer>
+</div> <!-- bpwrapper -->
+<xen:include template="page_container_js_body" />
+
+<xen:if is="{$isIndexPage} AND {$canSearch}">
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "WebSite",
+	"url": "{xen:jsescape {xen:link canonical:index}}",
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": "{xen:jsescape {xen:link canonical:search/search}}{xen:if $xenOptions.useFriendlyUrls, '?', '&'}keywords={search_keywords}",
+		"query-input": "required name=search_keywords"
+	}
+}
+</script>
+</xen:if>
+
+</xen:hook>
+</body>
+</html>]]></template>
+    <template title="polls.css" addon_id="XenForo" version_id="1040170" version_string="1.4.1" disable_modifications="0"><![CDATA[.pollBlock .pollContent
+{
+	max-width: 580px;
+	margin: 0 auto;
+	position: relative;
+	padding-left: 50px;
+}
+
+.pollBlock .questionMark
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #777;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 24pt;
+	font-family: Georgia;
+border: 1px solid #000;
+}
+
+.pollBlock .pollNotes
+{
+	font-size: 11px;
+}
+
+.pollBlock .question
+{
+	overflow: hidden; zoom: 1;
+}
+
+	.pollBlock .question .questionText
+	{
+		float: left;
+		font-size: 16pt;
+		color: #fff;
+	}
+
+	.pollBlock .question .editLink
+	{
+		font-size: 11px;
+		float: right;
+	}
+	
+	.pollBlock .question .closeDate
+	{
+		clear: both;
+		font-size: 11px;
+	}
+	
+.pollBlock .pollOptions,
+.pollBlock .pollResults
+{
+	width: 100%;
+	table-layout: fixed;
+	display: table;
+	margin: 5px 0;
+	padding: 5px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+	.pollBlock .pollOption label
+	{
+		display: block;
+		margin: 0 -10px;
+		padding: 5px 10px;
+	}
+	
+	.pollBlock .pollOption label:hover
+	{
+		background: {xen:property primaryLighterStill};
+		border-radius: 5px;
+	}
+
+.pollBlock .buttons
+{
+	text-align: right;
+	line-height: 27px;
+	display: table;
+	width: 100%;
+}
+	
+.pollBlock .buttons .button
+{
+	min-width: 120px;
+	_width: 120px;
+}
+
+	.pollBlock .buttons .pollNotes
+	{
+		float: left;
+		text-align: left;
+		line-height: 1.28;
+		margin-right: 5px;
+		margin-top: 5px;
+	}
+	
+.pollBlock .pollResult
+{
+	display: table-row;
+}
+
+.pollBlock .pollResult div,
+.pollBlock .pollResult h3
+{
+	display: table-cell;
+	padding: 5px 0;
+}
+	
+	.pollBlock .votedIconCell
+	{
+		width: 15px;
+		text-align: center;
+		vertical-align: top;
+	}
+	
+	.pollBlock .optionText,
+	.pollBlock .questionText
+	{
+		max-width: 100%;
+	}
+
+	.pollBlock .voted .optionText,
+	.pollBlock .voted .votedIconCell
+	{
+		font-weight: bold;
+	}
+
+	.pollBlock .pollResult .barCell
+	{
+		width: 100px;
+		padding: 0 0 0 10px;
+	}
+		
+		.pollResult .barContainer
+		{
+			height: 11px;
+			display: inline-block;
+			zoom: 1;
+			vertical-align: middle;
+			border: 1px solid {xen:property secondaryMedium};
+			max-width: 100px;
+			width: 100%;
+			box-sizing: border-box;
+			margin-right: 5px;
+			font-size: 1px;
+		}
+		
+			.pollResult .bar
+			{
+				background: {xen:property secondaryLighter};
+				height: 9px;
+				display: block;
+				zoom: 1;
+			}
+
+	.pollBlock .pollResult .count,
+	.pollBlock .pollResult .percentage
+	{
+		word-wrap: break-word;
+		text-align: right;
+		padding-left: 10px;
+	}
+	
+	.pollBlock .pollResult .count
+	{
+		width: 80px;
+	}
+	
+	.pollBlock .pollResult .percentage
+	{
+		width: 50px;
+	}
+
+.xenOverlay > .PollContainer > .section,
+.xenOverlay > .PollContainer > .sectionMain
+{
+	background: none;
+	margin: 0;
+}
+
+.overlayScroll.pollResultsOverlay 
+{
+	padding-right: 10px;
+}
+
+<xen:if is="{xen:property enableResponsive}">
+@media (max-width:{xen:property maxResponsiveNarrowWidth})
+{
+	.Responsive .pollBlock .pollResult .optionText
+	{
+		border-top: solid 1px {xen:property primaryLighterStill};
+	}
+	
+	.Responsive .pollBlock .pollResult:first-child .optionText
+	{
+		border-top: none;
+	}
+	
+	.Responsive .pollBlock .pollResult .optionText
+	{
+		display: block;
+	}
+	
+	.Responsive .pollBlock .pollResult .barCell
+	{
+		padding: 0;
+	}
+	
+	.Responsive .pollBlock .pollResult .barCell,
+	.Responsive .pollBlock .pollResult .count,
+	.Responsive .pollBlock .pollResult .percentage
+	{
+		display: inline-block;
+		font-size: 11px;
+	}
+}
+</xen:if>]]></template>
+    <template title="search_bar.css" addon_id="XenForo" version_id="1030170" version_string="1.3.1" disable_modifications="0"><![CDATA[#searchBar
+{
+	position: relative;
+	zoom: 1;
+	z-index: 52; /* higher than breadcrumb arrows */
+}
+
+	#QuickSearchPlaceholder
+	{
+		position: absolute;
+		right: 20px;
+		top: {xen:calc '-1 * ({xen:property headerTabHeight} / 2 + 16 / 2)'}px;
+		display: none;
+		border-radius: 5px;
+		cursor: pointer;
+		font-size: 11px;
+		height: 16px;
+		width: 16px;
+		box-sizing: border-box;
+		text-indent: -9999px;
+		background: transparent url('{xen:property imagePath}/xenforo/xenforo-ui-sprite.png') no-repeat -144px 0px;
+		overflow: hidden;
+	}
+
+	#QuickSearch
+	{
+		display: block;
+		
+		position: absolute;
+		right: 20px;
+		top: -18px;
+		
+		margin: 0;
+		
+		background-color: {xen:property content.background-color};
+		border-radius: 5px;
+		padding-top: 5px;
+		_padding-top: 3px;
+		z-index: 7500;
+	}
+			
+		#QuickSearch .secondaryControls
+		{
+			display: none;
+		}
+	
+		#QuickSearch.active
+		{
+			box-shadow: 5px 5px 25px rgba(0,0,0, 0.5);
+			padding-bottom: 5px;
+border: 1px solid #000;
+		}
+		
+	#QuickSearch .submitUnit .button
+	{
+		min-width: 0;
+	}
+		
+	#QuickSearch input.button.primary
+	{
+		float: left;
+		width: 110px;
+	}
+	
+	#QuickSearch #commonSearches
+	{
+		float: right;
+	}
+	
+		#QuickSearch #commonSearches .button
+		{
+			width: 23px;
+			padding: 0;
+		}
+		
+			#QuickSearch #commonSearches .arrowWidget
+			{
+				margin: 0;
+				float: left;
+				margin-left: 4px;
+				margin-top: 4px;
+			}
+	
+	#QuickSearch .moreOptions
+	{
+		display: block;
+		margin: 0 24px 0 110px;
+		width: auto;
+	}
+
+<xen:if is="{xen:property enableResponsive}">
+@media (max-width:{xen:property maxResponsiveMediumWidth})
+{
+	.Responsive #QuickSearchPlaceholder
+	{
+		display: block;
+	}
+
+	.Responsive #QuickSearchPlaceholder.hide
+	{
+		display: none;
+	}
+
+	.Responsive #QuickSearch
+	{
+		display: none;
+	}
+
+	.Responsive #QuickSearch.show
+	{
+		display: block;
+	}
+}
+</xen:if>]]></template>
+    <template title="user_banners.css" addon_id="XenForo" version_id="1020170" version_string="1.2.1" disable_modifications="0"><![CDATA[.userBanner
+{
+	font-size: 11px;
+	background: transparent url('{xen:property imagePath}/xenforo/gradients/form-button-white-25px.png') repeat-x top;
+	padding: 1px 5px;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	box-shadow: 1px 1px 3px rgba(0,0,0, 0.25);
+	text-align: center;
+}
+
+	.userBanner.wrapped
+	{
+		border-top-right-radius: 0;
+		border-top-left-radius: 0;
+		position: relative;
+	}
+		
+		.userBanner.wrapped span
+		{
+			position: absolute;
+			top: -4px;
+			width: 5px;
+			height: 4px;
+			background-color: inherit;
+		}
+		
+		.userBanner.wrapped span.before
+		{
+			border-top-left-radius: 3px;
+			left: -1px;
+		}
+		
+		.userBanner.wrapped span.after
+		{
+			border-top-right-radius: 3px;
+			right: -1px;
+		}
+		
+.userBanner.bannerHidden { background: none; box-shadow: none; border: none; }
+.userBanner.bannerHidden.wrapped { margin-left: 0; margin-right: 0; }
+.userBanner.bannerHidden.wrapped span { display: none; }
+
+.userBanner.bannerStaff { color: #fff; background: url('{xen:property imagePath}/xenforo/gradients/gradient1.png') repeat-x top; border-color: #565545; }
+.userBanner.bannerStaff.wrapped span { background-color: #565545; }
+
+.userBanner.bannerPrimary { color: {xen:property primaryMedium}; background-color: {xen:property primaryLighterStill}; border-color: {xen:property primaryLighter}; }
+.userBanner.bannerPrimary.wrapped span { background-color: {xen:property primaryLighter}; }
+
+.userBanner.bannerSecondary { color: {xen:property secondaryDark}; background-color: {xen:property secondaryLighter}; border-color: {xen:property secondaryLighter}; }
+.userBanner.bannerSecondary.wrapped span { background-color: {xen:property secondaryLighter}; }
+
+.userBanner.bannerRed        { color: white; background-color: red; border-color: #F88; }
+.userBanner.bannerRed.wrapped span { background-color: #F88; }
+
+.userBanner.bannerGreen      { color: white; background-color: green; border-color: green; }
+.userBanner.bannerGreen.wrapped span { background-color: green; }
+
+.userBanner.bannerOlive      { color: black; background-color: olive; border-color: olive; }
+.userBanner.bannerOlive.wrapped span { background-color: olive; }
+
+.userBanner.bannerLightGreen { color: black; background-color: lightgreen; border-color: lightgreen; }
+.userBanner.bannerLightGreen.wrapped span { background-color: lightgreen; }
+
+.userBanner.bannerBlue       { color: white; background-color: blue; border-color: #88F; }
+.userBanner.bannerBlue.wrapped span { background-color: #88F; }
+
+.userBanner.bannerRoyalBlue  { color: white; background-color: royalblue; border-color: #81A9E1;  }
+.userBanner.bannerRoyalBlue.wrapped span { background-color: #81A9E1; }
+
+.userBanner.bannerSkyBlue    { color: black; background-color: skyblue; border-color: skyblue; }
+.userBanner.bannerSkyBlue.wrapped span { background-color: skyblue; }
+
+.userBanner.bannerGray       { color: black; background-color: gray; border-color: #AAA; }
+.userBanner.bannerGray.wrapped span { background-color: #AAA; }
+
+.userBanner.bannerSilver     { color: black; background-color: silver; border-color: silver; }
+.userBanner.bannerSilver.wrapped span { background-color: silver; }
+
+.userBanner.bannerYellow     { color: black; background-color: yellow; border-color: #E0E000; }
+.userBanner.bannerYellow.wrapped span { background-color: #E0E000; }
+
+.userBanner.bannerOrange     { color: black; background-color: orange; border-color: #FFC520; }
+.userBanner.bannerOrange.wrapped span { background-color: #FFC520; }]]></template>
+    <template title="xenforo.css" addon_id="XenForo" version_id="1050070" version_string="1.5.0" disable_modifications="0"><![CDATA[<xen:include template="xenforo_reset.css" />
+
+/*
+ * XenForo Core CSS
+ *
+ */
+
+html
+{
+	{xen:property html}
+	overflow-y: scroll !important;
+}
+
+body
+{
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+
+	{xen:property body}
+}
+
+/* counteract the word-wrap setting in 'body' */
+pre, textarea
+{
+	word-wrap: normal;
+}
+
+[dir=auto] { rtl-raw.text-align: {xen:if $pageIsRtl, right, left}; }
+
+a:link,
+a:visited
+{
+	{xen:property link}
+}
+
+	a[href]:hover
+	{
+		{xen:property linkHover}
+	}
+	
+	a:hover
+	{
+		_text-decoration: underline;
+	}
+	
+	a.noOutline
+	{
+		outline: 0 none;
+	}
+	
+	.emCtrl,
+	.messageContent a
+	{
+		border-radius: 5px;
+	}
+	
+		.emCtrl:hover,
+		.emCtrl:focus,
+		.ugc a:hover,
+		.ugc a:focus
+		{
+			/*position: relative;
+			top: -1px;*/
+			text-decoration: none;
+			box-shadow: 5px 5px 7px #000;
+			outline: 0 none;
+		}
+		
+			.emCtrl:active,
+			.ugc a:active
+			{
+				position: relative;
+				top: 1px;
+				box-shadow: 2px 2px 7px #000;
+				outline: 0 none;
+			}
+
+	.ugc a:link,
+	.ugc a:visited
+	{
+		{xen:property ugcLink}
+	}
+	
+		.ugc a:hover,
+		.ugc a:focus
+		{
+			{xen:property ugcLinkHover}
+		}
+		
+img.mceSmilie,
+img.mceSmilieSprite
+{
+	vertical-align: text-bottom;
+	margin: 0 1px;
+}
+		
+/** title bar **/
+
+.titleBar
+{
+	margin-bottom: 10px;
+}
+
+{xen:helper clearfix, '.titleBar'}
+
+.titleBar h1
+{
+	{xen:property h1}
+}
+
+	.titleBar h1 em
+	{
+		color: #ccc;
+	}
+		
+	.titleBar h1 .Popup
+	{
+		float: left;
+	}
+
+#pageDescription
+{
+	{xen:property pageDescription}
+}
+
+.topCtrl
+{
+	float: right;
+}
+	
+	.topCtrl h2
+	{
+		font-size: 12pt;
+	}
+		
+/** images **/
+
+img
+{
+	-ms-interpolation-mode: bicubic;
+}
+
+a.avatar 
+{ 
+	*cursor: pointer; /* IE7 refuses to do this */ 
+} 
+
+.avatar img,
+.avatar .img,
+.avatarCropper
+{
+	{xen:property avatar}
+}
+
+.avatar.plainImage img,
+.avatar.plainImage .img
+{
+	border: none;
+	border-radius: 0;
+	padding: 0;
+	background-position: left top;
+}
+
+	.avatar .img
+	{
+		display: block;
+		background-repeat: no-repeat;
+		background-position: 2px 2px;
+		text-indent: 1000px;
+		overflow: hidden;
+		white-space: nowrap;
+		word-wrap: normal;
+	}
+
+	.avatar .img.s { width: 48px;  height: 48px;  }
+	.avatar .img.m { width: 96px;  height: 96px;  }
+	.avatar .img.l { width: 192px; height: 192px; }
+
+.avatarCropper
+{
+	width: 192px;
+	height: 192px;
+	direction: ltr;
+}
+
+.avatarCropper a,
+.avatarCropper span,
+.avatarCropper label
+{
+	overflow: hidden;
+	position: relative;
+	display: block;
+	width: 192px;
+	height: 192px;
+}
+
+.avatarCropper img
+{
+	padding: 0;
+	border: none;
+	border-radius: 0;
+
+	position: relative;
+	display: block;
+}
+
+.avatarScaler img
+{
+	max-width: 192px;
+	_width: 192px;
+}
+
+/* ***************************** */
+
+body .dimmed, body a.dimmed, body .dimmed a { color: #ccc; }
+body .muted, body a.muted, body .muted a { color: {xen:property mutedTextColor}; }
+body .faint, body a.faint, body .faint a { color: {xen:property faintTextColor}; }
+
+.highlight { font-weight: bold; }
+
+.concealed,
+.concealed a,
+.cloaked,
+.cloaked a
+{
+	text-decoration: inherit !important;
+	color: inherit !important;
+	*clear:expression( style.color = parentNode.currentStyle.color, style.clear = "none", 0);
+}
+
+a.concealed:hover,
+.concealed a:hover
+{
+	text-decoration: underline !important;
+}
+
+/* ***************************** */
+
+.xenTooltip
+{
+	{xen:property tooltip}
+}
+
+.xenTooltip a,
+.xenTooltip a:hover
+{
+	color: {xen:property tooltip.color};
+	text-decoration: underline;
+}
+
+	.xenTooltip .arrow
+	{
+		{xen:property tooltipArrow}
+		left: {xen:calc '{xen:property tooltipArrow.border-top-width} + 3'}px;
+		
+		/* Hide from IE6 */
+		_display: none;
+	}
+
+	.xenTooltip.flipped .arrow
+	{
+		left: auto;
+		right: {xen:calc '{xen:property tooltipArrow.border-top-width} + 3'}px;
+	}
+
+.xenTooltip.statusTip
+{
+	/* Generated by XenForo.StatusTooltip JavaScript */
+	{xen:property statusTooltip}
+}
+
+	.xenTooltip.statusTip .arrow
+	{
+		{xen:property statusTooltipArrow}
+	}
+			
+.xenTooltip.iconTip { margin-left: -6px; }
+.xenTooltip.iconTip.flipped { margin-left: 7px; }
+
+/* ***************************** */
+
+#PreviewTooltip
+{
+	display: none;
+}
+
+.xenPreviewTooltip
+{
+	{xen:property previewTooltip}
+	
+	display: none;	
+	z-index: 15000;
+	cursor: default;
+	
+	border-color: {xen:helper rgba, {xen:property previewTooltip.border-color}, 0.5};
+}
+
+	.xenPreviewTooltip .arrow
+	{
+		{xen:property previewTooltipArrowOuter}
+		
+		_display: none;
+	}
+	
+		.xenPreviewTooltip .arrow span
+		{
+			{xen:property previewTooltipArrowInner}
+		}
+
+	.xenPreviewTooltip .section,
+	.xenPreviewTooltip .sectionMain,
+	.xenPreviewTooltip .primaryContent,
+	.xenPreviewTooltip .secondaryContent
+	{
+		margin: 0;
+	}
+	
+		.xenPreviewTooltip .previewContent
+		{
+			overflow: hidden; zoom: 1;
+			min-height: 1em;
+		}
+
+/* ***************************** */
+
+.importantMessage
+{
+	margin: 10px 0;
+	color: {xen:property secondaryDarker};
+	background-color: {xen:property secondaryLightest};
+	text-align: center;
+	padding: 5px;
+	border-radius: 5px;
+	border: solid 1px {xen:property secondaryLight};
+}
+
+.importantMessage a
+{
+	font-weight: bold;
+	color: {xen:property secondaryDarker};
+}
+
+/* ***************************** */
+
+<xen:include template="xenforo_sections.css" />
+
+<xen:include template="xenforo_columns.css" />
+
+<xen:include template="xenforo_tabs.css" />
+
+<xen:include template="xenforo_popup.css" />
+
+<xen:include template="xenforo_overlay.css" />
+
+<xen:include template="xenforo_alert.css" />
+
+<xen:include template="xenforo_data_table.css" />
+
+<xen:include template="xenforo_member_list_item.css" />
+
+<xen:include template="xenforo_dismiss.css" />
+
+<xen:include template="xenforo_basehtml.css" />
+
+<xen:include template="page_nav.css" />
+
+/* ***************************** */
+/* DL Name-Value Pairs */
+
+.pairs dt,
+.pairsInline dt,
+.pairsRows dt,
+.pairsColumns dt,
+.pairsJustified dt
+{
+	color: {xen:property mutedTextColor};
+}
+
+.pairsRows,
+.pairsColumns,
+.pairsJustified
+{
+	line-height: 1.5;
+}
+
+.pairsInline dl,
+.pairsInline dt,
+.pairsInline dd
+{
+	display: inline;
+}
+
+.pairsRows dt,
+.pairsRows dd
+{
+	display: inline-block;
+	vertical-align: top;
+
+	*display: inline;
+	*margin-right: 1ex;
+	*zoom: 1;
+}
+
+dl.pairsColumns,
+dl.pairsJustified,
+.pairsColumns dl,
+.pairsJustified dl
+{
+	overflow: hidden; zoom: 1;
+}
+
+.pairsColumns dt,
+.pairsColumns dd
+{
+	float: left;
+	width: 48%;
+}
+
+.pairsJustified dt
+{
+	float: left;
+	max-width: 100%;
+	margin-right: 5px;
+}
+.pairsJustified dd
+{
+	float: right;
+	text-align: right;
+	max-width: 100%
+}
+
+
+/* ***************************** */
+/* Lists that put all elements on a single line */
+
+.listInline ul,
+.listInline ol,
+.listInline li,
+.listInline dl,
+.listInline dt,
+.listInline dd
+{
+	display: inline;
+}
+
+/* intended for use with .listInline, produces 'a, b, c, d' / 'a * b * c * d' lists */
+
+.commaImplode li:after,
+.commaElements > *:after
+{
+	content: ', ';
+}
+
+.commaImplode li:last-child:after,
+.commaElements > *:last-child:after
+{
+	content: '';
+}
+
+.bulletImplode li:before
+{
+	content: '\2022\a0';
+}
+
+.bulletImplode li:first-child:before
+{
+	content: '';
+}
+
+/* Three column list display */
+
+.threeColumnList
+{
+	overflow: hidden; zoom: 1;
+}
+
+.threeColumnList li
+{
+	float: left;
+	width: 32%;
+	margin: 2px 1% 2px 0;
+}
+
+.twoColumnList
+{
+	overflow: hidden; zoom: 1;
+}
+
+.twoColumnList li
+{
+	float: left;
+	width: 48%;
+	margin: 2px 1% 2px 0;
+}
+
+/* ***************************** */
+/* Preview tooltips (threads etc.) */
+
+.previewTooltip
+{
+}
+		
+	.previewTooltip .avatar
+	{
+		float: left;
+	}
+	
+	.previewTooltip .text
+	{
+		margin-left: 64px;
+	}
+	
+		.previewTooltip blockquote
+		{
+			{xen:property messageText}
+			
+			font-size: 10pt;
+			max-height: 150px;
+			overflow: hidden;
+		}
+	
+		.previewTooltip .posterDate
+		{
+			font-size: 11px;
+			padding-top: 5px;
+			border-top: 1px solid #000;
+			margin-top: 5px;
+		}
+
+/* ***************************** */
+/* List of block links */
+
+.blockLinksList
+{
+	{xen:property blockLinksList}
+}
+		
+	.blockLinksList a,
+	.blockLinksList label
+	{
+		{xen:property blockLinksListItem}
+	}
+	
+		.blockLinksList a:hover,
+		.blockLinksList a:focus,
+		.blockLinksList li.kbSelect a,
+		.blockLinksList label:hover,
+		.blockLinksList label:focus,
+		.blockLinksList li.kbSelect label
+		{
+			{xen:property blockLinksListItemHover}
+		}
+		
+		.blockLinksList a:active,
+		.blockLinksList a.selected,
+		.blockLinksList label:active,
+		.blockLinksList label.selected
+		{
+			{xen:property blockLinksListItemActive}
+		}
+		
+		.blockLinksList a.selected,
+		.blockLinksList label.selected
+		{
+			{xen:property blockLinksListItemSelected}
+		}
+		
+		.blockLinksList span.depthPad
+		{
+			display: block;
+		}
+
+.blockLinksList .itemCount
+{
+	{xen:property alertBalloon}
+
+	float: right;
+	position: relative;
+	right: 0;
+	top: -1px;
+}
+
+	.blockLinksList .itemCount.Zero
+	{
+		display: none;
+	}
+	
+.bubbleLinksList
+{
+	overflow: hidden;
+}
+
+.bubbleLinksList a
+{
+	float: left;
+	padding: 2px 4px;
+	margin-right: 2px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+	
+	.bubbleLinksList a:hover,
+	.bubbleLinksList a:active
+	{
+		{xen:property blockLinksListItemHover}
+	}
+	
+	.bubbleLinksList a.active
+	{
+		{xen:property blockLinksListItemActive}
+		{xen:property blockLinksListItemSelected}
+	}
+
+/* ***************************** */
+/* Normally-indented nested lists */
+
+.indentList ul,
+.indentList ol
+{
+	margin-left: 2em;
+}
+
+/* ***************************** */
+/* AJAX progress image */
+
+.InProgress
+{
+	background: transparent url('{xen:property imagePath}/xenforo/widgets/ajaxload.info_B4B4DC_facebook.gif') no-repeat right center;
+}
+
+/* ***************************** */
+/* Hidden inline upload iframe */
+
+.hiddenIframe
+{
+	display: block;
+	width: 500px;
+	height: 300px;
+}
+
+/* ***************************** */
+/* Exception display */
+
+.traceHtml { font-size:11px; font-family:calibri, verdana, arial, sans-serif; }
+.traceHtml .function { color:rgb(180,80,80); font-weight:normal; }
+.traceHtml .file { font-weight:normal; }
+.traceHtml .shade { color:rgb(128,128,128); }
+.traceHtml .link { font-weight:bold; }
+
+/* ***************************** */
+/* Indenting for options */
+
+._depth0 { padding-left:  0em; }
+._depth1 { padding-left:  2em; }
+._depth2 { padding-left:  4em; }
+._depth3 { padding-left:  6em; }
+._depth4 { padding-left:  8em; }
+._depth5 { padding-left: 10em; }
+._depth6 { padding-left: 12em; }
+._depth7 { padding-left: 14em; }
+._depth8 { padding-left: 16em; }
+._depth9 { padding-left: 18em; }
+
+<xen:include template="error.css" />
+
+/* Undo some nasties */
+
+input[type=search]
+{
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+}
+
+/* ignored content hiding */
+
+.ignored { display: none !important; }
+
+/* Misc */
+
+.floatLeft { float: left; }
+.floatRight { float: right; }
+
+.ltr { direction: ltr; }
+
+/* Square-cropped thumbs */
+
+.SquareThumb
+{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	padding: 0;
+	direction: ltr;
+	
+	/* individual instances can override this size */
+	width: 48px;
+	height: 48px;
+}
+
+.SquareThumb img
+{
+	position: relative;
+	display: block;
+}
+
+<xen:include template="bb_code_base.css" />
+
+.visibleResponsiveFull { display: inherit !important; }
+
+.visibleResponsiveWide,
+.visibleResponsiveMedium,
+.visibleResponsiveNarrow { display: none !important; }
+
+.hiddenResponsiveFull { display: none !important; } 
+
+.hiddenResponsiveWide,
+.hiddenResponsiveMedium,
+.hiddenResponsiveNarrow { display: inherit !important; }
+
+<xen:if is="{xen:property enableResponsive}">
+@media (max-width:{xen:property maxResponsiveWideWidth})
+{
+	.Responsive .visibleResponsiveFull { display: none !important; }
+	
+	.Responsive .hiddenResponsiveFull { display: inherit !important; }
+	
+	.Responsive .hiddenWideUnder { display: none !important; }
+}
+@media (min-width:{xen:calc '{xen:property maxResponsiveMediumWidth} + 1'}px) AND (max-width:{xen:property maxResponsiveWideWidth})
+{
+	.Responsive .visibleResponsiveWide { display: inherit !important; }
+	
+	.Responsive .hiddenResponsiveWide { display: none !important; }
+	}
+
+@media (min-width:{xen:calc '{xen:property maxResponsiveNarrowWidth} + 1'}px) AND (max-width:{xen:property maxResponsiveMediumWidth})
+{
+	.Responsive .visibleResponsiveMedium { display: inherit !important; }
+	
+	.Responsive .hiddenResponsiveMedium { display: none !important; }
+	
+	.Responsive .hiddenWideUnder,
+	.Responsive .hiddenMediumUnder { display: none !important; }
+}
+
+@media (max-width:{xen:property maxResponsiveNarrowWidth})
+{
+	.Responsive .visibleResponsiveNarrow { display: inherit !important; }
+	
+	.Responsive .hiddenResponsiveNarrow { display: none !important; }
+	
+	.Responsive .hiddenWideUnder,
+	.Responsive .hiddenMediumUnder,
+	.Responsive .hiddenNarrowUnder { display: none !important; }
+}
+
+@media (max-width:{xen:property maxResponsiveMediumWidth})
+{
+	.Responsive .threeColumnList li
+	{
+		float: none;
+		width: auto;
+		margin: 2px 1% 2px 0;
+	}
+}
+
+@media (max-width:{xen:property maxResponsiveNarrowWidth})
+{
+	.Responsive .xenTooltip.statusTip
+	{
+		width: auto;
+	}
+	
+	.Responsive .xenPreviewTooltip
+	{
+		box-sizing: border-box;
+		width: auto;
+		max-width: 100%;
+	}
+	
+	.Responsive .xenPreviewTooltip .arrow
+	{
+		display: none;
+	}
+	
+	.Responsive .previewTooltip .avatar
+	{
+		display: none;
+	}
+	
+	.Responsive .previewTooltip .text
+	{
+		margin-left: 0;
+	}
+}
+</xen:if>
+
+<xen:hook name="xenforo_css_extra" />]]></template>
+    <template title="xenforo_data_table.css" addon_id="XenForo" version_id="1050070" version_string="1.5.0" disable_modifications="0"><![CDATA[/** Data tables **/
+
+.dataTableWrapper
+{
+	overflow-x: auto;
+	overflow-y: visible;
+}
+
+table.dataTable
+{
+	width: 100%;
+	_width: 99.5%;
+	margin: 10px 0;
+}
+
+.dataTable caption
+{
+	{xen:property heading}
+}
+
+.dataTable tr.dataRow td
+{
+	border-bottom: 1px solid #000;
+	padding: 5px 10px;
+	word-wrap: break-word;
+}
+
+.dataTable tr.dataRow td.secondary
+{
+	background: #202020 url("{xen:property imagePath}/xenforo/gradients/category-23px-light.png") repeat-x top;
+}
+
+.dataTable tr.dataRow th
+{
+	background: #202020 url("{xen:property imagePath}/xenforo/gradients/back1.png") repeat-x top;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+	color: #fff;
+	font-size: 11px;
+	padding: 5px 10px;
+}
+
+	.dataTable tr.dataRow th a
+	{
+		color: inherit;
+		text-decoration: underline;
+	}
+
+.dataTable .dataRow .dataOptions
+{
+	text-align: right;
+	white-space: nowrap;
+	word-wrap: normal;
+	padding: 0;
+}
+
+.dataTable .dataRow .important,
+.dataTable .dataRow.important
+{
+	font-weight: bold;
+}
+
+.dataTable .dataRow .dataOptions a.secondaryContent
+{
+	display: inline-block;
+	border-left: 1px solid #000;
+	border-bottom: none;
+	padding: 7px 10px 6px;
+	font-size: 11px;
+}
+
+	.dataTable .dataRow .dataOptions a.secondaryContent:hover
+	{
+		background-color: {xen:property primaryLighterStill};
+		text-decoration: none;
+	}
+
+	.dataTable .dataRow .delete
+	{
+		padding: 0px;
+		width: 26px;
+		border-left: 1px solid #000;
+		{xen:property secondaryContent.background}
+	}	
+				
+		.dataTable .dataRow .delete a
+		{
+			display: block;
+			background: transparent url('{xen:property imagePath}/xenforo/permissions/deny.png') no-repeat center center;
+			cursor: pointer;
+		
+			padding: 5px;
+			width: 16px;
+			height: 16px;
+			
+			overflow: hidden;
+			white-space: nowrap;
+			text-indent: -1000px;
+		}]]></template>
+    <template title="xenforo_popup.css" addon_id="XenForo" version_id="1050070" version_string="1.5.0" disable_modifications="0"><![CDATA[/* ***************************** */
+/* Popup Menus */
+
+.Popup
+{
+	position: relative;
+}
+
+	.Popup.inline
+	{
+		display: inline;
+	}
+	
+/** Popup menu trigger **/
+
+.Popup .arrowWidget
+{
+	/* circle-arrow-down */
+	{xen:property popupArrowClosed}
+}
+
+.PopupOpen .arrowWidget
+{
+	/* circle-arrow-up */
+	{xen:property popupArrowOpen}
+}
+
+.Popup .PopupControl,
+.Popup.PopupContainerControl
+{
+	display: inline-block;
+	cursor: pointer;
+}
+
+	.Popup .PopupControl:hover,
+	.Popup.PopupContainerControl:hover
+	{
+		{xen:property popupControlClosedHover}
+	}
+
+	.Popup .PopupControl:focus,
+	.Popup .PopupControl:active,
+	.Popup.PopupContainerControl:focus,
+	.Popup.PopupContainerControl:active
+	{
+		outline: 0;
+	}
+	
+	.Popup .PopupControl.PopupOpen,
+	.Popup.PopupContainerControl.PopupOpen
+	{
+		{xen:property popupControl}
+	}
+	
+	.Popup .PopupControl.BottomControl.PopupOpen,
+	.Popup.PopupContainerControl.BottomControl.PopupOpen
+	{
+		border-top-left-radius: {xen:property popupControl.border-bottom-left-radius};
+		border-top-right-radius: {xen:property popupControl.border-bottom-right-radius};
+		border-bottom-left-radius: {xen:property popupControl.border-top-left-radius};
+		border-bottom-right-radius: {xen:property popupControl.border-top-left-radius};
+	}
+		
+		.Popup .PopupControl.PopupOpen:hover,
+		.Popup.PopupContainerControl.PopupOpen:hover
+		{
+			text-decoration: none;
+		}
+		
+/** Menu body **/
+
+.Menu
+{
+	/*background-color: {xen:property textCtrlBackground};*/
+	
+	{xen:property menu}
+	
+	min-width: {xen:property menuMinWidth};
+	*width: {xen:property menuMinWidth};
+	
+	/* makes menus actually work... */
+	position: absolute;
+	z-index: 7500;
+	display: none;
+}
+
+/* allow menus to operate when JS is disabled */
+.Popup:hover .Menu
+{
+	display: block;
+}
+
+.Popup:hover .Menu.JsOnly
+{
+	display: none;
+}
+
+.Menu.BottomControl
+{
+	border-top-width: 1px;
+	border-bottom-width: 3px;
+	box-shadow: 0px 0px 0px transparent;
+}
+
+	.Menu > li > a,
+	.Menu .menuRow
+	{
+		display: block;
+	}
+	
+.Menu.inOverlay
+{
+	z-index: 10000;
+}
+		
+/* Menu header */
+
+.Menu .menuHeader
+{
+	overflow: hidden; zoom: 1;
+}
+
+.Menu .menuHeader h3
+{
+	{xen:property menuHeaderTitle}
+}
+
+.Menu .menuHeader .muted
+{
+	{xen:property menuHeaderSubtitle}
+}
+
+/* Standard menu sections */
+
+.Menu .primaryContent
+{
+	background-color: {xen:helper rgba, {xen:property primaryContent.background-color}, 0.96};
+}
+
+.Menu .secondaryContent
+{
+	background-color: {xen:helper rgba, {xen:property secondaryContent.background-color}, 0.96};
+}
+
+.Menu .sectionFooter
+{
+	background-color: {xen:helper rgba, {xen:property sectionFooter.background-color}, 0.9};
+}
+
+/* Links lists */
+
+.Menu .blockLinksList
+{	
+	max-height: 400px;
+	overflow: auto;
+}
+
+/* form popups */
+
+.formPopup
+{
+	width: 250px;
+	background-color: {xen:property contentBackground};
+}
+
+	.formPopup form,
+	.formPopup .ctrlUnit
+	{
+		margin: 5px auto;
+	}
+	
+		.formPopup .ctrlUnit
+		{
+		}
+		
+	.formPopup .textCtrl,
+	.formPopup .button
+	{
+		width: 232px;
+	}
+		
+	.formPopup .ctrlUnit > dt label
+	{
+		display: block;
+		margin-bottom: 2px;
+	}
+		
+	.formPopup .submitUnit dd
+	{
+		text-align: center;
+	}
+	
+		.formPopup .ctrlUnit > dd .explain
+		{
+			margin: 2px 0 0;
+		}
+	
+	.formPopup .primaryControls
+	{
+		zoom: 1;
+		white-space: nowrap;
+		word-wrap: normal;
+		padding: 0 5px;
+	}
+	
+		.formPopup .primaryControls input.textCtrl
+		{
+			margin-bottom: 0;
+		}
+	
+	.formPopup .secondaryControls
+	{
+		padding: 0 5px;
+	}
+	
+		.formPopup .controlsWrapper
+		{
+			background: #202020 url('{xen:property imagePath}/xenforo/gradients/category-23px-light.png') repeat-x top;
+			border-radius: 5px;
+			padding: 5px;
+			margin: 5px 0;
+			font-size: 11px;
+		}
+
+			.formPopup .controlsWrapper .textCtrl
+			{
+				width: 222px;
+			}
+	
+	.formPopup .advSearchLink
+	{
+		display: block;
+		text-align: center;
+		padding: 5px;
+		font-size: 11px;
+		border-radius: 5px;
+		border: 1px solid {xen:property primaryLighterStill};
+		background: {xen:property primaryLightest} url('{xen:property imagePath}/xenforo/gradients/category-23px-light.png') repeat-x top;
+	}
+	
+		.formPopup .advSearchLink:hover
+		{
+			background-color: #000;
+			text-decoration: none;
+		}]]></template>
+  </templates>
+</style>

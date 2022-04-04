@@ -1,0 +1,41 @@
+[center]Link Mega: http://nabrianao.com/linkmega.php
+Link Mediafire: http://nabrianao.com/linkmediafire.php
+
+[img]https://scontent-eze1-1.xx.fbcdn.net/v/t1.0-9/26904700_1988728318067222_2348866707909277951_n.jpg?oh=4162da30995ee6ce8eb6437549285861&oe=5AF3453F[/img]
+
+[img]https://i.imgur.com/o07uuhU.png[/img]
+
+[b]Mod[/b]: Fénix
+[b]Agite/Rol[/b]: Ambos.
+[b]Exp[/b]: x25
+[b]Oro[/b]: x15
+[b]Host[/b]: Pago.
+[b]Página web[/b]: http://nabrianao.com/
+[b]Foro[/b]: http://foro.nabrianao.com/
+[/center]
+[b][u]Programación[/u][/b]:
+
+
+-Sistema de retos (1vs1, 2vs2, 3vs3) por apuesta de oro, elección de ítems, modalidad plantes.
+-Eventos automáticos (1vs1, 2vs2, 3vs3 hasta 10vs10) con diferentes modalidades.
+-Evento retos automáticos continuos (1vs1, 2vs2, 3vs3, hasta 10vs10)
+-Eventos faccionarios (Protector, The team, Capture the flag, the key).
+-Evento Juegos del hambre (Cupos ilimitados).
+-Sistema de Subastas (Info aquí: https://sites.google.com/site/manualnabrianao/subastas)
+-Sistema de retos de clanes, con posibilidad de apostar oro y por los ítem.
+-Sistema de usuarios templarios, 10 misiones las cuales recorren todo el mundo del juego, para conseguir ítems de drop y otros logros.
+-Sistema de Libros jerárquicos y ítems especiales, Mas información: https://sites.google.com/site/manualnabrianao/libros-y-item-especiales
+-Sistema de Misiones: https://sites.google.com/site/manualnabrianao/misiones
+-Sistema de Ranking por reputación 250 Usuarios. (La forma de conseguir estos puntos es realizando casi todas las acciones básicas dentro del juego, según la acción conseguirán mas o menos puntos) Mas información: https://sites.google.com/site/manualnabrianao/reputacion
+
+Y MUCHAS COSAS MAS!! véase todo en el Manual:
+https://sites.google.com/site/manualnabrianao/home
+
+[b][u]Mapeo, indexación/dateo y Gráfica[/u][/b]:
+
+-Mas de 150 item indexados y dateados.
+-173 Gráficos de ambientación indexados.
+-Re-mapeados mas de 50 mapas con todo lo necesario para ambientar el mundo.
+-Se datearon y balancearon todos los ítem del juego.
+
+LOS ESPERAMOS!

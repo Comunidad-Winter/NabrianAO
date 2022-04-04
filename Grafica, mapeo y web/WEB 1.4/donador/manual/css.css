@@ -1,0 +1,50 @@
+﻿/* Curso CSS aprenderaprogramar.com */
+/*table {  color: #333; font-family: Helvetica, Arial, sans-serif; width: 900px; border-collapse: collapse;}*/
+
+
+
+table { padding: 5px;
+font-size: 16px; background-color: #83aec0;
+background-repeat: repeat-x;
+border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid;
+border-bottom-style: solid; border-right-color: #558FA6;
+border-bottom-color: #558FA6; font-family: Arial; width: 900px;}
+
+td, th { border: 1px solid transparent; height: 30px; }
+th { background: #D3D3D3; font-weight: bold; }
+td { background: #FAFAFA; }
+tr:nth-child(even) td { background: #F1F1F1; }  
+tr:nth-child(odd) td { background: #FEFEFE; } 
+
+
+
+a:link {text-decoration:none; color: #0033CC;} /* Link no visitado*/
+a:visited {text-decoration:none; color:#0033CC} /*Link visitado*/
+a:active {text-decoration:none; color:#99FF00; background:#000000} /*Link activo*/
+a:hover {text-decoration:underline; color:#99FF00; background: #000000} /*Mause sobre el link*/
+
+
+#sombrita{
+	color: #000000;
+	font-size:20px;
+	font-family:Arial;
+	text-shadow: #000000 0px 0px 1px;
+	
+	}
+	
+
+#sombrita1{
+	color: #000000;
+	font-size:25px;
+	font-family:Arial;
+	text-shadow: #000000 1px 1px 4px;
+	
+	}
+
+#sombrita2{
+	color: #000000;
+	font-size:20px;
+	font-family:Arial;
+	text-shadow: #FF0000 0px 0px 1px;
+	
+	}

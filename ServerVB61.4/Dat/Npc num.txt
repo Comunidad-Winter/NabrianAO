@@ -1,0 +1,49 @@
+rey de ciudadanos 108 >dateado<
+rey de crimis 106 >dateado<
+5 resu >dateado<
+7 armas herrero >dateado<
+157 armaduras altos >dateado<
+167 cascos y escudos >dateado<
+23 armaduras bajos >dateado<
+168 sastre bajos >dateado<
+169 sastre altos >dateado<
+12 sastre comun >dateado<
+14 pociones >dateado<
+15 bebida comida >dateado<
+33 carpintero >dateado<
+46 echizos >dateado<
+200 sombreros baculos >dateado<
+250 Pasajero
+248 death
+217 (ROSTRO)
+
+258 = CARTEL BANCO
+222 = pescadores  CARTEL
+221 = MAGIA  CARTEL
+209 = MINEROS CARTEL
+
+242 PUERTA
+450 PUERTA
+101 Puerta casita
+
+
+
+PUERTAS:
+242
+245
+247
+248
+251
+253
+255
+264
+446
+439
+
+
+
+EVENTO DOTA()
+
+-> TORRETA  695
+-> BASE ARRIVA 697
+-> BASE ABAJO 696

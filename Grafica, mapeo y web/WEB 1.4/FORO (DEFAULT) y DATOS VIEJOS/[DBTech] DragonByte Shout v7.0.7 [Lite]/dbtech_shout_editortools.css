@@ -1,0 +1,157 @@
+<xen:edithint template="dbtech_shout_editor.css" />
+<xen:require css="editor_ui.css" />
+
+<div class="shoutboxEditor<xen:if is="{$direction} == 'below'"> shoutboxFooter</xen:if> redactor_box">
+	<div>
+		<input type="text" class="textCtrl UserTagger shoutboxEditorInput" placeholder="{xen:phrase Escribre_un_Mensaje}" autocomplete="off" />
+	</div>
+	<div>
+		<ul class="shoutboxEditorItems">
+			<li>
+				<span class="shoutboxSprite shoutboxSprite-user-offline shoutboxActiveImage<xen:if is="!{$instance.options.invis} AND {$permissions.caninvisible}"> shoutboxActiveImageEnabled</xen:if>" title="{xen:phrase dbtech_vbshout_Estado_Activo}"></span>
+				<div class="shoutboxCommands Popup PopupControl PopupClosed">
+					<a href="javascript:void(null);" rel="Menu">&nbsp;</a>
+
+					<div class="Menu JsOnly" id="ShoutboxCommandsMenu{$instance.instanceid}">
+
+						<div class="menuHeader primaryContent">
+							<h3>{xen:phrase Chatbox_Comandos}</h3>
+						</div>
+
+						<div class="menuColumns secondaryContent">
+							<ul class="blockLinksList">
+								<li><a href="javascript:void(null);" class="shoutboxEditorSetCommand" data-command="/me ">/me [{xen:phrase dbtech_vbshout_text}]</a></li>
+								<li><a href="javascript:void(null);" class="shoutboxEditorSetCommand" data-command="/ignore ">/ignore [{xen:phrase user_name}]</a></li>
+								<li><a href="javascript:void(null);" class="shoutboxEditorSetCommand" data-command="/unignore ">/unignore [{xen:phrase user_name}]</a></li>
+								<xen:if is="{$permissions.canprune}"><li><a href="javascript:void(null);" class="shoutboxEditorSetCommand" data-command="/prune">/prune</a></li></xen:if>
+								<xen:if is="{$permissions.cansticky}"><li><a href="javascript:void(null);" class="shoutboxEditorSetCommand" data-command="/sticky ">/sticky [{xen:phrase dbtech_vbshout_text}]</a></li></xen:if>
+								<xen:if is="{$permissions.cansticky}"><li><a href="javascript:void(null);" class="shoutboxEditorSetCommand" data-command="/editsticky">/editsticky</a></li></xen:if>
+								<xen:if is="{$permissions.cansticky}"><li><a href="javascript:void(null);" class="shoutboxEditorSetCommand" data-command="/removesticky">/removesticky</a></li></xen:if>
+								<xen:if is="{$permissions.canban}"><li><a href="javascript:void(null);" class="shoutboxEditorSetCommand" data-command="/ban ">/ban [{xen:phrase user_name}]</a></li></xen:if>
+								<xen:if is="{$permissions.canban}"><li><a href="javascript:void(null);" class="shoutboxEditorSetCommand" data-command="/unban ">/unban [{xen:phrase user_name}]</a></li></xen:if>
+								<xen:if is="{$permissions.cansilence}"><li><a href="javascript:void(null);" class="shoutboxEditorSetCommand" data-command="/silence ">/silence [{xen:phrase user_name}]</a></li></xen:if>
+								<xen:if is="{$permissions.cansilence}"><li><a href="javascript:void(null);" class="shoutboxEditorSetCommand" data-command="/unsilence ">/unsilence [{xen:phrase user_name}]</a></li></xen:if>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<input type="button" class="button shoutboxEditorSaveBtn" value="{xen:phrase ENVIAR}" tabindex="1" />
+				<input type="button" class="button shoutboxEditorCancelBtn" value="{xen:phrase Cancelar}" tabindex="2" /> 
+				<input type="button" class="button shoutboxEditorDeleteBtn" value="{xen:phrase Borrar}" tabindex="2" /> 
+				<span class="shoutboxTarget Popup PopupControl PopupClosed">
+					<a href="javascript:void(null);" rel="Menu">
+						{xen:phrase ENVIAR_A} <span class="shoutTargetEveryone">{xen:phrase TODOS}</span>.
+						<xen:if is="{$instance.options.maxchars}"> [<span class="shoutboxEditorRemaining">{$instance.options.maxchars}</span>]</xen:if>
+					</a>
+					<div class="Menu JsOnly" id="ShoutboxTargetMenu{$instance.instanceid}">
+
+						<div class="menuHeader primaryContent">
+							<h3>{xen:phrase Grito_Objetivo}</h3>
+						</div>
+
+						<div class="menuColumns secondaryContent">
+							<ul class="blockLinksList">
+								<li><a href="javascript:void(null);" class="shoutboxResetTarget">{xen:phrase Todos}</a></li>
+							<xen:if is="{$instance.options.enablepms} AND {$instance.permissions_parsed.canpm}">
+								<li><input type="text" class="textCtrl shoutboxLookupInput" size="17" placeholder="{xen:phrase user_name}" /> <input type="button" class="button shoutboxEditorLookupBtn" value="{xen:phrase ENVIAR}" /></li>
+							</xen:if>
+							</ul>
+						</div>
+
+					</div>
+				</span>
+				<span class="shoutboxTargetEditing">{xen:phrase Edicion}</span>
+
+			<xen:if is="{$instance.options.editors} & 32 AND {$visitor.dbtech_vbshout_settings} & 32">
+				<input type="button" class="button shoutboxEditorClearBtn" value="{xen:phrase BORRAR}" />
+			</xen:if>
+			</li>
+
+		<xen:if is="
+			({$instance.options.editors} & 1 AND {$visitor.dbtech_vbshout_settings} & 1)
+			OR ({$instance.options.editors} & 2 AND {$visitor.dbtech_vbshout_settings} & 2)
+			OR ({$instance.options.editors} & 4 AND {$visitor.dbtech_vbshout_settings} & 4)
+		">
+			<li class="Responsive hiddenBelowMin">
+				<ul class="redactor_toolbar">
+					<li class="redactor_btn_group">
+						<ul>
+						<xen:if is="{$instance.options.editors} & 1 AND {$visitor.dbtech_vbshout_settings} & 1">
+							<li class="redactor_btn_container_bold">
+								<a class="redactor_btn_bold shoutboxEditorImageButton" data-button="bold" title="{xen:phrase dbtech_vbshout_bold}"></a>
+							</li>
+						</xen:if>
+						<xen:if is="{$instance.options.editors} & 2 AND {$visitor.dbtech_vbshout_settings} & 2">
+							<li class="redactor_btn_container_italic">
+								<a class="redactor_btn_italic shoutboxEditorImageButton" data-button="italic" title="{xen:phrase dbtech_vbshout_italic}"></a>
+							</li>
+						</xen:if>
+						<xen:if is="{$instance.options.editors} & 4 AND {$visitor.dbtech_vbshout_settings} & 4">
+							<li class="redactor_btn_container_underline">
+								<a class="redactor_btn_underline shoutboxEditorImageButton" data-button="underline" title="{xen:phrase dbtech_vbshout_underline}"></a>
+							</li>
+						</xen:if>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</xen:if>
+
+		<xen:if is="
+			({$instance.options.editors} & 8 AND {$visitor.dbtech_vbshout_settings} & 8)
+			OR ({$instance.options.editors} & 16 AND {$visitor.dbtech_vbshout_settings} & 16)
+			OR ({$instance.options.editors} & 256 AND {$visitor.dbtech_vbshout_settings} & 4096)
+		">
+			<li class="Responsive hiddenBelowMin">
+				<ul class="redactor_toolbar">
+					<xen:if hascontent="true">
+					<li class="redactor_btn_group">
+						<ul>
+						<xen:contentcheck>
+						<xen:if is="{$instance.options.editors} & 8 AND {$visitor.dbtech_vbshout_settings} & 8">
+							<li class="redactor_btn_container_fontcolor">
+								<a class="redactor_btn_fontcolor shoutboxEditorColorButton" title="{xen:phrase dbtech_vbshout_font_color}"></a>
+							</li>
+						</xen:if>
+						
+						<xen:if is="{$instance.options.editors} & 16 AND {$visitor.dbtech_vbshout_settings} & 16">
+							<li class="redactor_btn_container_fontfamily">
+								<a class="redactor_btn_fontfamily shoutboxEditorFontButton" title="{xen:phrase dbtech_vbshout_font_family}"></a>
+							</li>
+						</xen:if>
+						</xen:contentcheck>
+						</ul>
+					</li>
+					</xen:if>
+
+					
+				</ul>
+			</li>
+		</xen:if>
+
+		<xen:if is="{$permissions.cancreatechat}">
+			<li class="Responsive hiddenBelowMin">
+				<div class="shoutboxNewChat Popup PopupControl PopupClosed">
+					<span class="shoutboxSprite shoutboxSprite-newchat"></span>
+					<a rel="Menu" href="javascript:void(null);"></a>
+
+					<div class="Menu JsOnly navPopup" id="ShoutboxCreateChatMenu{$instance.instanceid}">
+
+						<div class="menuColumns secondaryContent">
+							<ul class="blockLinksList">
+								<li><a><input type="text" class="textCtrl shoutboxChatRoomName" size="17" placeholder="{xen:phrase dbtech_vbshout_chat_room_name}" /> <input type="button" class="button shoutboxCreateChatButton" value="{xen:phrase dbtech_vbshout_create_chat}" /></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<span class="shoutboxChatInvite"><a href="javascript:void(null);" class="shoutboxEditorSetCommand shoutboxSprite shoutboxSprite-add" data-command="/chatinvite " title="{xen:phrase dbtech_vbshout_invite_to_chat}"></a></span>
+			</li>
+		</xen:if>
+
+		
+		</ul>
+	</div>
+	<div class="redactor_smilies" style="display:none;">{xen:raw $smilies}</div>
+</div>

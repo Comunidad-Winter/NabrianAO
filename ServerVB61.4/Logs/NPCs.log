@@ -1,0 +1,1068 @@
+[Mapa1]
+Name=Ullathorpe Este
+Npc1=3 Serpiente
+Npc2=3 Gallo
+
+[Mapa2]
+Name=Camino del sur
+Npc1=15 Serpiente
+Npc2=5 Murciélago
+Npc3=2 Lobo
+
+[Mapa3]
+Name=Camino del sur
+Npc1=10 Esqueleto
+Npc2=12 Lobo
+Npc3=17 Serpiente
+Npc4=3 Globlin
+Npc5=2 Bandido
+
+[Mapa4]
+Name=Camino del sur
+Npc1=9 Zombie
+Npc2=23 Esqueleto
+
+[Mapa5]
+Name=Camino del Norte
+Npc1=10 Esqueleto Guerrero
+Npc2=4 Asesino
+Npc3=5 Murciélago
+Npc4=5 Serpiente
+
+[Mapa6]
+Name=Camino del Norte
+Npc1=8 Bandido
+Npc2=10 Globlin
+
+[Mapa7]
+Name=Retos 1vs1
+
+[Mapa8]
+Name=Ullathorpe Oeste
+Npc1=4 Lobo
+Npc2=1 Murciélago
+Npc3=5 Gallo
+
+[Mapa9]
+Name=Planicies del Oeste
+Npc1=9 Serpiente
+Npc2=15 Lobo
+Npc3=27 Esqueleto
+
+[Mapa10]
+Name=Planicies del Oeste
+Npc1=23 Esqueleto
+Npc2=1 Escorpion
+Npc3=16 Lobo
+Npc4=9 Lobo
+
+[Mapa11]
+Name=Bosques del Este
+Npc1=9 Murciélago
+Npc2=10 Serpiente
+
+[Mapa12]
+Name=Bosques del Este
+Npc1=10 Esqueleto
+Npc2=10 Globlin
+Npc3=10 Serpiente
+
+[Mapa13]
+Name=Bosques del Este
+Npc1=3 Zombie
+Npc2=1 Gallo salvaje
+Npc3=5 Esqueleto Guerrero
+Npc4=8 Esqueleto
+
+[Mapa14]
+Name=Bosques del Este
+Npc1=13 Lobo
+Npc2=3 Murciélago
+Npc3=7 Serpiente
+Npc4=1 Esqueleto
+
+[Mapa15]
+Name=Desierto
+Npc1=12 Escorpion
+Npc2=13 Serpiente
+Npc3=1 Escorpion
+Npc4=4 Araña gigante
+
+[Mapa16]
+Name=Desierto
+Npc1=10 Escorpion
+Npc2=5 Araña gigante
+Npc3=8 Serpiente
+Npc4=5 Escorpion
+
+[Mapa17]
+Name=Desierto
+Npc1=9 Serpiente
+Npc2=3 Araña gigante
+Npc3=8 Escorpion
+Npc4=1 Escorpion
+Npc5=1 Araña gigante
+
+[Mapa18]
+Name=Bosques del Este
+Npc1=12 Zombie
+Npc2=12 Lobo
+
+[Mapa19]
+Name=Puente del Desierto
+Npc1=12 Lobo
+Npc2=1 Asesino
+
+[Mapa20]
+Name=Desierto
+Npc1=16 Escorpion
+Npc2=2 Araña gigante
+Npc3=5 Serpiente
+Npc4=1 Araña gigante
+
+[Mapa21]
+Name=Desierto
+Npc1=3 Esqueleto Guerrero
+Npc2=3 Lord Zombie
+Npc3=6 Esqueleto
+Npc4=1 Araña gigante
+
+[Mapa22]
+Name=Llanos del Sur
+Npc1=12 Esqueleto
+Npc2=8 Lobo
+Npc3=5 Murciélago
+Npc4=5 Serpiente
+
+[Mapa23]
+Name=Llanos del Sur
+Npc1=13 Serpiente
+Npc2=9 Murciélago
+Npc3=5 Bandido
+Npc4=2 Águila
+Npc5=4 Asesino
+Npc6=1 Cuervo
+Npc7=1 Aguila
+
+[Mapa24]
+Name=Llanos del Sur
+Npc1=30 Lobo
+Npc2=1 Zombie
+
+[Mapa25]
+Name=Delta de la Piedra
+Npc1=9 Serpiente
+Npc2=10 Murciélago
+Npc3=14 Zombie
+Npc4=4 Lobo
+
+[Mapa26]
+Name=Llanos del Sur
+Npc1=10 Serpiente
+Npc2=10 Murciélago
+Npc3=10 Lobo
+
+[Mapa27]
+Name=Llanos del Sur
+Npc1=14 Lobo
+Npc2=11 Serpiente
+Npc3=3 Zombie
+Npc4=2 Cuervo
+
+[Mapa28]
+Name=Cementerio
+Npc1=10 Fantasma endemoniado
+Npc2=1 Momia
+
+[Mapa29]
+Name=Llanos del Sur
+Npc1=22 Lobo
+Npc2=5 Araña gigante
+
+[Mapa30]
+Name=Llanos del Sur
+Npc1=10 Globlin
+Npc2=3 Gallo salvaje
+Npc3=10 Tortuga gigante
+Npc4=4 Jabalí Salvaje
+Npc5=2 Lobo
+Npc6=2 Duende
+
+[Mapa31]
+Name=Llanos del Sur
+Npc1=10 Tortuga gigante
+Npc2=14 Gallo salvaje
+Npc3=8 Serpiente
+Npc4=2 Lobo
+Npc5=2 Jabalí Salvaje
+Npc6=2 Serpiente
+
+[Mapa32]
+Name=Llanos del Sur
+Npc1=8 Lobo
+Npc2=6 Globlin
+Npc3=8 Murciélago
+
+[Mapa33]
+Name=Minas de Hierro
+Npc1=3 Rata
+Npc2=16 Globlin
+Npc3=4 Araña gigante
+Npc4=4 Hormiga
+
+[Mapa34]
+Name=Nix
+Npc1=21 Guardia Imperial
+Npc2=2 Guardia Imperial
+
+[Mapa35]
+Name=Camino del sur
+Npc1=1 Murciélago
+Npc2=14 Serpiente
+Npc3=13 Murciélago
+Npc4=2 Gallo salvaje
+
+[Mapa36]
+Name=Bosque Dorck
+Npc1=6 Gallo salvaje
+Npc2=5 Orco
+Npc3=4 Lobo
+
+[Mapa37]
+Name=Newbie Dungeon
+Npc1=8 Murciélago
+Npc2=9 Lobo
+Npc3=11 Gallo salvaje
+Npc4=5 Lobo
+Npc5=6 Serpiente
+Npc6=7 Escorpion
+
+[Mapa38]
+Name=Bosque Dorck
+Npc1=13 Araña gigante
+Npc2=13 Orco
+Npc3=13 Gallo salvaje
+Npc4=1 Cuervo
+Npc5=1 Rata
+
+[Mapa39]
+Name=Bosque Dorck
+Npc1=10 Araña gigante
+Npc2=2 Lobo
+Npc3=5 Murciélago
+Npc4=4 Serpiente
+Npc5=4 Gallo salvaje
+Npc6=7 Orco
+
+[Mapa40]
+Name=Catacumbas
+Npc1=2 Araña gigante
+Npc2=1 Araña gigante
+Npc3=3 Orco
+
+[Mapa41]
+Name=Catacumbas
+
+[Mapa42]
+Name=Catacumbas
+Npc1=4 Araña gigante
+
+[Mapa43]
+Name=Catacumbas
+
+[Mapa44]
+Name=Catacumbas
+
+[Mapa45]
+Name=Catacumbas
+Npc1=4 Araña gigante
+
+[Mapa46]
+Name=Bosque Dorck
+Npc1=30 Gallo salvaje
+Npc2=4 Esqueleto Guerrero
+Npc3=5 Orco
+Npc4=2 Escorpion
+
+[Mapa47]
+Name=Isla Beleta
+
+[Mapa48]
+Name=Dungeon veril
+Npc1=2 Medusa
+
+[Mapa49]
+Name=Newbie Dungeon
+Npc1=10 Lobo
+Npc2=6 Murciélago
+Npc3=6 Serpiente
+Npc4=7 Gallo salvaje
+
+[Mapa50]
+Name=Minas de Plata
+Npc1=3 Rata
+Npc2=2 Hormiga
+
+[Mapa51]
+Name=Minas de Plata
+Npc1=3 Rata
+
+[Mapa52]
+Name=Minas de Plata
+Npc1=5 Murciélago
+Npc2=1 Rata
+Npc3=1 Hormiga
+
+[Mapa53]
+Name=Camino del Norte
+Npc1=10 Lobo
+Npc2=3 Serpiente
+Npc3=3 Gallo salvaje
+
+[Mapa54]
+Name=Camino del Norte
+Npc1=12 Lobo
+Npc2=1 Gallo salvaje
+Npc3=3 Globlin
+Npc4=3 Serpiente
+Npc5=3 Bandido
+Npc6=1 Asesino
+
+[Mapa55]
+Name=Camino del Norte
+Npc1=2 Araña gigante
+Npc2=12 Lobo
+Npc3=2 Globlin
+Npc4=1 Bandido
+
+[Mapa56]
+Name=Camino del Norte
+Npc1=12 Lobo
+Npc2=5 Globlin
+Npc3=2 Serpiente
+Npc4=3 Murciélago
+Npc5=2 Gallo salvaje
+
+[Mapa57]
+Name=Camino del Norte
+Npc1=6 Globlin
+Npc2=6 Lobo
+Npc3=6 Gallo salvaje
+Npc4=1 Lord Zombie
+
+[Mapa58]
+Name=Banderbill sur
+Npc1=2 Guardia Imperial
+Npc2=2 Guardia Imperial
+Npc3=3 Guardia Imperial
+Npc4=3 Serpiente
+
+[Mapa59]
+Name=Banderbill central
+Npc1=2 Guardia Imperial
+Npc2=5 Mago imperial
+Npc3=4 Guardia Imperial
+
+[Mapa60]
+Name=Banderbill norte
+Npc1=4 Guardia Imperial
+Npc2=2 Mago imperial
+
+[Mapa61]
+Name=Muelles de Banderbill
+Npc1=2 Gran Aguila
+Npc2=1 Pato
+Npc3=1 Cuervo
+
+[Mapa62]
+Name=Lindos central
+Npc1=2 Mago imperial
+Npc2=4 Guardia Imperial
+
+[Mapa63]
+Name=Lindos sur
+Npc1=2 Guardia Imperial
+Npc2=1 Guardia Imperial
+Npc3=2 Guardia Imperial
+Npc4=2 Guardia Imperial
+
+[Mapa64]
+Name=Lindos este
+Npc1=13 Guardia Imperial
+Npc2=1 Mago imperial
+Npc3=1 Gallo
+
+[Mapa65]
+Name=Tierras del Norte
+Npc1=2 Lobo
+Npc2=2 Rata
+Npc3=4 Murciélago
+Npc4=3 Lobo
+Npc5=2 Serpiente
+Npc6=2 Cuervo
+
+[Mapa66]
+Name=Cárcel de Banderbill
+Npc1=2 Guardia Imperial
+Npc2=2 Guardia Imperial
+
+[Mapa67]
+Name=Tierras del Norte
+Npc1=6 Gallo salvaje
+Npc2=12 Duende
+Npc3=8 Globlin
+
+[Mapa68]
+Name=Tierras del Norte
+Npc1=1 Lobo
+Npc2=4 Lobo
+Npc3=1 Rata
+Npc4=6 Duende
+
+[Mapa69]
+Name=Tierras del Norte
+Npc1=6 Gallo salvaje
+Npc2=3 Oso pardo
+Npc3=5 Tortuga gigante
+Npc4=4 Lobo
+Npc5=1 Gallo salvaje
+
+[Mapa70]
+Name=Tierras del Norte
+Npc1=7 Serpiente
+Npc2=23 Globlin
+Npc3=13 Duende
+
+[Mapa71]
+Name=Tierras del Norte
+Npc1=3 Lobo
+Npc2=11 Rata
+Npc3=4 Globlin
+Npc4=2 Goblin
+Npc5=6 Lobo
+Npc6=3 Oso pardo
+Npc7=5 Tortuga gigante
+
+[Mapa72]
+Name=Tierras del Norte
+Npc1=8 Globlin
+Npc2=8 Duende
+Npc3=9 Gallo salvaje
+
+[Mapa73]
+Name=Tierras del Norte
+Npc1=3 Lobo
+Npc2=1 Cuervo
+Npc3=4 Orco
+Npc4=7 Tortuga gigante
+Npc5=4 Murciélago
+
+[Mapa74]
+Name=Tierras del Norte
+Npc1=12 Globlin
+Npc2=5 Gallo salvaje
+Npc3=7 Duende
+
+[Mapa75]
+Name=Tierras del Norte
+Npc1=6 Tortuga gigante
+Npc2=4 Duende
+Npc3=4 Globlin
+Npc4=2 Lobo
+
+[Mapa76]
+Name=Entrada a Marabel
+Npc1=15 Orco
+
+[Mapa77]
+Name=Torneos y eventos.
+
+[Mapa78]
+Name=Nix
+Npc1=10 Guardia Imperial
+
+[Mapa79]
+Name=Rápidos del Sudoeste
+Npc1=10 Piraña
+
+[Mapa80]
+Name=Rápidos del Sudoeste
+Npc1=10 Piraña
+
+[Mapa81]
+Name=Dungeon Golem
+Npc1=1 Serpiente
+Npc2=1 Golem de Oro
+Npc3=1 Muerte Guardian
+
+[Mapa82]
+Name=Dungeon Golem
+Npc1=1 Golem de Plata
+
+[Mapa83]
+Name=Recursos Minerales
+Npc1=10 Hormiga
+Npc2=4 Rata
+
+[Mapa84]
+Name=Aguas de Lindos
+Npc1=10 Piraña
+
+[Mapa85]
+Name=Aguas de Lindos
+Npc1=10 Piraña
+
+[Mapa86]
+Name=Mapa de GMs
+
+[Mapa87]
+Name=Rápidos del Sudoeste
+Npc1=10 Piraña
+
+[Mapa88]
+Name=Retos Automáticos
+
+[Mapa89]
+Name=Entrada Ultra
+Npc1=2 Murciélago
+Npc2=1 Gran Dragón Azul
+Npc3=1 Gran Dragón Verde
+
+[Mapa90]
+Name=Retos 2vs2/3vs3
+
+[Mapa91]
+Name=Ultratumba
+Npc1=1 Murciélago
+Npc2=1 Rey Dragón
+Npc3=1 Esqueleto
+
+[Mapa92]
+Name=Rápidos del Sur
+Npc1=10 Piraña
+
+[Mapa93]
+Name=Dungeon Inferno
+Npc1=2 Dragón Infernal
+Npc2=3 Mago malvado
+Npc3=1 Demonio
+Npc4=1 Jinete sin cabeza
+Npc5=1 Rey Orco
+Npc6=1 Mago malvado
+
+[Mapa94]
+Name=Guerra de clanes
+
+[Mapa95]
+Name=Dungeon Inferno
+Npc1=11 Guardian del Fuego
+Npc2=1 Guardian del Tierra
+Npc3=1 Defensor del mal
+
+[Mapa96]
+Name=Rápidos del Sudeste
+Npc1=10 Piraña
+
+[Mapa97]
+Name=Entrada a templo ancestral
+Npc1=7 Piraña
+Npc2=2 Calamar gigante
+Npc3=1 Murciélago
+Npc4=1 Esqueleto Guerrero
+
+[Mapa98]
+Name=Arghal
+Npc1=9 Guardia del Caos
+Npc2=4 Guardia del Caos
+Npc3=2 Guardia del Caos
+
+[Mapa99]
+Name=Torneo Automático
+
+[Mapa100]
+Name=Aguas del templo
+Npc1=15 Piraña
+
+[Mapa101]
+Name=Aguas del Desierto
+Npc1=10 Piraña
+
+[Mapa102]
+Name=Aguas del Desierto
+Npc1=1 Piraña
+
+[Mapa103]
+Name=Aguas del Desierto
+Npc1=10 Piraña
+
+[Mapa104]
+Name=Aguas de Lindos
+Npc1=10 Piraña
+
+[Mapa105]
+Name=Aguas de Lindos
+Npc1=10 Piraña
+
+[Mapa106]
+Name=Aguas de Lindos
+Npc1=10 Piraña
+Npc2=1 Leviatán
+
+[Mapa107]
+Name=Plantes automáticos
+
+[Mapa108]
+Name=Deathmatch
+
+[Mapa109]
+Name=Cueva misteriosa
+Npc1=3 Araña gigante
+Npc2=4 Esqueleto Guerrero
+Npc3=1 Esqueleto
+
+[Mapa110]
+Name=Isla Morgolock
+Npc1=8 Fuego fatuo
+Npc2=3 Gran Aguila
+Npc3=1 Araña gigante
+Npc4=1 Tigre
+
+[Mapa111]
+Name=Nueva Esperanza Norte
+Npc1=35 Fuego fatuo
+Npc2=5 Oso Pardo
+Npc3=3 Jabalí Salvaje
+
+[Mapa112]
+Name=Nueva Esperanza Norte
+Npc1=29 Fuego fatuo
+Npc2=3 Tigre
+Npc3=1 Gran Aguila
+Npc4=1 Elemental de agua
+Npc5=2 Pato
+
+[Mapa113]
+Name=Nueva Esperanza Sur
+Npc1=9 Lord Orco
+Npc2=16 Fuego fatuo
+Npc3=6 Orco brujo
+Npc4=4 Mago malvado
+Npc5=4 Liche
+Npc6=2 Leviatán
+Npc7=1 Galeón fantasmal
+
+[Mapa114]
+Name=Nueva Esperanza Sur
+Npc1=10 Escorpion
+Npc2=20 Lord Orco
+Npc3=5 Mago malvado
+Npc4=2 Escorpion
+Npc5=7 Liche
+Npc6=8 Orco brujo
+Npc7=5 Fuego fatuo
+Npc8=1 Águila
+
+[Mapa115]
+Name=Dungeon Marabel
+Npc1=7 Lord Zombie
+Npc2=3 Orco brujo
+Npc3=3 Araña gigante
+Npc4=1 Ogro
+Npc5=1 Beholder
+
+[Mapa116]
+Name=Dungeon Marabel
+Npc1=1 Demonio
+Npc2=4 Lord Zombie
+Npc3=5 Orco brujo
+Npc4=1 Golem de Piedra
+Npc5=3 Ogro
+Npc6=2 Beholder
+
+[Mapa117]
+Name=Aguas de Hilidian
+Npc1=10 Piraña
+
+[Mapa118]
+Name=Aguas de Hilidian
+Npc1=2 Piraña
+
+[Mapa119]
+Name=Aguas de Hilidian
+Npc1=10 Piraña
+
+[Mapa120]
+Name=Deathmatcht automático
+
+[Mapa121]
+Name=Reto por personaje
+
+[Mapa122]
+Name=Alta Mar
+Npc1=10 Piraña
+
+[Mapa123]
+Name=Alta Mar
+Npc1=10 Piraña
+
+[Mapa124]
+Name=Alta Mar
+Npc1=10 Piraña
+
+[Mapa125]
+Name=Alta Mar
+Npc1=10 Piraña
+
+[Mapa126]
+Name=Aguas de Beleta
+Npc1=10 Piraña
+
+[Mapa127]
+Name=Castillo de Clanes
+Npc1=4 Murciélago
+Npc2=2 Araña gigante
+
+[Mapa128]
+Name=Cueva misteriosa
+Npc1=2 Demonio Abismal
+Npc2=1 Acólito
+
+[Mapa129]
+Name=Aguas de Beleta
+Npc1=10 Piraña
+
+[Mapa130]
+Name=Aguas de Beleta
+
+[Mapa131]
+Name=Aguas Ancestrales
+Npc1=10 Piraña
+
+[Mapa132]
+Name=Vía del Norte
+Npc1=10 Piraña
+
+[Mapa133]
+Name=Vía del Norte
+
+[Mapa134]
+Name=Vía del Norte
+Npc1=10 Piraña
+
+[Mapa135]
+Name=Vía del Norte
+Npc1=10 Piraña
+
+[Mapa136]
+Name=Vía del Norte
+Npc1=10 Piraña
+
+[Mapa137]
+Name=Vía del Norte
+Npc1=10 Piraña
+
+[Mapa138]
+Name=Aguas del Veriil
+Npc1=10 Piraña
+Npc2=2 Calamar gigante
+
+[Mapa139]
+Name=Entrada a Veriil
+Npc1=1 Piraña
+Npc2=1 Tiburón
+Npc3=1 Tiburón Blanco
+
+[Mapa140]
+Name=Dungeon Veriil
+Npc1=3 Bruja
+Npc2=4 Liche
+Npc3=6 Asesino
+
+[Mapa141]
+Name=Dungeon Veriil
+Npc1=2 Orco brujo
+Npc2=1 Bruja
+Npc3=3 Asesino
+Npc4=1 Medusa
+
+[Mapa142]
+Name=Dungeon Veriil
+Npc1=2 Asesino
+Npc2=1 Medusa
+Npc3=3 Orco brujo
+
+[Mapa143]
+Name=Dungeon Veriil
+
+[Mapa144]
+Name=Dungeon Veriil
+Npc1=3 Asesino
+Npc2=2 Medusa
+
+[Mapa145]
+Name=Dungeon Veriil
+Npc1=1 Medusa
+Npc2=1 Bruja
+Npc3=2 Asesino
+
+[Mapa146]
+Name=Dungeon Veriil
+Npc1=2 Medusa
+Npc2=3 Asesino
+Npc3=1 Bruja
+
+[Mapa147]
+Name=Hilidian Oriental
+Npc1=2 Guardia del Caos
+Npc2=15 Guardia del Caos
+
+[Mapa148]
+Name=Paso del Hielo
+Npc1=3 Oso Polar
+Npc2=8 Lobo Siberiano
+
+[Mapa149]
+Name=Hilidian
+Npc1=3 Guardia del Caos
+
+[Mapa150]
+Name=Entrada a las Cavernas
+Npc1=3 Oso Polar
+Npc2=7 Lobo Siberiano
+Npc3=2 Ogro Polar
+
+[Mapa151]
+Name=Aeluin
+Npc1=2 Ogro Polar
+Npc2=10 Pingüino
+Npc3=4 Lobo Siberiano
+Npc4=2 Oso Polar
+
+[Mapa152]
+Name=Aguas de Lindos
+Npc1=10 Piraña
+
+[Mapa153]
+Name=Aguas de Lindos
+Npc1=10 Piraña
+
+[Mapa154]
+Name=Aguas de Esperanza
+
+[Mapa155]
+Name=Aguas de Esperanza
+Npc1=10 Piraña
+
+[Mapa156]
+Name=Aguas de Esperanza
+Npc1=11 Piraña
+
+[Mapa157]
+Name=Aguas de Esperanza
+Npc1=10 Piraña
+
+[Mapa158]
+Name=Aguas de Esperanza
+
+[Mapa159]
+Name=Alta Mar Pirata
+Npc1=10 Piraña
+
+[Mapa160]
+Name=Isla pirata
+Npc1=1 Gallo salvaje
+
+[Mapa161]
+Name=Alta Mar Pirata
+Npc1=10 Piraña
+
+[Mapa162]
+Name=Aguas de Banderbill
+Npc1=10 Piraña
+
+[Mapa163]
+Name=Aguas de Banderbill
+Npc1=10 Piraña
+
+[Mapa164]
+Name=Alta Mar
+Npc1=3 Fantasma endemoniado
+
+[Mapa165]
+Name=Infierno
+Npc1=10 Guardia del Caos
+Npc2=5 Guardia del Caos
+Npc3=6 Guardia del Caos
+
+[Mapa166]
+Name=Dungeon Fenix Antiguo
+Npc1=8 Desterrado
+Npc2=1 Demonio Abismal
+Npc3=3 Orco brujo
+Npc4=1 Engendro del demonio
+Npc5=1 Acólito
+Npc6=1 Defensor del mal
+
+[Mapa167]
+Name=Dungeon Fenix Antiguo
+Npc1=5 Orco brujo
+Npc2=1 Golem Infernal
+Npc3=1 Golem de Plata
+Npc4=1 Golem de Bronce
+Npc5=1 Golem de Oro
+
+[Mapa168]
+Name=Dungeon Fenix Antiguo
+Npc1=1 Bruja
+
+[Mapa169]
+Name=Dungeon Fenix Antiguo
+Npc1=6 Orco brujo
+Npc2=3 Engendro del demonio
+
+[Mapa170]
+Name=Mapa de torneos antiguo
+Npc1=2 Elemental de agua
+Npc2=3 Elemental de fuego
+Npc3=2 Elemental de tierra
+
+[Mapa171]
+Name=Laberinto
+
+[Mapa172]
+Name=Caverna
+
+[Mapa173]
+Name=Cavernas heladas
+
+[Mapa174]
+Name=Cavernas heladas
+Npc1=5 Yeti
+Npc2=1 Pingüino
+
+[Mapa175]
+Name=Laberinto Oscuro
+Npc1=4 Beholder
+
+[Mapa176]
+Name=Entrada al Castillo Azul
+Npc1=4 Mago malvado
+Npc2=2 Dragon rojo
+Npc3=2 Dragón Infernal
+
+[Mapa177]
+Name=Castillo Azul
+Npc1=48 Mago de hielo
+
+[Mapa178]
+Name=Castillo Azul
+
+[Mapa179]
+Name=CUADRADO DE KADATH 1
+Npc1=9 Lagarto
+Npc2=9 Beholder
+Npc3=3 Ogro
+
+[Mapa180]
+Name=Tumba Legendaria
+Npc1=2 Fantasma endemoniado
+
+[Mapa181]
+Name=Templo Ancestral
+Npc1=4 Orco Mayor
+Npc2=1 Golem
+Npc3=1 Muerte Guardian
+Npc4=1 Señor de las Sombras
+
+[Mapa182]
+Name=Templo Ancestral
+Npc1=5 Aparición
+
+[Mapa183]
+Name=Templo Ancestral
+Npc1=1 Viuda negra
+Npc2=3 Engendro del demonio
+
+[Mapa184]
+Name=CUADRADO DE KADATH 2
+
+[Mapa185]
+Name=CUADRADO DE KADATH 3
+
+[Mapa186]
+Name=CUADRADO DE KADATH 4
+
+[Mapa187]
+Name=CUADRADO DE KADATH 5
+
+[Mapa188]
+Name=MAPA ROTO 1
+
+[Mapa189]
+Name=MAPA ROTO 2
+
+[Mapa190]
+Name=Mapa de Torneos
+
+[Mapa191]
+Name=Mapa de espera
+
+[Mapa192]
+Name=Batalla Protector
+
+[Mapa193]
+Name=Base
+
+[Mapa194]
+Name=Base
+
+[Mapa195]
+Name=Batalla The Team
+
+[Mapa196]
+Name=base
+
+[Mapa197]
+Name=base
+
+[Mapa198]
+Name=Explote de item
+
+[Mapa199]
+Name=Explote de item
+
+[Mapa200]
+Name=Aguas de isla pirata
+Npc1=29 Piraña
+Npc2=3 Tethis
+
+[Mapa201]
+Name=Pantano
+Npc1=7 Cocodrilo
+Npc2=8 Sapo
+Npc3=3 Tiburón
+Npc4=1 Tethis
+
+[Mapa202]
+Name=Templo de horus
+Npc1=2 Mago malvado
+Npc2=1 Mago malvado
+Npc3=2 Orco
+Npc4=1 Viuda negra
+Npc5=1 Troll Malvado
+
+[Mapa203]
+Name=Templo de horus
+Npc1=1 Horus
+
+[Mapa204]
+Name=Templo de horus
+Npc1=2 Mago malvado
+Npc2=2 Lord Zombie
+Npc3=1 Acólito
+Npc4=2 Galeón fantasmal
+Npc5=1 Golem Infernal
+
+[Mapa205]
+Name=
+

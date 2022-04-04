@@ -1,0 +1,1 @@
+En esta carpeta debe colocarse el archivo indices.ini, el cual contiene las referencias a las distintas superficies.

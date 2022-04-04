@@ -1,0 +1,12 @@
+[CARTELES]
+Ocultarse= 1
+MenosCansado= 1
+Vestirse= 1
+NoHayNada= 1
+RecuMana= 1
+Sanado= 1
+
+[CONFIG]
+ModoVentana=1
+GuiaJuego=1
+FPSLIBRE=1

@@ -1,0 +1,20 @@
+[INIT]
+NumCascos=6
+
+[Casco1] ' Casco de hierro
+Index=568
+
+[Casco2] ' Casco de hierro completo
+Index=567
+
+[Casco3] ' Casco De asesino
+Index=580
+
+[Casco4] ' Casco Infernal
+Index=574
+
+[Casco5] ' Casco de plata
+Index=405
+
+[Casco6] ' Casco de caballero
+Index=564

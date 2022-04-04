@@ -1,0 +1,78 @@
+<xen:require css="dbtech_shout.css" />
+<xen:require css="dbtech_shout_editor.css" />
+<xen:require css="xenforo_tabs.css" />
+
+<xen:require js="js/DBTech/Shout/jquery.tmpl.min.js" />
+<xen:require js="js/DBTech/Shout/jquery.xml2json.js" />
+<xen:require js="js/DBTech/Shout/core.js" />
+<xen:require js="js/DBTech/Shout/notify.js" />
+
+<div class="shoutbox{$instance.instanceid}" data-instanceid="{$instance.instanceid}">
+	<div class="shoutboxHeader"><xen:include template="DDD" /></div>
+	{xen:raw $shoutarea_above}
+	<div class="shoutboxContent<xen:if is="{$shoutarea_above} OR (!{$shoutarea_above} AND !{$shoutarea_below})"> shoutboxFooter</xen:if>">
+		<ul class="tabs">
+			<li class="active"><a class="shoutboxTab" data-tabid="shouts">{xen:phrase ChatBox}</a></li>
+			<li><a class="shoutboxTab" data-tabid="activeusers">{xen:phrase Usuarios_Activos}: <span>0</span></a></li>
+			
+		</ul>
+
+		<div class="shoutboxNotice" style="display:none;">
+			<b>{xen:phrase Noticia}:</b> <span>N/A</span>
+		</div>
+
+		<div class="shoutboxError" style="display:none;">
+			<b>{xen:phrase dbtech_vbshout_error}:</b> <span>N/A</span>
+		</div>
+
+		<div class="shoutboxSticky" style="display:none;">
+			<b>{xen:phrase dbtech_vbshout_sticky}:</b> <span>N/A</span>
+		</div>
+		
+				
+		<div class="shoutboxActiveUsers left Responsive hiddenBelowMin" style="height:150px;"><a class="username"</a>{xen:raw $activeusers}</div>
+		
+		
+
+	<xen:if is="{$instance.options.activeusers}">
+		<div class="shoutboxActiveUsers {$direction} Responsive hiddenBelowMin" style="height:{$instance.options.height}px;">{xen:raw $activeusers}</div>
+	</xen:if>
+
+		<div class="shoutboxShoutList<xen:if is="{$instance.options.activeusers}"> {$direction}</xen:if>" style="height:{$instance.options.height}px;">
+
+			<div class="shoutboxShoutListInner<xen:if is="{$instance.options.activeusers}"> {$direction}</xen:if>">
+
+				<div class="shoutboxShoutListFrame" style="font-size:{$shoutFontSize};">
+
+					<ul>
+						Espere porfavor cargando...
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	{xen:raw $shoutarea_below}
+
+	<xen:if is="{$instance.options.sounds}">
+		<xen:if is="{$instance.options.enableshoutsound} AND {$visitor.dbtech_vbshout_settings} & 16384">
+			<audio class="shoutboxSoundShout">
+				<source src="styles/DBTech/Shout/pop.mp3" type="audio/mpeg" />
+			</audio>
+		</xen:if>
+		<xen:if is="{$instance.options.enableinvitesound} AND {$visitor.dbtech_vbshout_settings} & 32768">
+			<audio class="shoutboxSoundInvite">
+				<source src="styles/DBTech/Shout/pop.mp3" type="audio/mpeg" />
+			</audio>
+		</xen:if>
+		<xen:if is="{$instance.options.enablepmsound} AND {$visitor.dbtech_vbshout_settings} & 65536">
+			<audio class="shoutboxSoundPm">
+				<source src="styles/DBTech/Shout/pop.mp3" type="audio/mpeg" />
+			</audio>
+		</xen:if>
+	</xen:if>
+</div>
+
+<xen:edithint template="dbtech_shout_jquery_templates" />
+<xen:edithint template="dbtech_shout_editortools" />

@@ -1,0 +1,38 @@
+[INIT]
+NumEscudos=11
+
+[Escudo1] ' Escudo de tortuga
+Index=404
+
+[Escudo2] ' Rodela
+Index=608
+
+[Escudo3] ' Escudo de hierro
+Index=130
+
+[Escudo4] ' Escudo Sigiloso
+Index=612
+
+[Escudo5] ' Escudo imperial
+Index=616
+
+[Escudo6] ' Escudo imperial +1
+Index=623
+
+[Escudo7] ' Escudo de leon
+Index=614
+
+[Escudo8] ' Escudo Dinal
+Index=691
+
+[Escudo9] ' Escudo Caos
+Index=873
+
+[Escudo10] ' Escudo Real
+Index=874
+
+[Escudo11] ' Escudo Sagrad
+Index=613
+
+
+

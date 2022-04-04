@@ -1,0 +1,203 @@
+/* --- dbtech_shout.css --- */
+
+.shoutboxHeader
+{
+	background: rgb(27, 27, 27) url('styles/razorblade/xenforo/gradients/category-23px-light.png') repeat-x top;
+padding: 7px;
+border-top: 1px solid rgb(66, 66, 66);
+border-right: 1px solid rgb(66, 66, 66);
+border-left: 1px solid rgb(66, 66, 66);
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+
+}
+
+	.shoutboxHeader a
+	{
+		color: rgb(219, 219, 219);
+
+	}
+
+.shoutboxContent
+{
+	padding-top: 7px;
+padding-bottom: 7px;
+border-top: 1px solid rgb(66, 66, 66);
+border-right: 1px solid rgb(66, 66, 66);
+border-left: 1px solid rgb(66, 66, 66);
+
+}
+
+	.shoutboxContent a
+	{
+		color: rgb(219, 219, 219);
+
+	}
+
+.shoutboxContent .shoutboxSticky {
+	background: rgb(27, 27, 27) url('styles/razorblade/xenforo/gradients/category-23px-light.png') repeat-x top;
+padding: 7px;
+
+}
+
+.shoutboxContent .shoutboxNotice {
+	background: rgb(25, 173, 40) url('styles/razorblade/xenforo/gradients/category-23px-light.png') repeat-x top;
+padding: 7px;
+
+}
+
+.shoutboxContent .shoutboxError {
+	background: #f9d9b0 url('styles/razorblade/xenforo/gradients/category-23px-light.png') repeat-x top;
+padding: 7px;
+
+}
+
+.shoutboxContent .shoutboxShoutList {
+	width: 100%;
+}
+
+.shoutboxContent .shoutboxShoutList .shoutboxShoutListInner .shoutboxShoutListFrame {
+	padding-right:7px;
+	padding-left:7px;
+}
+
+.shoutboxContent .shoutboxShoutList .shoutboxShoutListInner .shoutboxShoutListFrame > ul li {
+	padding: 3px;
+}
+
+.shoutboxContent .shoutboxShoutList .shoutboxShoutListInner .shoutboxShoutListFrame > ul li.alt1 {
+	background-color: rgb(32, 36, 39);
+vertical-align:middle;
+
+}
+
+.shoutboxContent .shoutboxShoutList .shoutboxShoutListInner .shoutboxShoutListFrame > ul li.alt2 {
+	background-color: rgb(27, 27, 27);
+vertical-align:middle;
+
+}
+
+.shoutboxContent .shoutboxShoutList .shoutboxShoutListInner .shoutboxShoutListFrame > ul li .shoutboxShoutTimeSystem,
+.shoutboxContent .shoutboxShoutList .shoutboxShoutListInner .shoutboxShoutListFrame > ul li .shoutboxShoutUsernamePm {
+	font-weight:bold;
+}
+
+.shoutboxContent .shoutboxShoutList .shoutboxShoutListInner .shoutboxShoutListFrame > ul li .shoutboxShoutUsernameSystem,
+.shoutboxContent .shoutboxShoutList .shoutboxShoutListInner .shoutboxShoutListFrame > ul li .shoutboxShoutMessageSystem {
+	font-style:italic;
+}
+
+.shoutboxContent .shoutboxActiveUsers {
+	min-width: 120px !important;
+	width: 120px !important;
+	overflow: auto;
+	padding-top:7px;
+	font-size:11px;
+}
+
+.shoutboxContent .shoutboxShoutList .shoutboxShoutListInner {
+	height:100%;
+	overflow:auto;
+}
+
+.shoutboxContent .shoutboxShoutList.left .shoutboxShoutListInner.left {
+	margin-right: 130px;
+}
+
+.shoutboxContent .shoutboxActiveUsers.left {
+	float: right;
+	border-left: 1px solid rgb(66, 66, 66);
+	padding-left:7px;
+}
+
+.shoutboxEditor.shoutboxFooter
+{
+	padding-bottom: 7px;
+border-right: 1px solid rgb(66, 66, 66);
+border-bottom: 1px solid rgb(66, 66, 66);
+border-left: 1px solid rgb(66, 66, 66);
+border-bottom-right-radius: 6px;
+border-bottom-left-radius: 6px;
+
+}
+
+	.shoutboxEditor.shoutboxFooter a
+	{
+		color: rgb(219, 219, 219);
+
+	}
+
+.shoutboxContent ul.tabs li > a.dbtech_vbshout_highlight {
+	background: rgb(25, 173, 40) url('styles/razorblade/xenforo/gradients/category-23px-light.png') repeat-x top;
+
+}
+
+.shoutboxSprite {
+	background-image: url('styles/DBTech/Shout/sprite.png');
+display:inline-block;
+
+}
+
+.shoutboxSprite-add {
+	background-position: 0 0;
+width: 18px;
+height: 18px;
+
+}
+
+.shoutboxSprite-newchat {
+	background-position: -18px 0;
+width: 20px;
+height: 17px;
+
+}
+
+.shoutboxSprite-separator {
+	background-position: -38px 0;
+width: 6px;
+height: 20px;
+
+}
+
+.shoutboxSprite-sound-off {
+	background-position: -44px 0;
+width: 20px;
+height: 20px;
+
+}
+
+.shoutboxSprite-sound-on {
+	background-position: -64px 0;
+width: 20px;
+height: 20px;
+
+}
+
+.shoutboxSprite-user-invisible {
+	background-position: -84px 0;
+width: 16px;
+height: 18px;
+
+}
+
+.shoutboxSprite-user-offline {
+	background-position: -100px 0;
+width: 16px;
+height: 18px;
+
+}
+
+.shoutboxSprite-user-online {
+	background-position: -116px 0;
+width: 16px;
+height: 18px;
+
+}
+
+
+@media (max-width:976px)
+{
+	.Responsive .hiddenBelowMin { display: none !important; }
+	
+	.shoutboxContent .shoutboxShoutList.left .shoutboxShoutListInner.left { margin-right: 0px !important; }
+}

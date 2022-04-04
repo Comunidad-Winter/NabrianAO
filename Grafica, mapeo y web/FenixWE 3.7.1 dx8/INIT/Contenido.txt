@@ -1,0 +1,9 @@
+En esta carpeta den colocarse los siguientes archivos:
+1-
+Cabezas.ind
+2-
+Graficos.ind
+3-
+Personajes.ind
+4-
+Triggers.ini

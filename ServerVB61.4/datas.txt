@@ -1,0 +1,9 @@
+[TIEMPOS]
+deathmatcht=-5
+torneo1vs1y2vs2=-5
+eventofaccionario=-5
+[CASTILLOPUNTOS]
+puntosacumulados=374500
+MinutosAcumula=51
+MinutosAcumula1=9
+

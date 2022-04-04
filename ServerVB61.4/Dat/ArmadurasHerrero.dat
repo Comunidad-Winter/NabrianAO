@@ -1,0 +1,91 @@
+[INIT]
+NumArmaduras=27
+
+[Armadura1] ' Armadura de cuero (hombre)
+Index=30
+
+[Armadura2] ' Armadura de cuero (mujer) 
+Index=529
+
+[Armadura3] ' Armadura reforzada
+Index=672
+
+[Armadura4] ' Armadura reforzada
+Index=581
+
+[Armadura5] ' Cota de Mallas (Hombre/Normal)
+Index=359
+
+[Armadura6] ' Cota de Mallas (Mujer/Normal)
+Index=499
+
+[Armadura7] ' Cota de Mallas (Enanos/Gnomos)
+Index=671
+
+[Armadura8] ' Armadura de las sombras
+Index=356
+
+[Armadura9] ' Armadura de las sombras (E)
+Index=586
+
+[Armadura10] ' Armadura de Cazador
+Index=360
+
+[Armadura11] ' Armadura de Cazador (E)
+Index=582
+
+[Armadura12] ' Armaduras de Placas
+Index=391
+
+[Armadura13] ' Armaduras de Placas (Enanos)
+Index=243
+
+[Armadura14] ' Armadura de placas de Gala
+Index=497
+
+[Armadura15] ' Armadura de placas de Gala (E)
+Index=584
+
+[Armadura16] ' Armadura Bruñida
+Index=500
+
+[Armadura17] ' Armadura de la Ciénaga
+Index=496
+
+[Armadura18] ' Armadura de la Ciénaga (Enano/Gnomo)
+Index=693
+
+[Armadura19] ' Armadura Escarlata
+Index=495
+
+[Armadura20] ' Armadura de las tinieblas (Hombre)
+Index=650
+Recompensa=1
+
+[Armadura21] ' Armadura  de las tinieblas (Mujer)
+Index=487
+Recompensa=1
+
+[Armadura22] ' Armadura de las tinieblas (Enano/Gnomo)
+Index=667
+Recompensa=1
+
+[Armadura23] ' Armadura Legendaria
+Index=485
+Recompensa=1
+
+[Armadura24] ' Armadura Legendaria E
+Index=583
+Recompensa=1
+
+[Armadura25] ' Armadura del Dragón (Hombre)
+Index=481
+Recompensa=1
+
+[Armadura26] ' Armadura del Dragón (Mujer)
+Index=482
+Recompensa=1
+
+[Armadura27] ' Armadura del Dragón (Enano/Gnomo)
+Index=483
+Recompensa=1

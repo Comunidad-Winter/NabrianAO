@@ -1,0 +1,25 @@
+[CARTELES]
+Ocultarse= 1
+MenosCansado= 1
+Vestirse= 1
+NoHayNada= 1
+RecuMana= 1
+Sanado= 1
+
+[CONFIG]
+
+GuiaJuego=1
+ModoVentana=1
+Particulas=1
+CreateDamage=0
+NombresNPC=1
+DragAndDrop=1
+Auras=0
+Hechiz=1
+Medit=0
+Sombras=1
+RetosAC=1
+Music=1
+Cursores=0
+SkinGrafico=0
+FPSLIBRE=3

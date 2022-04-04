@@ -1,0 +1,1728 @@
+[INIT]
+NumMaps=205
+
+[Mapa1]
+Name=Ullathorpe Este
+MusicNum=5
+Pk= 1
+Terreno=BOSQUE
+Zona=CIUDAD
+BackUp= 1
+TopPunto= 15
+LeftPunto= 4
+
+[Mapa2]
+Name=Camino del sur
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 16
+LeftPunto= 4
+
+[Mapa3]
+Name=Camino del sur
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 17
+LeftPunto= 4
+
+[Mapa4]
+Name=Camino del sur
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 18
+LeftPunto= 4
+
+[Mapa5]
+Name=Camino del Norte
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 14
+LeftPunto= 4
+
+[Mapa6]
+Name=Camino del Norte
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 13
+LeftPunto= 4
+
+[Mapa7]
+Name=Retos 1vs1
+Terreno=BOSQUE
+Zona=CAMPO
+Restringir=0
+BackUp=1
+EsMapaEspecial=1
+
+[Mapa8]
+Name=Ullathorpe Oeste
+MusicNum=5
+Terreno=BOSQUE
+Zona=CIUDAD
+BackUp= 1
+TopPunto= 15
+LeftPunto= 3
+
+[Mapa9]
+Name=Planicies del Oeste
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 15
+LeftPunto= 2
+
+[Mapa10]
+Name=Planicies del Oeste
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 15
+LeftPunto= 1
+
+[Mapa11]
+Name=Bosques del Este
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 15
+LeftPunto= 5
+
+[Mapa12]
+Name=Bosques del Este
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 15
+LeftPunto= 6
+
+[Mapa13]
+Name=Bosques del Este
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 15
+LeftPunto= 7
+
+[Mapa14]
+Name=Bosques del Este
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 16
+LeftPunto= 5
+
+[Mapa15]
+Name=Desierto
+MusicNum=1
+Terreno=DESIERTO
+Zona=CAMPO
+TopPunto= 15
+LeftPunto= 8
+
+[Mapa16]
+Name=Desierto
+MusicNum=1
+Terreno=DESIERTO
+Zona=CAMPO
+TopPunto= 15
+LeftPunto= 9
+
+[Mapa17]
+Name=Desierto
+MusicNum=1
+Terreno=DESIERTO
+Zona=CAMPO
+TopPunto= 15
+LeftPunto= 10
+
+[Mapa18]
+Name=Bosques del Este
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 16
+LeftPunto= 6
+
+[Mapa19]
+Name=Puente del Desierto
+MusicNumMidi=41
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 16
+LeftPunto= 7
+
+[Mapa20]
+Name=Desierto
+MusicNum=1
+Terreno=DESIERTO
+Zona=CAMPO
+TopPunto= 16
+LeftPunto= 9
+
+[Mapa21]
+Name=Desierto
+MusicNum=1
+Terreno=DESIERTO
+Zona=CAMPO
+TopPunto= 14
+LeftPunto= 9
+
+[Mapa22]
+Name=Llanos del Sur
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 18
+LeftPunto= 5
+
+[Mapa23]
+Name=Llanos del Sur
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 18
+LeftPunto= 6
+
+[Mapa24]
+Name=Llanos del Sur
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 18
+LeftPunto= 7
+
+[Mapa25]
+Name=Delta de la Piedra
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 17
+LeftPunto= 5
+
+[Mapa26]
+Name=Llanos del Sur
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 17
+LeftPunto= 6
+
+[Mapa27]
+Name=Llanos del Sur
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 17
+LeftPunto= 7
+
+[Mapa28]
+Name=Cementerio
+MusicNum=72
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 19
+LeftPunto= 6
+
+[Mapa29]
+Name=Llanos del Sur
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 19
+LeftPunto= 5
+
+[Mapa30]
+Name=Llanos del Sur
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 20
+LeftPunto= 5
+
+[Mapa31]
+Name=Llanos del Sur
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 20
+LeftPunto= 4
+
+[Mapa32]
+Name=Llanos del Sur
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 19
+LeftPunto= 4
+
+[Mapa33]
+Name=Minas de Hierro
+MusicNumMidi=28
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 18
+LeftPunto= 5
+
+[Mapa34]
+Name=Nix
+MusicNum=4
+Pk= 1
+Terreno=BOSQUE
+Zona=CIUDAD
+BackUp= 1
+TopPunto= 19
+LeftPunto= 3
+
+[Mapa35]
+Name=Camino del sur
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 18
+LeftPunto= 3
+
+[Mapa36]
+Name=Bosque Dorck
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+BackUp= 1
+TopPunto= 17
+LeftPunto= 3
+
+[Mapa37]
+Name=Newbie Dungeon
+MusicNum=74
+Pk= 1
+Terreno=BOSQUE
+Zona=DUNGEON
+Restringir= 1
+TopPunto= 0
+LeftPunto= 0
+EsMapaEspecial=1
+
+[Mapa38]
+Name=Bosque Dorck
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 16
+LeftPunto= 2
+
+[Mapa39]
+Name=Bosque Dorck
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 16
+LeftPunto= 3
+
+[Mapa40]
+Name=Catacumbas
+MusicNumMidi=9-1
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 15
+LeftPunto= 4
+Nivel= 14
+
+[Mapa41]
+Name=Catacumbas
+MusicNumMidi=9-1
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 16
+LeftPunto= 4
+Nivel= 14
+
+[Mapa42]
+Name=Catacumbas
+MusicNumMidi=9-1
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 17
+LeftPunto= 4
+Nivel= 14
+
+[Mapa43]
+Name=Catacumbas
+MusicNumMidi=9-1
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 18
+LeftPunto= 4
+Nivel= 14
+
+[Mapa44]
+Name=Catacumbas
+MusicNumMidi=9-1
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 19
+LeftPunto= 4
+Nivel= 14
+
+[Mapa45]
+Name=Catacumbas
+MusicNumMidi=9-1
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 19
+LeftPunto= 3
+Nivel= 14
+
+[Mapa46]
+Name=Bosque Dorck
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 17
+LeftPunto= 2
+
+[Mapa47]
+Name=Isla Beleta
+MusicNumMidi=36-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 1
+LeftPunto= 13
+
+[Mapa48]
+Name=Dungeon veril
+MusicNumMidi=66
+Terreno=NIEVE
+Zona=DUNGEON
+TopPunto= 6
+LeftPunto= 15
+
+[Mapa49]
+Name=Newbie Dungeon
+MusicNum=74
+Pk= 1
+Terreno=BOSQUE
+Zona=DUNGEON
+Restringir= 1
+TopPunto= 0
+LeftPunto= 0
+EsMapaEspecial=1
+
+[Mapa50]
+Name=Minas de Plata
+MusicNumMidi=9-1
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 16
+LeftPunto= 2
+
+[Mapa51]
+Name=Minas de Plata
+MusicNumMidi=9-1
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 16
+LeftPunto= 2
+
+[Mapa52]
+Name=Minas de Plata
+MusicNumMidi=9-1
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 16
+LeftPunto= 2
+
+[Mapa53]
+Name=Camino del Norte
+MusicNumMidi=9-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 11
+LeftPunto= 4
+
+[Mapa54]
+Name=Camino del Norte
+MusicNumMidi=9-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 10
+LeftPunto= 4
+
+[Mapa55]
+Name=Camino del Norte
+MusicNumMidi=9-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 9
+LeftPunto= 4
+
+[Mapa56]
+Name=Camino del Norte
+MusicNumMidi=9-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 8
+LeftPunto= 4
+
+[Mapa57]
+Name=Camino del Norte
+MusicNumMidi=9-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 7
+LeftPunto= 4
+
+[Mapa58]
+Name=Banderbill sur
+MusicNum=3
+Pk= 1
+Terreno=BOSQUE
+Zona=CIUDAD
+TopPunto= 6
+LeftPunto= 4
+
+[Mapa59]
+Name=Banderbill central
+MusicNum=3
+Pk= 1
+Terreno=BOSQUE
+Zona=CIUDAD
+BackUp= 1
+TopPunto= 5
+LeftPunto= 4
+
+[Mapa60]
+Name=Banderbill norte
+MusicNum=3
+Pk= 1
+Terreno=BOSQUE
+Zona=CIUDAD
+BackUp= 1
+TopPunto= 4
+LeftPunto= 4
+
+[Mapa61]
+Name=Muelles de Banderbill
+MusicNum=3
+Pk= 1
+Terreno=BOSQUE
+Zona=CIUDAD
+BackUp= 1
+TopPunto= 3
+LeftPunto= 4
+
+[Mapa62]
+Name=Lindos central
+MusicNumMidi=32
+Pk= 1
+Terreno=BOSQUE
+Zona=CIUDAD
+BackUp= 1
+TopPunto= 15
+LeftPunto= 13
+
+[Mapa63]
+Name=Lindos sur
+MusicNumMidi=32
+Pk=0
+Terreno=BOSQUE
+Zona=CAMPO
+BackUp= 1
+TopPunto= 16
+LeftPunto= 13
+
+[Mapa64]
+Name=Lindos este
+MusicNumMidi=32
+Pk= 1
+Terreno=BOSQUE
+Zona=CAMPO
+BackUp= 1
+TopPunto= 15
+LeftPunto= 14
+
+[Mapa65]
+Name=Tierras del Norte
+MusicNumMidi=11-1
+Terreno=BOSQUE
+Zona=CIUDAD
+TopPunto= 6
+LeftPunto= 3
+
+[Mapa66]
+Name=Cárcel de Banderbill
+MusicNumMidi=31
+Terreno=BOSQUE
+Zona=CIUDAD
+TopPunto= 5
+LeftPunto= 3
+Pk= 1
+
+[Mapa67]
+Name=Tierras del Norte
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CIUDAD
+TopPunto= 7
+LeftPunto= 3
+
+[Mapa68]
+Name=Tierras del Norte
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CIUDAD
+TopPunto= 8
+LeftPunto= 3
+
+[Mapa69]
+Name=Tierras del Norte
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CIUDAD
+TopPunto= 9
+LeftPunto= 3
+
+[Mapa70]
+Name=Tierras del Norte
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 10
+LeftPunto= 3
+
+[Mapa71]
+Name=Tierras del Norte
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 11
+LeftPunto= 3
+
+[Mapa72]
+Name=Tierras del Norte
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 12
+LeftPunto= 3
+
+[Mapa73]
+Name=Tierras del Norte
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 13
+LeftPunto= 3
+
+[Mapa74]
+Name=Tierras del Norte
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 14
+LeftPunto= 3
+
+[Mapa75]
+Name=Tierras del Norte
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 14
+LeftPunto= 2
+
+[Mapa76]
+Name=Entrada a Marabel
+MusicNumMidi=3-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 10
+LeftPunto= 2
+
+[Mapa77]
+Name=Torneos y eventos.
+Terreno=BOSQUE
+Zona=CAMPO
+Restringir=0
+BackUp=0
+EsMapaEspecial=1
+
+[Mapa78]
+Name=Nix
+MusicNum=4
+Pk= 1
+Terreno=BOSQUE
+Zona=CIUDAD
+BackUp= 1
+TopPunto= 19
+LeftPunto= 2
+
+[Mapa79]
+Name=Rápidos del Sudoeste
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CIUDAD
+TopPunto= 20
+LeftPunto= 2
+
+[Mapa80]
+Name=Rápidos del Sudoeste
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CIUDAD
+TopPunto= 18
+LeftPunto= 2
+
+[Mapa81]
+Name=Dungeon Golem
+MusicNumMidi=43
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 6
+LeftPunto= 11
+Nivel= 43
+
+[Mapa82]
+Name=Dungeon Golem
+MusicNumMidi=43
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 6
+LeftPunto= 12
+Nivel= 43
+
+[Mapa83]
+Name=Recursos Minerales
+MusicNumMidi=9
+Terreno=NIEVE
+Zona=DUNGEON
+TopPunto= 7
+LeftPunto= 12
+
+[Mapa84]
+Name=Aguas de Lindos
+MusicNumMidi=17-1
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 15
+LeftPunto= 15
+
+[Mapa85]
+Name=Aguas de Lindos
+MusicNumMidi=17-1
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 15
+LeftPunto= 16
+
+[Mapa86]
+Name=Mapa de GMs
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 0
+LeftPunto= 0
+EsMapaEspecial=1
+Pk= 1
+
+[Mapa87]
+Name=Rápidos del Sudoeste
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CIUDAD
+TopPunto= 20
+LeftPunto= 3
+
+[Mapa88]
+Name=Retos Automáticos
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 21
+LeftPunto= 3
+EsMapaEspecial=1
+
+[Mapa89]
+Name=Entrada Ultra
+Terreno=BOSQUE
+Zona=CAMPO
+MusicNum=74
+TopPunto= 21
+LeftPunto= 4
+Nivel= 45
+
+[Mapa90]
+Name=Retos 2vs2/3vs3
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 21
+LeftPunto= 5
+EsMapaEspecial=1
+
+[Mapa91]
+Name=Ultratumba
+Terreno=BOSQUE
+MusicNum=74
+Zona=CAMPO
+TopPunto= 21
+LeftPunto= 6
+Nivel= 45
+
+[Mapa92]
+Name=Rápidos del Sur
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 20
+LeftPunto= 6
+
+[Mapa93]
+Name=Dungeon Inferno
+MusicNum=74
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 20
+LeftPunto= 7
+Nivel=25
+
+[Mapa94]
+Name=Guerra de clanes
+NoMagia=0
+Terreno=BOSQUE
+Zona=CAMPO
+Restringir=0
+BackUp=0
+EsMapaEspecial=1
+
+[Mapa95]
+Name=Dungeon Inferno
+MusicNum=74
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 19
+LeftPunto= 8
+Nivel=25
+
+[Mapa96]
+Name=Rápidos del Sudeste
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 18
+LeftPunto= 18
+
+[Mapa97]
+Name=Entrada a templo ancestral
+MusicNumMidi=52
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 17
+LeftPunto= 8
+
+[Mapa98]
+Name=Arghal
+MusicNum=1
+Pk= 1
+Terreno=BOSQUE
+Zona=CIUDAD
+BackUp= 1
+TopPunto= 16
+LeftPunto= 8
+
+[Mapa99]
+Name=Torneo Automático
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 17
+LeftPunto= 9
+EsMapaEspecial=1
+
+[Mapa100]
+Name=Aguas del templo
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 17
+LeftPunto= 10
+
+[Mapa101]
+Name=Aguas del Desierto
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 16
+LeftPunto= 10
+
+[Mapa102]
+Name=Aguas del Desierto
+MusicNumMidi=17-1
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 16
+LeftPunto= 11
+
+[Mapa103]
+Name=Aguas del Desierto
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 15
+LeftPunto= 11
+
+[Mapa104]
+Name=Aguas de Lindos
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 15
+LeftPunto= 12
+
+[Mapa105]
+Name=Aguas de Lindos
+MusicNumMidi=17-1
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 16
+LeftPunto= 12
+
+[Mapa106]
+Name=Aguas de Lindos
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 14
+LeftPunto= 13
+
+[Mapa107]
+Name=Plantes automáticos
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 13
+LeftPunto= 13
+EsMapaEspecial=1
+
+[Mapa108]
+Name=Deathmatch
+NoMagia=0
+Terreno=BOSQUE
+Zona=CAMPO
+Restringir=0
+BackUp=0
+EsMapaEspecial=1
+
+[Mapa109]
+Name=Cueva misteriosa
+Terreno=BOSQUE
+Zona=CAMPO
+MusicNumMidi=28
+TopPunto= 11
+LeftPunto= 13
+Nivel=27
+
+[Mapa110]
+Name=Isla Morgolock
+MusicNumMidi=35-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 11
+LeftPunto= 14
+
+[Mapa111]
+Name=Nueva Esperanza Norte
+MusicNumMidi=43
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 21
+LeftPunto= 13
+
+[Mapa112]
+Name=Nueva Esperanza Norte
+MusicNum=15
+Pk= 1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 21
+LeftPunto= 14
+
+[Mapa113]
+Name=Nueva Esperanza Sur
+MusicNumMidi=43
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 22
+LeftPunto= 14
+
+[Mapa114]
+Name=Nueva Esperanza Sur
+MusicNumMidi=43
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 22
+LeftPunto= 13
+
+[Mapa115]
+Name=Dungeon Marabel
+MusicNumMidi=29
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 10
+LeftPunto= 2
+Nivel=20
+
+[Mapa116]
+Name=Dungeon Marabel
+MusicNumMidi=29
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 10
+LeftPunto= 2
+Nivel=20
+
+[Mapa117]
+Name=Aguas de Hilidian
+MusicNumMidi=17-1
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 15
+LeftPunto= 17
+
+[Mapa118]
+Name=Aguas de Hilidian
+MusicNumMidi=17-1
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 15
+LeftPunto= 18
+
+[Mapa119]
+Name=Aguas de Hilidian
+MusicNumMidi=17-1
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 15
+LeftPunto= 19
+
+[Mapa120]
+Name=Deathmatcht automático
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 10
+LeftPunto= 13
+EsMapaEspecial=1
+
+[Mapa121]
+Name=Reto por personaje
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 9
+LeftPunto= 13
+EsMapaEspecial=1
+
+[Mapa122]
+Name=Alta Mar
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 8
+LeftPunto= 13
+
+[Mapa123]
+Name=Alta Mar
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 7
+LeftPunto= 13
+
+[Mapa124]
+Name=Alta Mar
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 6
+LeftPunto= 13
+
+[Mapa125]
+Name=Alta Mar
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 5
+LeftPunto= 13
+
+[Mapa126]
+Name=Aguas de Beleta
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 4
+LeftPunto= 13
+
+[Mapa127]
+Name=Castillo de Clanes
+MusicNum=72
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 3
+LeftPunto= 13
+
+[Mapa128]
+Name=Cueva misteriosa
+Terreno=BOSQUE
+Zona=CAMPO
+MusicNumMidi=28
+TopPunto= 2
+LeftPunto= 13
+Nivel=27
+
+[Mapa129]
+Name=Aguas de Beleta
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 2
+LeftPunto= 12
+
+[Mapa130]
+Name=Aguas de Beleta
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 2
+LeftPunto= 11
+
+[Mapa131]
+Name=Aguas Ancestrales
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 2
+LeftPunto= 10
+
+[Mapa132]
+Name=Vía del Norte
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 2
+LeftPunto= 9
+
+[Mapa133]
+Name=Vía del Norte
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 2
+LeftPunto= 8
+
+[Mapa134]
+Name=Vía del Norte
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 2
+LeftPunto= 7
+
+[Mapa135]
+Name=Vía del Norte
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 2
+LeftPunto= 6
+
+[Mapa136]
+Name=Vía del Norte
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 2
+LeftPunto= 5
+
+[Mapa137]
+Name=Vía del Norte
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 2
+LeftPunto= 4
+
+[Mapa138]
+Name=Aguas del Veriil
+MusicNumMidi=17-1
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 6
+LeftPunto= 14
+
+[Mapa139]
+Name=Entrada a Veriil
+MusicNumMidi=66
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 6
+LeftPunto= 15
+
+[Mapa140]
+Name=Dungeon Veriil
+MusicNumMidi=66
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 7
+LeftPunto= 15
+Nivel= 27
+
+[Mapa141]
+Name=Dungeon Veriil
+MusicNumMidi=66
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 7
+LeftPunto= 15
+Nivel=27
+
+[Mapa142]
+Name=Dungeon Veriil
+MusicNumMidi=66
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 7
+LeftPunto= 15
+Nivel=27
+
+[Mapa143]
+Name=Dungeon Veriil
+MusicNumMidi=66
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 7
+LeftPunto= 15
+Nivel=27
+
+[Mapa144]
+Name=Dungeon Veriil
+MusicNumMidi=66
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 7
+LeftPunto= 15
+Nivel=27
+
+[Mapa145]
+Name=Dungeon Veriil
+MusicNumMidi=66
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 7
+LeftPunto= 15
+Nivel=27
+
+[Mapa146]
+Name=Dungeon Veriil
+MusicNumMidi=66
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 7
+LeftPunto= 15
+Nivel=27
+
+[Mapa147]
+Name=Hilidian Oriental
+MusicNumMidi=60
+Terreno=BOSQUE
+Zona=CIUDAD
+TopPunto= 14
+LeftPunto= 20
+PK= 1
+EsMapaEspecial=1
+
+[Mapa148]
+Name=Paso del Hielo
+MusicNumMidi=60
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 14
+LeftPunto= 19
+
+[Mapa149]
+Name=Hilidian
+MusicNumMidi=60
+Terreno=BOSQUE
+Zona=CIUDAD
+TopPunto= 14
+LeftPunto= 18
+PK= 1
+
+[Mapa150]
+Name=Entrada a las Cavernas
+MusicNumMidi=60
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 13
+LeftPunto= 19
+
+[Mapa151]
+Name=Aeluin
+MusicNumMidi=21-1
+Terreno=NIEVE
+Zona=CIUDAD
+TopPunto= 15
+LeftPunto= 19
+
+[Mapa152]
+Name=Aguas de Lindos
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 17
+LeftPunto= 13
+
+[Mapa153]
+Name=Aguas de Lindos
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 18
+LeftPunto= 13
+
+[Mapa154]
+Name=Aguas de Esperanza
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 19
+LeftPunto= 13
+
+[Mapa155]
+Name=Aguas de Esperanza
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 20
+LeftPunto= 13
+
+[Mapa156]
+Name=Aguas de Esperanza
+MusicNumMidi=17-1
+Terreno=BOSQUE
+Zona=CIUDAD
+TopPunto= 22
+LeftPunto= 12
+
+[Mapa157]
+Name=Aguas de Esperanza
+MusicNumMidi=17-1
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 22
+LeftPunto= 11
+
+[Mapa158]
+Name=Aguas de Esperanza
+MusicNumMidi=17-1
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 22
+LeftPunto= 10
+
+[Mapa159]
+Name=Alta Mar Pirata
+MusicNumMidi=17-1
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 6
+LeftPunto= 9
+
+[Mapa160]
+Name=Isla pirata
+MusicNum=1
+Pk= 1
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 6
+LeftPunto= 8
+
+[Mapa161]
+Name=Alta Mar Pirata
+MusicNumMidi=17-1
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 6
+LeftPunto= 7
+
+[Mapa162]
+Name=Aguas de Banderbill
+MusicNumMidi=36
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 6
+LeftPunto= 6
+
+[Mapa163]
+Name=Aguas de Banderbill
+MusicNumMidi=36
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 6
+LeftPunto= 5
+
+[Mapa164]
+Name=Alta Mar
+MusicNumMidi=20-1
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 22
+LeftPunto= 9
+
+[Mapa165]
+Name=Infierno
+MusicNumMidi=19-1
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 19
+LeftPunto= 6
+
+[Mapa166]
+Name=Dungeon Fenix Antiguo
+MusicNumMidi=23-1
+Terreno=NIEVE
+Zona=DUNGEON
+TopPunto= 0
+LeftPunto= 0
+
+[Mapa167]
+Name=Dungeon Fenix Antiguo
+MusicNumMidi=23-1
+Terreno=NIEVE
+Zona=DUNGEON
+TopPunto= 0
+LeftPunto= 0
+
+[Mapa168]
+Name=Dungeon Fenix Antiguo
+MusicNumMidi=23-1
+Terreno=NIEVE
+Zona=DUNGEON
+TopPunto= 0
+LeftPunto= 0
+
+[Mapa169]
+Name=Dungeon Fenix Antiguo
+MusicNumMidi=23-1
+Terreno=NIEVE
+Zona=DUNGEON
+TopPunto= 0
+LeftPunto= 0
+
+[Mapa170]
+Name=Mapa de torneos antiguo
+MusicNumMidi=31-1
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 0
+LeftPunto= 0
+EsMapaEspecial=1
+
+[Mapa171]
+Name=Laberinto
+Terreno=NIEVE
+Zona=DUNGEON
+TopPunto= 0
+LeftPunto= 0
+EsMapaEspecial=1
+
+[Mapa172]
+Name=Caverna
+MusicNumMidi=9
+Terreno=NIEVE
+Zona=DUNGEON
+TopPunto= 3
+LeftPunto= 10
+
+[Mapa173]
+Name=Cavernas heladas
+MusicNumMidi=60
+Terreno=NIEVE
+Zona=DUNGEON
+TopPunto= 13
+LeftPunto= 19
+NoMagia= 1
+
+[Mapa174]
+Name=Cavernas heladas
+MusicNumMidi=60
+Terreno=NIEVE
+Zona=DUNGEON
+TopPunto= 13
+LeftPunto= 20
+NoMagia= 1
+
+[Mapa175]
+Name=Laberinto Oscuro
+MusicNumMidi=24-1
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 0
+LeftPunto= 0
+
+[Mapa176]
+Name=Entrada al Castillo Azul
+MusicNumMidi=20-1
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 0
+LeftPunto= 0
+
+[Mapa177]
+Name=Castillo Azul
+MusicNumMidi=20-1
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 0
+LeftPunto= 0
+
+[Mapa178]
+Name=Castillo Azul
+MusicNumMidi=20-1
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 0
+LeftPunto= 0
+
+[Mapa179]
+Name=CUADRADO DE KADATH 1
+MusicNumMidi=37-1
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 0
+LeftPunto= 0
+
+[Mapa180]
+Name=Tumba Legendaria
+MusicNumMidi=9
+Terreno=NIEVE
+Zona=CAMPO
+TopPunto= 0
+LeftPunto= 0
+
+[Mapa181]
+Name=Templo Ancestral
+MusicNumMidi=52
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 0
+LeftPunto= 0
+Nivel= 32
+
+[Mapa182]
+Name=Templo Ancestral
+MusicNumMidi=52
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 0
+LeftPunto= 0
+
+[Mapa183]
+Name=Templo Ancestral
+MusicNumMidi=52
+Terreno=BOSQUE
+Zona=DUNGEON
+TopPunto= 0
+LeftPunto= 0
+
+[Mapa184]
+Name=CUADRADO DE KADATH 2
+MusicNumMidi=
+Terreno=
+Zona=
+TopPunto= 0
+LeftPunto= 0
+
+[Mapa185]
+Name=CUADRADO DE KADATH 3
+MusicNumMidi=
+Terreno=
+Zona=
+TopPunto= 0
+LeftPunto= 0
+
+[Mapa186]
+Name=CUADRADO DE KADATH 4
+MusicNumMidi=
+Terreno=
+Zona=
+TopPunto= 0
+LeftPunto= 0
+
+[Mapa187]
+Name=CUADRADO DE KADATH 5
+MusicNumMidi=
+Terreno=
+Zona=
+TopPunto= 0
+LeftPunto= 0
+
+[Mapa188]
+Name=MAPA ROTO 1
+MusicNumMidi=
+Terreno=
+Zona=
+TopPunto= 0
+LeftPunto= 0
+
+[Mapa189]
+Name=MAPA ROTO 2
+MusicNumMidi=
+Terreno=
+Zona=
+TopPunto= 0
+LeftPunto= 0
+
+[Mapa190]
+Name=Mapa de Torneos
+Terreno=BOSQUE
+Zona=CAMPO
+TopPunto= 0
+LeftPunto= 0
+EsMapaEspecial=1
+
+[Mapa191]
+Name=Mapa de espera
+MusicNum=2
+Pk=1
+Terreno=BOSQUE
+Zona=CIUDAD
+BackUp= 1
+TopPunto= 15
+LeftPunto= 3
+EsMapaEspecial=1
+
+[Mapa192]
+Name=Batalla Protector
+Terreno=BOSQUE
+Zona=CIUDAD
+BackUp= 1
+TopPunto= 15
+LeftPunto= 3
+EsMapaEspecial=1
+
+[Mapa193]
+Name=Base
+MusicNum=2
+Terreno=BOSQUE
+Zona=CIUDAD
+BackUp= 1
+TopPunto= 15
+LeftPunto= 3
+EsMapaEspecial=1
+
+[Mapa194]
+Name=Base
+MusicNum=2
+Terreno=BOSQUE
+Zona=CIUDAD
+BackUp= 1
+TopPunto= 15
+LeftPunto= 3
+EsMapaEspecial=1
+
+[Mapa195]
+Name=Batalla The Team
+Terreno=BOSQUE
+Zona=CIUDAD
+BackUp= 1
+TopPunto= 15
+LeftPunto= 3
+EsMapaEspecial=1
+
+[Mapa196]
+Name=base
+MusicNum=2
+Terreno=BOSQUE
+Zona=CIUDAD
+BackUp= 1
+TopPunto= 15
+LeftPunto= 3
+EsMapaEspecial=1
+
+[Mapa197]
+Name=base
+MusicNum=2
+Terreno=BOSQUE
+Zona=CIUDAD
+BackUp= 1
+TopPunto= 15
+LeftPunto= 3
+EsMapaEspecial=1
+
+[Mapa198]
+Name=Explote de item
+MusicNum=2
+Terreno=BOSQUE
+Zona=CIUDAD
+BackUp= 1
+TopPunto= 15
+LeftPunto= 3
+PK=1
+
+[Mapa199]
+Name=Explote de item
+MusicNum=2
+Terreno=BOSQUE
+Zona=CIUDAD
+BackUp= 1
+TopPunto= 15
+LeftPunto= 3
+PK=1
+
+[Mapa200]
+Name= Aguas de isla pirata
+Terreno=BOSQUE
+Zona=CAMPO
+MusicNumMidi=28
+TopPunto= 2
+LeftPunto= 13
+
+[Mapa201]
+Name=Pantano
+Terreno=BOSQUE
+Zona=CAMPO
+MusicNumMidi=28
+TopPunto= 2
+LeftPunto= 13
+
+[Mapa202]
+Name=Templo de horus
+Terreno=BOSQUE
+Zona=CAMPO
+MusicNumMidi=28
+TopPunto= 2
+LeftPunto= 13
+Nivel=30
+
+[Mapa203]
+Name=Templo de horus
+Terreno=BOSQUE
+Zona=CAMPO
+MusicNumMidi=29
+TopPunto= 2
+LeftPunto= 13
+Nivel=40
+
+[Mapa204]
+Name=Templo de horus
+Terreno=BOSQUE
+Zona=CAMPO
+MusicNumMidi=30
+TopPunto= 2
+LeftPunto= 13
+Nivel=40
+
+[Mapa204]
+Name=Juegos del HAMBRE
+Terreno=BOSQUE
+Zona=CAMPO
+MusicNumMidi=0
+TopPunto= 2
+LeftPunto= 13
+

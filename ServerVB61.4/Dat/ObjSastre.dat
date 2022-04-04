@@ -1,0 +1,141 @@
+[INIT]
+NumObjs=46
+
+[Obj1] 'Vestimentas comunes
+Index=31
+
+[Obj2] 'Vestimentas comunes
+Index=32
+
+[Obj3] 'Vestimentas comunes
+Index=35
+
+[OBJ4] 'Vestimenta de mujer
+Index=170
+
+[OBJ5] 'Ropa de clan
+Index=80
+
+[OBJ6] 'Ropa Común Ovispo (enano)
+index=507
+
+[OBJ7] 'Ropa común (mujer)
+Index=504
+
+[OBJ8] 'Ropa común (mujer)
+Index=505
+
+[OBJ9] 'Ropa común (mujer)
+Index=506
+
+[OBJ10] 'Ropa Estuario (Mujer)
+index=508
+
+[OBJ11] 'Ropa de campesino
+index=501
+
+[OBJ12] 'Ropa de campesino (enano)
+index=502
+
+[OBJ13] 'Vestido de novia
+index=511
+
+[OBJ14] 'Vestido de novia (EO)
+index=550
+
+[OBJ15] 'Vestido azul
+index=382
+
+[OBJ16] 'White lady (H/E/EO-M)
+index=488
+
+[OBJ17] 'Calipso (E/G-M)
+index=512
+
+[OBJ18] 'Ropa elegante (H/E/EO-H)
+index=656
+
+[OBJ19] 'Ropa elegante (E/G-H)
+index=657
+
+[OBJ20] 'Ropa elegante (E/G-M)
+index=707
+
+[OBJ21] 'Indulgente
+index=510
+
+[OBJ22] 'Vestido de bruja (EO)
+index=514
+
+[OBJ23] 'Túnica roja
+index=239
+
+[OBJ24] 'Túnica roja (enano)
+index=524
+
+[OBJ25] 'Tunica de monje  (H/E/EO-H/M)
+index=381
+
+[OBJ26] 'Túnica de mago  (H/E/EO-H/M)
+index=196
+
+[OBJ27] 'Túnica Lytton
+index=238
+
+[OBJ28] 'Túnica Lytton (E/GH/M)
+index=639
+
+[OBJ29] 'Túnica siniestra (E/G-H/M)
+index=675
+
+[OBJ30] 'Túnica  Morghai (E/G-H)
+index=135
+
+[OBJ31] 'Túnica  Morghai (enano)
+index=588
+
+[OBJ32] 'Tunica Mithril (enano hombre)
+index=525
+
+[OBJ33] 'Tunica Mithril (enano mujer)
+index=526
+
+[OBJ34] 'Tunica Drummond
+index=357
+
+[OBJ35] 'Túnica Drummond (enano)
+index=619
+
+[OBJ36] 'Túnica de la cruz
+index=503
+
+[OBJ37] 'Túnica Legendaria
+index=519
+
+[OBJ38] 'Túnica Legendaria (enano/gnomo)
+index=520
+
+[OBJ39] 'Túnica Zagreb
+index=491
+
+[OBJ40] 'Túnica Zagreb
+index=609
+
+[OBJ41] 'Sombrero de principiante
+index=573
+
+[OBJ42] 'Sombrero de Hechizero
+index=572
+
+[Obj43] 'Trampa Visual
+Index=772
+
+[Obj44] 'Trampa Visual
+Index=587
+
+[Obj45] 'DRAGON
+Index=626
+
+[Obj46] 'DRAGON E
+Index=678
+

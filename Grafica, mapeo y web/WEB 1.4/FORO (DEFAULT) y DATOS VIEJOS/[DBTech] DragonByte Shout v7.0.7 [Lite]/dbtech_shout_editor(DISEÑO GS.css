@@ -1,0 +1,82 @@
+/* --- dbtech_shout_editor.css --- */
+
+.shoutboxEditor
+{
+	background: rgb(28, 28, 28) url('styles/razorblade/xenforo/gradients/category-23px-light.png') repeat-x top;
+padding: 7px;
+border-top: 1px solid rgb(66, 66, 66);
+border-right: 1px solid rgb(66, 66, 66);
+border-left: 1px solid rgb(66, 66, 66);
+
+}
+
+	.shoutboxEditor a
+	{
+		color: rgb(219, 219, 219);
+
+	}
+
+.shoutboxEditor ul.shoutboxEditorItems .redactor_toolbar {
+	background:none;
+	border-bottom:none;
+}
+
+.shoutboxEditor ul.shoutboxEditorItems > li {
+	display:inline-block;
+	padding-left:6px;
+	padding-top:6px;
+	vertical-align:middle;
+}
+
+.shoutboxEditor ul.shoutboxEditorItems .shoutboxActiveImage {
+	cursor:pointer;
+	vertical-align:middle;
+}
+
+.shoutboxEditor ul.shoutboxEditorItems .shoutboxNewChat > a {
+	vertical-align:super;
+}
+
+.shoutboxEditor ul.shoutboxEditorItems .shoutboxChatInvite {
+	display:none;
+}
+
+.shoutboxEditor ul.shoutboxEditorItems .shoutboxSoundImage {
+	cursor:pointer;
+}
+
+.shoutboxEditor ul.shoutboxEditorItems .shoutboxTarget,
+.shoutboxEditor ul.shoutboxEditorItems .shoutboxTargetEditing {
+	font-size:11px;
+}
+
+.shoutboxEditor ul.shoutboxEditorItems .shoutboxTargetEditing {
+	display:none;
+}
+
+.shoutboxEditor ul.shoutboxEditorItems .shoutTargetEveryone {
+	font-weight:bold;
+}
+
+.shoutboxEditor ul.shoutboxEditorItems .shoutboxEditorCancelBtn,
+.shoutboxEditor ul.shoutboxEditorItems .shoutboxEditorDeleteBtn {
+	display:none;
+}
+
+.shoutboxEditor ul.shoutboxEditorItems .shoutboxColours > img {
+	position:absolute;
+	background-color:black;
+	top:15px;
+}
+
+.shoutboxEditor ul.shoutboxEditorItems .shoutboxColours > div > img {
+	padding-bottom:4px;
+}
+
+.shoutboxEditor input.textCtrl {
+	width:99.6%;
+}
+
+.shoutboxEditor.redactor_box .redactor_smilies .secondaryContent {
+	background:none;
+}
